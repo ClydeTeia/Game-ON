@@ -1,25 +1,24 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1699180454
-credits_page.tscn::PackedScene::2788243259002377395::1699179489::0::1::::<><>::
+::res://::1699184340
+credits_page.tscn::PackedScene::2788243259002377395::1699180535::0::1::::<><>::
 icon.svg::CompressedTexture2D::8876792594650363110::1698910177::1698910183::1::::<><>::
 main.gd::GDScript::-1::1698913153::0::1::::<>Node2D<>::
-main.tscn::PackedScene::7984649854034017783::1699179487::0::1::::<><>::res://main.gd
-README.md::TextFile::-1::1699179964::0::1::::<><>::
+main.tscn::PackedScene::7984649854034017783::1699180535::0::1::::<><>::res://main.gd
 TextEdit.gd::GDScript::-1::1698917055::0::1::::<>TextEdit<>::
-world.tscn::PackedScene::994622590766756023::1699180414::0::1::::<><>::uid://d0gj3jl7apxhe::::res://Characters/player.tscn<>uid://c5ve45e108aet::::res://Sprout Lands - Sprites - Basic pack/Tilesets/Grass.png<>uid://b7ehlxwpvki6g::::res://Sprout Lands - Sprites - Basic pack/Tilesets/Hills.png<>uid://b1y8lsbrsqywt::::res://Sprout Lands - Sprites - Basic pack/Tilesets/Tilled Dirt.png<>uid://bj1co8e3bkfgd::::res://Sprout Lands - Sprites - Basic pack/Tilesets/Water.png<>uid://bp3601431nvd0::::res://Sprout Lands - Sprites - Basic pack/Tilesets/Wooden House.png<>uid://skxfbvruhf1d::::res://Sprout Lands - Sprites - Basic pack/Tilesets/Fences.png
-::res://Characters/::1699180366
+world.tscn::PackedScene::994622590766756023::1699180535::0::1::::<><>::uid://d0gj3jl7apxhe::::res://Characters/player.tscn<>uid://c5ve45e108aet::::res://Sprout Lands - Sprites - Basic pack/Tilesets/Grass.png<>uid://b7ehlxwpvki6g::::res://Sprout Lands - Sprites - Basic pack/Tilesets/Hills.png<>uid://b1y8lsbrsqywt::::res://Sprout Lands - Sprites - Basic pack/Tilesets/Tilled Dirt.png<>uid://bj1co8e3bkfgd::::res://Sprout Lands - Sprites - Basic pack/Tilesets/Water.png<>uid://bp3601431nvd0::::res://Sprout Lands - Sprites - Basic pack/Tilesets/Wooden House.png<>uid://skxfbvruhf1d::::res://Sprout Lands - Sprites - Basic pack/Tilesets/Fences.png
+::res://Characters/::1699180535
 player.gd::GDScript::-1::1699180366::0::1::::<>CharacterBody2D<>::
-player.tscn::PackedScene::8926966354876256518::1699179489::0::1::::<><>::res://Characters/player.gd<>uid://dc0cjewq7s3ei
+player.tscn::PackedScene::8926966354876256518::1699180535::0::1::::<><>::res://Characters/player.gd<>uid://dc0cjewq7s3ei::::res://Free Fantasy Dreamland - Sprites/Unity, Godot, GameMaker/Character_007.png
 ::res://Components/::1699150533
 input_name.gd::GDScript::-1::1698921615::0::1::::<>LineEdit<>::
 input_name.tscn::PackedScene::3596640395899177422::1699150533::0::1::::<><>::uid://b6dyqdswr2d6g
-::res://Cutscenes/::1699179489
-scene0.tscn::PackedScene::557143884467634624::1699179489::0::1::::<><>::
+::res://Cutscenes/::1699180535
+scene0.tscn::PackedScene::557143884467634624::1699180535::0::1::::<><>::
 ::res://Fonts/::1698914788
 SourceCodePro-Regular.ttf::FontFile::575513628999857563::1698914088::1698914102::1::::<><>::
 source_code_pro_theme.tres::Theme::4569953936663050456::1698914788::0::1::::<><>::uid://ig1vi7f4vi4j
-::res://Free Fantasy Dreamland - Sprites/::1699148224
-License.txt::TextFile::-1::1699148224::0::1::::<><>::
+::res://Free Fantasy Dreamland - Sprites/::1699184330
+License.txt::TextFile::-1::1699184330::0::1::::<><>::
 ::res://Free Fantasy Dreamland - Sprites/16x16/::1699148225
 Character_001.png::CompressedTexture2D::3058393942396068114::1699148224::1699148225::1::::<><>::
 Character_002.png::CompressedTexture2D::2474534720639292207::1699148224::1699148225::1::::<><>::

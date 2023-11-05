@@ -1,2 +1,5 @@
+res://main.tscn
 res://world.tscn
-res://Characters/player.gd
+res://credits_page.tscn
+res://Cutscenes/scene0.tscn
+res://Characters/player.tscn
