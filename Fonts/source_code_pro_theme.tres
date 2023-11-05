@@ -1,0 +1,10 @@
+[gd_resource type="Theme" load_steps=3 format=3 uid="uid://b6dyqdswr2d6g"]
+
+[ext_resource type="FontFile" uid="uid://ig1vi7f4vi4j" path="res://Fonts/SourceCodePro-Regular.ttf" id="1_c33us"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_xr1s5"]
+
+[resource]
+default_font = ExtResource("1_c33us")
+default_font_size = 18
+LineEdit/styles/focus = SubResource("StyleBoxEmpty_xr1s5")

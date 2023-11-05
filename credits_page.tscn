@@ -1,0 +1,16 @@
+[gd_scene format=3 uid="uid://bfyv7uy18w4fv"]
+
+[node name="Credits page" type="Node2D"]
+
+[node name="RichTextLabel" type="RichTextLabel" parent="."]
+offset_left = 36.0
+offset_top = 39.0
+offset_right = 1104.0
+offset_bottom = 611.0
+text = "Credits:
+
+	Enter icons created by Freepik - Flaticon
+
+	https://elv-games.itch.io/
+
+	https://cupnooble.itch.io/sprout-lands-asset-pack"
