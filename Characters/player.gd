@@ -4,6 +4,7 @@ extends CharacterBody2D
 @export var starting_direction : Vector2 = Vector2(0,1)
 
 # parameters/Idle/blend_position
+# testing a github
 
 @onready var animation_tree = $AnimationTree
 @onready var state_machine = animation_tree.get("parameters/playback")
