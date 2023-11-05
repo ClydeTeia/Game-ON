@@ -3,3 +3,4 @@ res://world.tscn
 res://credits_page.tscn
 res://Cutscenes/scene0.tscn
 res://Characters/player.tscn
+res://Characters/player.gd

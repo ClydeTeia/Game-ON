@@ -12,6 +12,7 @@ extends CharacterBody2D
 func _ready():
 	update_animation_parameters(starting_direction)
 
+# I added normalized in the direction because if theres none, diagonal movement will be faster than 1d movement
 func _physics_process(_delta):
 	var input_direction = Vector2(
 		Input.get_action_strength("right") - Input.get_action_strength("left"),
