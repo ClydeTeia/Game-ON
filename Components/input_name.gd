@@ -6,7 +6,7 @@ func _ready():
 	grab_focus()
 	set_caret_column(len(text))
 
-
+# I want to use this when we wants users to input their name
 func _on_text_submitted(new_text):
 	Game.playerName = new_text
 	print('Hello ' + Game.playerName)
