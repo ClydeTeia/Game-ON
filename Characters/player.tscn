@@ -1,7 +1,7 @@
 [gd_scene load_steps=28 format=3 uid="uid://d0gj3jl7apxhe"]
 
 [ext_resource type="Script" path="res://Characters/player.gd" id="1_fb18b"]
-[ext_resource type="Texture2D" uid="uid://dc0cjewq7s3ei" path="res://Free Fantasy Dreamland - Sprites/Unity, Godot, GameMaker/Character_007.png" id="2_87wr6"]
+[ext_resource type="Texture2D" uid="uid://dc0cjewq7s3ei" path="res://Assets/Free Fantasy Dreamland - Sprites/Unity, Godot, GameMaker/Character_007.png" id="2_54fo4"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_jjgff"]
 size = Vector2(10, 4)
@@ -237,7 +237,7 @@ transitions = ["Idle", "Walk", SubResource("AnimationNodeStateMachineTransition_
 script = ExtResource("1_fb18b")
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
-texture = ExtResource("2_87wr6")
+texture = ExtResource("2_54fo4")
 hframes = 4
 vframes = 4
 
