@@ -8,10 +8,19 @@ extends CharacterBody2D
 
 @onready var animation_tree = $AnimationTree
 @onready var state_machine = animation_tree.get("parameters/playback")
+@onready var actionable_finder: Area2D = $Direction/ActionableFinder
 
 func _ready():
 	update_animation_parameters(starting_direction)
-
+	
+func _unhandled_input(_event: InputEvent) -> void:
+	if Input.is_action_just_pressed("ui_accept"):
+		var actionables = actionable_finder.get_overlapping_areas()
+		if actionables.size() > 0:
+			actionables[0].action() 
+			return 
+			
+	
 # I added normalized in the direction because if theres none, diagonal movement will be faster than 1d movement
 func _physics_process(_delta):
 	var input_direction = Vector2(
