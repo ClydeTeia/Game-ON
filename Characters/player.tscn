@@ -284,6 +284,7 @@ libraries = {
 [node name="AnimationTree" type="AnimationTree" parent="."]
 tree_root = SubResource("AnimationNodeStateMachine_oftbw")
 anim_player = NodePath("../AnimationPlayer")
+active = true
 parameters/Idle/blend_position = Vector2(0.0240384, 0.454491)
 parameters/Walk/blend_position = Vector2(0.0368589, 0.158515)
 

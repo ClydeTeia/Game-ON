@@ -1,275 +1,362 @@
 3acdcc5cb6df755358dde907981ccea8
-::res://::1699556022
-Actionables.tscn::PackedScene::7886953971173081526::1699555975::0::1::::<><>::
-credits_page.tscn::PackedScene::2788243259002377395::1699555302::0::1::::<><>::
-icon.svg::CompressedTexture2D::8876792594650363110::1698910177::1698910183::1::::<><>::
-main.gd::GDScript::-1::1698913153::0::1::::<>Node2D<>::
-main.tscn::PackedScene::7984649854034017783::1699555576::0::1::::<><>::res://main.gd
-TextEdit.gd::GDScript::-1::1698917055::0::1::::<>TextEdit<>::
-world.tscn::PackedScene::994622590766756023::1699555576::0::1::::<><>::uid://d0gj3jl7apxhe::::res://Characters/player.tscn<>uid://c5ve45e108aet::::res://Assets/Sprout Lands - Sprites - Basic pack/Tilesets/Grass.png<>uid://b1y8lsbrsqywt::::res://Assets/Sprout Lands - Sprites - Basic pack/Tilesets/Tilled Dirt.png<>uid://bj1co8e3bkfgd::::res://Assets/Sprout Lands - Sprites - Basic pack/Tilesets/Water.png<>uid://bp3601431nvd0::::res://Assets/Sprout Lands - Sprites - Basic pack/Tilesets/Wooden House.png<>uid://skxfbvruhf1d::::res://Assets/Sprout Lands - Sprites - Basic pack/Tilesets/Fences.png<>uid://b7ehlxwpvki6g::::res://Assets/Sprout Lands - Sprites - Basic pack/Tilesets/Hills.png
-::res://addons/::1699556022
-::res://addons/dialogue_manager/::1699555298
-constants.gd::GDScript::-1::1699555298::0::1::::<>Node<>::
-dialogue_label.gd::GDScript::-1::1699555298::0::1::::DialogueLabel<>RichTextLabel<>res://addons/dialogue_manager/assets/icon.svg::
-dialogue_label.tscn::PackedScene::5518490004210093266::1699555298::0::1::::<><>::res://addons/dialogue_manager/dialogue_label.gd
-dialogue_line.gd::GDScript::-1::1699555298::0::1::::DialogueLine<>RefCounted<>::
-dialogue_manager.gd::GDScript::-1::1699555298::0::1::::<>Node<>::
-dialogue_reponses_menu.gd::GDScript::-1::1699555298::0::1::::DialogueResponsesMenu<>VBoxContainer<>res://addons/dialogue_manager/assets/responses_menu.svg::
-dialogue_resource.gd::GDScript::-1::1699555298::0::1::::DialogueResource<>Resource<>res://addons/dialogue_manager/assets/icon.svg::
-dialogue_response.gd::GDScript::-1::1699555298::0::1::::DialogueResponse<>RefCounted<>::
-editor_translation_parser_plugin.gd::GDScript::-1::1699555298::0::1::::<>EditorTranslationParserPlugin<>::
-import_plugin.gd::GDScript::-1::1699555298::0::1::::<>EditorImportPlugin<>::
-plugin.cfg::TextFile::-1::1699555298::0::1::::<><>::
-plugin.gd::GDScript::-1::1699555298::0::1::::<>EditorPlugin<>::
-test_scene.gd::GDScript::-1::1699555298::0::1::::BaseDialogueTestScene<>Node2D<>::
-test_scene.tscn::PackedScene::-1::1699555298::0::1::::<><>::res://addons/dialogue_manager/test_scene.gd
-::res://addons/dialogue_manager/assets/::1699555298
-icon.svg::CompressedTexture2D::9148339284877624195::1699555298::1699555298::1::::<><>::
-responses_menu.svg::CompressedTexture2D::8371359403825774630::1699555298::1699555298::1::::<><>::
-update.svg::CompressedTexture2D::9126631778427806641::1699555298::1699555298::1::::<><>::
-::res://addons/dialogue_manager/components/::1699555298
-code_edit.gd::GDScript::-1::1699555298::0::1::::<>CodeEdit<>::
-code_edit.tscn::PackedScene::5379618807048408118::1699555298::0::1::::<><>::res://addons/dialogue_manager/components/code_edit_syntax_highlighter.gd<>res://addons/dialogue_manager/components/code_edit.gd
-code_edit_syntax_highlighter.gd::GDScript::-1::1699555298::0::1::::<>SyntaxHighlighter<>::
-dialogue_cache.gd::GDScript::-1::1699555298::0::1::::<>Node<>::
-download_update_panel.gd::GDScript::-1::1699555298::0::1::::<>Control<>::
-download_update_panel.tscn::PackedScene::1130642722554629364::1699555298::0::1::::<><>::res://addons/dialogue_manager/components/download_update_panel.gd<>uid://d3baj6rygkb3f
-errors_panel.gd::GDScript::-1::1699555298::0::1::::<>HBoxContainer<>::
-errors_panel.tscn::PackedScene::6105315990352960875::1699555298::0::1::::<><>::res://addons/dialogue_manager/components/errors_panel.gd
-files_list.gd::GDScript::-1::1699555298::0::1::::<>VBoxContainer<>::
-files_list.tscn::PackedScene::8113335055803740416::1699555298::0::1::::<><>::res://addons/dialogue_manager/components/files_list.gd<>uid://d3lr2uas6ax8v
-parser.gd::GDScript::-1::1699555298::0::1::::DialogueManagerParser<>Object<>::
-parse_result.gd::GDScript::-1::1699555298::0::1::::DialogueManagerParseResult<>RefCounted<>::
-resolved_line_data.gd::GDScript::-1::1699555298::0::1::::<>RefCounted<>::
-resolved_tag_data.gd::GDScript::-1::1699555298::0::1::::<>RefCounted<>::
-search_and_replace.gd::GDScript::-1::1699555298::0::1::::<>VBoxContainer<>::
-search_and_replace.tscn::PackedScene::458254375860855630::1699555298::0::1::::<><>::res://addons/dialogue_manager/components/search_and_replace.gd
-settings.gd::GDScript::-1::1699555298::0::1::::<>Node<>::
-title_list.gd::GDScript::-1::1699555298::0::1::::<>VBoxContainer<>::
-title_list.tscn::PackedScene::6134415340044566558::1699555298::0::1::::<><>::res://addons/dialogue_manager/components/title_list.gd
-update_button.gd::GDScript::-1::1699555298::0::1::::<>Button<>::
-update_button.tscn::PackedScene::5825087957514786930::1699555298::0::1::::<><>::res://addons/dialogue_manager/components/update_button.gd<>uid://qdxrxv3c3hxk
-::res://addons/dialogue_manager/example_balloon/::1699555298
-example_balloon.gd::GDScript::-1::1699555298::0::1::::<>CanvasLayer<>::
-example_balloon.tscn::PackedScene::2304415056852043862::1699555298::0::1::::<><>::res://addons/dialogue_manager/example_balloon/example_balloon.gd<>uid://ckvgyvclnwggo
-small_example_balloon.tscn::PackedScene::1883859960814163368::1699555298::0::1::::<><>::res://addons/dialogue_manager/example_balloon/example_balloon.gd<>uid://ckvgyvclnwggo
-::res://addons/dialogue_manager/l10n/::1699555298
-en.mo::Translation::-1::1699555298::0::1::::<><>::
-en.po::Translation::-1::1699555298::0::1::::<><>::
-zh.po::Translation::-1::1699555298::0::1::::<><>::
-zh_TW.po::Translation::-1::1699555298::0::1::::<><>::
-::res://addons/dialogue_manager/views/::1699555298
-main_view.gd::GDScript::-1::1699555298::0::1::::<>Control<>::
-main_view.tscn::PackedScene::4884668666408697448::1699555298::0::1::::<><>::res://addons/dialogue_manager/views/main_view.gd<>uid://civ6shmka5e8u
-settings_view.gd::GDScript::-1::1699555298::0::1::::<>TabContainer<>::
-settings_view.tscn::PackedScene::5839841081119266502::1699555298::0::1::::<><>::res://addons/dialogue_manager/views/settings_view.gd
-::res://Assets/::1699536734
-::res://Assets/Forest BETA V3/::1699536735
-Forest Cliff.png::CompressedTexture2D::6483364455787207853::1699536705::1699536734::1::::<><>::
-Forest Props.png::CompressedTexture2D::3301073766214839723::1699536705::1699536734::1::::<><>::
-Forest Structures.png::CompressedTexture2D::5573039483093932195::1699536705::1699536734::1::::<><>::
-Forest Tilesett.png::CompressedTexture2D::1386262220975942995::1699536705::1699536734::1::::<><>::
-Sample.png::CompressedTexture2D::4466263199070730582::1699536705::1699536735::1::::<><>::
-Settlement.png::CompressedTexture2D::757632864557220571::1699536705::1699536734::1::::<><>::
-Trees.png::CompressedTexture2D::5935668284987553250::1699536705::1699536734::1::::<><>::
-Water Tileset.png::CompressedTexture2D::3803000606228677773::1699536705::1699536734::1::::<><>::
-::res://Assets/Free Fantasy Dreamland - Sprites/::1699184330
-License.txt::TextFile::-1::1699184330::0::1::::<><>::
-::res://Assets/Free Fantasy Dreamland - Sprites/16x16/::1699535260
-Character_001.png::CompressedTexture2D::3058393942396068114::1699148224::1699535260::1::::<><>::
-Character_002.png::CompressedTexture2D::2474534720639292207::1699148224::1699535260::1::::<><>::
-Character_003.png::CompressedTexture2D::4085941139637828193::1699148224::1699535260::1::::<><>::
-Character_004.png::CompressedTexture2D::1725241099983620933::1699148224::1699535260::1::::<><>::
-Character_005.png::CompressedTexture2D::6275992894320534171::1699148224::1699535260::1::::<><>::
-Character_006.png::CompressedTexture2D::2744571458592603748::1699148224::1699535260::1::::<><>::
-Character_007.png::CompressedTexture2D::1835060556308806385::1699148224::1699535260::1::::<><>::
-::res://Assets/Free Fantasy Dreamland - Sprites/32x32/::1699535260
-Character_001.png::CompressedTexture2D::3341801074640683154::1699148224::1699535260::1::::<><>::
-Character_002.png::CompressedTexture2D::651028219094984081::1699148224::1699535260::1::::<><>::
-Character_003.png::CompressedTexture2D::4554260065530058055::1699148224::1699535260::1::::<><>::
-Character_004.png::CompressedTexture2D::9100326307143288231::1699148224::1699535260::1::::<><>::
-Character_005.png::CompressedTexture2D::6101222889307713322::1699148224::1699535260::1::::<><>::
-Character_006.png::CompressedTexture2D::849840696579828249::1699148224::1699535260::1::::<><>::
-Character_007.png::CompressedTexture2D::1339978466862909511::1699148224::1699535260::1::::<><>::
-::res://Assets/Free Fantasy Dreamland - Sprites/48x48/::1699535260
-Character_001.png::CompressedTexture2D::394874390251962977::1699148224::1699535260::1::::<><>::
-Character_002.png::CompressedTexture2D::6620628098123666866::1699148224::1699535260::1::::<><>::
-Character_003.png::CompressedTexture2D::6582565194262510483::1699148224::1699535260::1::::<><>::
-Character_004.png::CompressedTexture2D::7973759514297862700::1699148224::1699535260::1::::<><>::
-Character_005.png::CompressedTexture2D::8388223051551151393::1699148224::1699535260::1::::<><>::
-Character_006.png::CompressedTexture2D::6335255935459767347::1699148224::1699535260::1::::<><>::
-Character_007.png::CompressedTexture2D::3519444256659478760::1699148224::1699535260::1::::<><>::
-::res://Assets/Free Fantasy Dreamland - Sprites/RPG Maker/::1699148224
-::res://Assets/Free Fantasy Dreamland - Sprites/RPG Maker/RPG Maker MV/::1699148224
-::res://Assets/Free Fantasy Dreamland - Sprites/RPG Maker/RPG Maker MV/characters/::1699535260
-$Character_001.png::CompressedTexture2D::5764249410754833459::1699148224::1699535260::1::::<><>::
-$Character_002.png::CompressedTexture2D::4427372834844228524::1699148224::1699535260::1::::<><>::
-$Character_003.png::CompressedTexture2D::1712175820909215220::1699148224::1699535260::1::::<><>::
-$Character_004.png::CompressedTexture2D::8292697986591754472::1699148224::1699535260::1::::<><>::
-$Character_005.png::CompressedTexture2D::5027562271496207745::1699148224::1699535260::1::::<><>::
-$Character_006.png::CompressedTexture2D::4841032555018128174::1699148224::1699535260::1::::<><>::
-$Character_007.png::CompressedTexture2D::7954479045668329454::1699148224::1699535260::1::::<><>::
-::res://Assets/Free Fantasy Dreamland - Sprites/RPG Maker/RPG Maker MV/sv_actors/::1699535260
-Character_001_Battler.png::CompressedTexture2D::5157183901147525008::1699148224::1699535260::1::::<><>::
-Character_002_Battler.png::CompressedTexture2D::479422811265039703::1699148224::1699535260::1::::<><>::
-Character_003_Battler.png::CompressedTexture2D::8868860498639546570::1699148224::1699535260::1::::<><>::
-Character_004_Battler.png::CompressedTexture2D::2832882976404509686::1699148224::1699535260::1::::<><>::
-Character_005_Battler.png::CompressedTexture2D::2856989243456904456::1699148224::1699535260::1::::<><>::
-Character_006_Battler.png::CompressedTexture2D::4330894174689696660::1699148224::1699535260::1::::<><>::
-Character_007_Battler.png::CompressedTexture2D::3687194591329431044::1699148224::1699535260::1::::<><>::
-::res://Assets/Free Fantasy Dreamland - Sprites/RPG Maker/RPG Maker MZ (16x16)/::1699148224
-::res://Assets/Free Fantasy Dreamland - Sprites/RPG Maker/RPG Maker MZ (16x16)/characters/::1699535260
-$Character_001.png::CompressedTexture2D::7586336097831086165::1699148224::1699535260::1::::<><>::
-$Character_002.png::CompressedTexture2D::5679267177937190034::1699148224::1699535260::1::::<><>::
-$Character_003.png::CompressedTexture2D::328975863038383490::1699148224::1699535260::1::::<><>::
-$Character_004.png::CompressedTexture2D::1842484419248346192::1699148224::1699535260::1::::<><>::
-$Character_005.png::CompressedTexture2D::8335252878245673589::1699148224::1699535260::1::::<><>::
-$Character_006.png::CompressedTexture2D::5228283609647047441::1699148224::1699535260::1::::<><>::
-$Character_007.png::CompressedTexture2D::1993398738435925082::1699148224::1699535260::1::::<><>::
-::res://Assets/Free Fantasy Dreamland - Sprites/RPG Maker/RPG Maker MZ (16x16)/sv_actors/::1699535260
-Character_001_Battler.png::CompressedTexture2D::333535505863170180::1699148224::1699535260::1::::<><>::
-Character_002_Battler.png::CompressedTexture2D::2931330024545301445::1699148224::1699535260::1::::<><>::
-Character_003_Battler.png::CompressedTexture2D::587300793383267578::1699148224::1699535260::1::::<><>::
-Character_004_Battler.png::CompressedTexture2D::601196588332263508::1699148224::1699535260::1::::<><>::
-Character_005_Battler.png::CompressedTexture2D::8958052411966344701::1699148224::1699535260::1::::<><>::
-Character_006_Battler.png::CompressedTexture2D::4142533735970136257::1699148224::1699535260::1::::<><>::
-Character_007_Battler.png::CompressedTexture2D::3176651170660655053::1699148224::1699535260::1::::<><>::
-::res://Assets/Free Fantasy Dreamland - Sprites/RPG Maker/RPG Maker MZ (32x32)/::1699148224
-::res://Assets/Free Fantasy Dreamland - Sprites/RPG Maker/RPG Maker MZ (32x32)/characters/::1699535260
-$Character_001.png::CompressedTexture2D::5469151918571170445::1699148224::1699535260::1::::<><>::
-$Character_002.png::CompressedTexture2D::2470640157375425505::1699148224::1699535260::1::::<><>::
-$Character_003.png::CompressedTexture2D::509009327984380425::1699148224::1699535260::1::::<><>::
-$Character_004.png::CompressedTexture2D::407362092324123874::1699148224::1699535260::1::::<><>::
-$Character_005.png::CompressedTexture2D::4302916739307527764::1699148224::1699535260::1::::<><>::
-$Character_006.png::CompressedTexture2D::163041317394493415::1699148224::1699535260::1::::<><>::
-$Character_007.png::CompressedTexture2D::2801774007162392768::1699148224::1699535260::1::::<><>::
-::res://Assets/Free Fantasy Dreamland - Sprites/RPG Maker/RPG Maker MZ (32x32)/sv_actors/::1699535260
-Character_001_Battler.png::CompressedTexture2D::4386121732910565201::1699148224::1699535260::1::::<><>::
-Character_002_Battler.png::CompressedTexture2D::6124953710534773076::1699148224::1699535260::1::::<><>::
-Character_003_Battler.png::CompressedTexture2D::1808082833136294279::1699148224::1699535260::1::::<><>::
-Character_004_Battler.png::CompressedTexture2D::8373789575351542455::1699148224::1699535260::1::::<><>::
-Character_005_Battler.png::CompressedTexture2D::8234615510408937046::1699148224::1699535260::1::::<><>::
-Character_006_Battler.png::CompressedTexture2D::2135706094283182192::1699148224::1699535259::1::::<><>::
-Character_007_Battler.png::CompressedTexture2D::8306346769972984871::1699148224::1699535259::1::::<><>::
-::res://Assets/Free Fantasy Dreamland - Sprites/RPG Maker/RPG Maker MZ (48x48)/::1699148224
-::res://Assets/Free Fantasy Dreamland - Sprites/RPG Maker/RPG Maker MZ (48x48)/characters/::1699535259
-$Character_001.png::CompressedTexture2D::6615936482665373502::1699148224::1699535259::1::::<><>::
-$Character_002.png::CompressedTexture2D::3669095532739950429::1699148224::1699535259::1::::<><>::
-$Character_003.png::CompressedTexture2D::6035724942735579520::1699148224::1699535259::1::::<><>::
-$Character_004.png::CompressedTexture2D::6572213115319378837::1699148224::1699535259::1::::<><>::
-$Character_005.png::CompressedTexture2D::1838420520905611085::1699148224::1699535259::1::::<><>::
-$Character_006.png::CompressedTexture2D::8348351230762597887::1699148224::1699535259::1::::<><>::
-$Character_007.png::CompressedTexture2D::913110021058282741::1699148224::1699535259::1::::<><>::
-::res://Assets/Free Fantasy Dreamland - Sprites/RPG Maker/RPG Maker MZ (48x48)/sv_actors/::1699535259
-Character_001_Battler.png::CompressedTexture2D::4366375995968584125::1699148224::1699535259::1::::<><>::
-Character_002_Battler.png::CompressedTexture2D::3098630117360096686::1699148224::1699535259::1::::<><>::
-Character_003_Battler.png::CompressedTexture2D::3680124212310189605::1699148224::1699535259::1::::<><>::
-Character_004_Battler.png::CompressedTexture2D::7111276775960640657::1699148224::1699535259::1::::<><>::
-Character_005_Battler.png::CompressedTexture2D::2593368366948238273::1699148224::1699535259::1::::<><>::
-Character_006_Battler.png::CompressedTexture2D::4202967979952888225::1699148224::1699535259::1::::<><>::
-Character_007_Battler.png::CompressedTexture2D::5262006905697450088::1699148224::1699535259::1::::<><>::
-::res://Assets/Free Fantasy Dreamland - Sprites/RPG Maker/RPG Maker VX Ace/::1699148224
-::res://Assets/Free Fantasy Dreamland - Sprites/RPG Maker/RPG Maker VX Ace/characters/::1699535259
-$Character_001.png::CompressedTexture2D::1248576351672386629::1699148224::1699535259::1::::<><>::
-$Character_002.png::CompressedTexture2D::5032497393706785255::1699148224::1699535259::1::::<><>::
-$Character_003.png::CompressedTexture2D::7190700397075433804::1699148224::1699535259::1::::<><>::
-$Character_004.png::CompressedTexture2D::5704682286837185467::1699148224::1699535259::1::::<><>::
-$Character_005.png::CompressedTexture2D::7537190479218054278::1699148224::1699535259::1::::<><>::
-$Character_006.png::CompressedTexture2D::3478190016713315600::1699148224::1699535259::1::::<><>::
-$Character_007.png::CompressedTexture2D::51469846945137988::1699148224::1699535259::1::::<><>::
-::res://Assets/Free Fantasy Dreamland - Sprites/Unity, Godot, GameMaker/::1699535259
-Character_001.png::CompressedTexture2D::4063001019797278086::1699148224::1699535259::1::::<><>::
-Character_002.png::CompressedTexture2D::1262757166789918398::1699148224::1699535259::1::::<><>::
-Character_003.png::CompressedTexture2D::3522747617596725232::1699148224::1699535259::1::::<><>::
-Character_004.png::CompressedTexture2D::7629015690144403994::1699148224::1699535259::1::::<><>::
-Character_005.png::CompressedTexture2D::3634577067917370653::1699148224::1699535259::1::::<><>::
-Character_006.png::CompressedTexture2D::3851400579993766736::1699148224::1699535259::1::::<><>::
-Character_007.png::CompressedTexture2D::7351386933187106576::1699149480::1699535259::1::::<><>::
-::res://Assets/RPGW_Caves_v2.1/::1699535260
-decorative.png::CompressedTexture2D::5837207052810270416::1699535212::1699535260::1::::<><>::
-MainLev2.0.png::CompressedTexture2D::8287461426571572688::1699535212::1699535260::1::::<><>::
-_license.txt::TextFile::-1::1699535212::0::1::::<><>::
-::res://Assets/RPGW_Caves_v2.1/Anim/::1699535260
-LedA.png::CompressedTexture2D::1263414671203690087::1699535212::1699535260::1::::<><>::
-LedB.png::CompressedTexture2D::1594272793717326830::1699535212::1699535260::1::::<><>::
-LedC.png::CompressedTexture2D::6338251908697838313::1699535212::1699535260::1::::<><>::
-LedD.png::CompressedTexture2D::6430149964925488017::1699535212::1699535260::1::::<><>::
-::res://Assets/RPGW_Caves_v2.1/_PSD/::1699535212
-::res://Assets/RPGW_Caves_v2.1/_PSD/Anim/::1699535212
-::res://Assets/SERENE_VILLAGE_REVAMPED/::1699536734
-Serene_Village_16x16.png::CompressedTexture2D::8410105874743657579::1699536586::1699536587::1::::<><>::
-Serene_Village_32x32.png::CompressedTexture2D::668608216702920028::1699536586::1699536587::1::::<><>::
-Serene_Village_48x48.png::CompressedTexture2D::3623569513109622910::1699536586::1699536587::1::::<><>::
-::res://Assets/SERENE_VILLAGE_REVAMPED/Animated stuff/::1699536587
-campfire_16x16.png::CompressedTexture2D::5794298807188036990::1699536586::1699536587::1::::<><>::
-campfire_32x32.png::CompressedTexture2D::8369190660054408918::1699536586::1699536587::1::::<><>::
-campfire_48x48.png::CompressedTexture2D::6357041277908527899::1699536586::1699536587::1::::<><>::
-door_16x16.png::CompressedTexture2D::5748982199434166710::1699536586::1699536587::1::::<><>::
-door_32x32.png::CompressedTexture2D::3013458644214967302::1699536586::1699536587::1::::<><>::
-door_48x48.png::CompressedTexture2D::5506534880923324802::1699536586::1699536587::1::::<><>::
-water_waves_16x16.png::CompressedTexture2D::4141294756915894917::1699536586::1699536587::1::::<><>::
-water_waves_32x32.png::CompressedTexture2D::7029118465677402062::1699536586::1699536587::1::::<><>::
-water_waves_48x48.png::CompressedTexture2D::812654708484919063::1699536586::1699536587::1::::<><>::
-::res://Assets/SERENE_VILLAGE_REVAMPED/Construct 3/::1699536587
-Autotiles_no_inner_corners_16x16.png::CompressedTexture2D::8240459989026265913::1699536586::1699536587::1::::<><>::
-::res://Assets/SERENE_VILLAGE_REVAMPED/RPG_MAKER_MV/::1699536587
-!$Campfire.png::CompressedTexture2D::5155997605566315384::1699536586::1699536586::1::::<><>::
-!$door.png::CompressedTexture2D::8495233700550380499::1699536586::1699536586::1::::<><>::
-Houses_TILESET_B-C-D-E.png::CompressedTexture2D::6309136332264208345::1699536586::1699536587::1::::<><>::
-Outside_Stuff_TILESET_B-C-D-E.png::CompressedTexture2D::5261885026022681691::1699536586::1699536587::1::::<><>::
-Terrains_TILESET_B-C-D-E.png::CompressedTexture2D::4292302656268545547::1699536586::1699536587::1::::<><>::
-::res://Assets/SERENE_VILLAGE_REVAMPED/RPG_MAKER_VX_ACE/::1699536587
-B-C-D-E_Serene_Village_01.png::CompressedTexture2D::4852575909803400641::1699536586::1699536587::1::::<><>::
-B-C-D-E_Serene_Village_02.png::CompressedTexture2D::4450546260714189410::1699536586::1699536587::1::::<><>::
-B-C-D-E_Serene_Village_03.png::CompressedTexture2D::4831830890986336886::1699536586::1699536587::1::::<><>::
-::res://Assets/SERENE_VILLAGE_REVAMPED/RPG_MAKER_XP/::1699536587
-Serene_Village_XP.png::CompressedTexture2D::2071356833206034272::1699536586::1699536587::1::::<><>::
-::res://Assets/Sprout Lands - Sprites - Basic pack/::1699169410
-read_me.txt::TextFile::-1::1699169410::0::1::::<><>::
-::res://Assets/Sprout Lands - Sprites - Basic pack/Characters/::1699535260
-Basic Charakter Actions.png::CompressedTexture2D::5932964048390560895::1699169410::1699535260::1::::<><>::
-Basic Charakter Spritesheet.png::CompressedTexture2D::8335827166071234452::1699169410::1699535260::1::::<><>::
-Egg_And_Nest.png::CompressedTexture2D::6422360912991857639::1699169410::1699535260::1::::<><>::
-Free Chicken Sprites.png::CompressedTexture2D::3667477289906073502::1699169410::1699535260::1::::<><>::
-Free Cow Sprites.png::CompressedTexture2D::9080703907456883373::1699169410::1699535260::1::::<><>::
-Tools.png::CompressedTexture2D::836776289100239802::1699169410::1699535260::1::::<><>::
-::res://Assets/Sprout Lands - Sprites - Basic pack/Objects/::1699535260
-Basic Furniture.png::CompressedTexture2D::2860912163490083595::1699169410::1699535260::1::::<><>::
-Basic Grass Biom things 1.png::CompressedTexture2D::572327674347951635::1699169410::1699535260::1::::<><>::
-Basic Plants.png::CompressedTexture2D::8237403904968742890::1699169410::1699535259::1::::<><>::
-Basic tools and meterials.png::CompressedTexture2D::1316400437438607049::1699169410::1699535259::1::::<><>::
-Chest.png::CompressedTexture2D::4090824663812668605::1699169410::1699535259::1::::<><>::
-Egg item.png::CompressedTexture2D::2054520258720701046::1699169410::1699535259::1::::<><>::
-Free_Chicken_House.png::CompressedTexture2D::2893072304482164051::1699169410::1699535259::1::::<><>::
-Paths.png::CompressedTexture2D::486705460312517124::1699169410::1699535259::1::::<><>::
-Simple Milk and grass item.png::CompressedTexture2D::2477078277067257622::1699169410::1699535259::1::::<><>::
-Wood Bridge.png::CompressedTexture2D::6919558509216148239::1699169410::1699535259::1::::<><>::
-::res://Assets/Sprout Lands - Sprites - Basic pack/Sprout Lands color pallet/::1699535259
-Sprout Lands defautlt palette snip.PNG::CompressedTexture2D::500207121559126156::1699169410::1699535259::1::::<><>::
-Sprout Lands defautlt palette.png::CompressedTexture2D::5763002697970604341::1699169410::1699535259::1::::<><>::
-::res://Assets/Sprout Lands - Sprites - Basic pack/Tilesets/::1699535259
-Fences.png::CompressedTexture2D::1285448468591987427::1699169410::1699535259::1::::<><>::
-Grass.png::CompressedTexture2D::6922154848452485363::1699169410::1699535259::1::::<><>::
-Hills.png::CompressedTexture2D::4641167096541443780::1699169410::1699535259::1::::<><>::
-Tilled Dirt.png::CompressedTexture2D::4262899936635845471::1699169410::1699535259::1::::<><>::
-Water.png::CompressedTexture2D::3071942273864847811::1699169410::1699535259::1::::<><>::
-Wooden House.png::CompressedTexture2D::3498984198714547099::1699169410::1699535259::1::::<><>::
-::res://Buildings/::1699555580
-witch_house.tscn::PackedScene::1125801844586221219::1699555580::0::1::::<><>::uid://b4vqx46sis24a::::res://Assets/Forest BETA V3/Sample.png
-::res://Characters/::1699555579
-player.gd::GDScript::-1::1699555576::0::1::::<>CharacterBody2D<>::
-player.tscn::PackedScene::8926966354876256518::1699555579::0::1::::<><>::res://Characters/player.gd<>uid://dc0cjewq7s3ei::::res://Assets/Free Fantasy Dreamland - Sprites/Unity, Godot, GameMaker/Character_007.png
-::res://Components/::1699150533
-input_name.gd::GDScript::-1::1699185605::0::1::::<>LineEdit<>::
-input_name.tscn::PackedScene::3596640395899177422::1699150533::0::1::::<><>::uid://b6dyqdswr2d6g
-::res://Cutscenes/::1699555579
-Antique.tscn::PackedScene::557143884467634624::1699555579::0::1::::<><>::uid://bugg4ng1m0ka4::::res://Assets/Forest BETA V3/Water Tileset.png<>uid://dqcrjqngssu3y::::res://Assets/RPGW_Caves_v2.1/MainLev2.0.png<>uid://cbevhmabx3upd::::res://Assets/SERENE_VILLAGE_REVAMPED/RPG_MAKER_VX_ACE/B-C-D-E_Serene_Village_01.png<>uid://b4n43107k78s1::::res://Assets/SERENE_VILLAGE_REVAMPED/RPG_MAKER_VX_ACE/B-C-D-E_Serene_Village_02.png<>uid://cymuchsy16yqv::::res://Assets/Forest BETA V3/Forest Cliff.png<>uid://bj1co8e3bkfgd::::res://Assets/Sprout Lands - Sprites - Basic pack/Tilesets/Water.png<>uid://ca3tswpoi123c::::res://Assets/SERENE_VILLAGE_REVAMPED/RPG_MAKER_VX_ACE/B-C-D-E_Serene_Village_03.png<>uid://c5ve45e108aet::::res://Assets/Sprout Lands - Sprites - Basic pack/Tilesets/Grass.png<>uid://d0gj3jl7apxhe::::res://Characters/player.tscn<>uid://b7ehlxwpvki6g::::res://Assets/Sprout Lands - Sprites - Basic pack/Tilesets/Hills.png<>uid://g60752ko2djo::::res://Assets/Sprout Lands - Sprites - Basic pack/Objects/Paths.png<>uid://qbl16o1v5exf::::res://Buildings/witch_house.tscn
-::res://dialogues/::1699555576
-main.dialogue::Resource::8824197166065302552::1699555576::1699555576::1::::<><>::res://addons/dialogue_manager/dialogue_resource.gd
-::res://Fonts/::1698914788
-SourceCodePro-Regular.ttf::FontFile::575513628999857563::1698914088::1698914102::1::::<><>::
-source_code_pro_theme.tres::Theme::4569953936663050456::1698914788::0::1::::<><>::uid://ig1vi7f4vi4j
-::res://Game/::1699169424
-::res://Global/::1698921605
-Game.gd::GDScript::-1::1698921605::0::1::::<>Node<>::
-::res://helpers/::1699556009
+::res://::1699559728
+credits_page.tscn::PackedScene::2788243259002377395::1699559728::0::1::::<><>::
+icon.svg::CompressedTexture2D::8876792594650363110::1699558073::1699558073::1::::<><>::
+main.gd::GDScript::-1::1699558073::0::1::::<>Node2D<>::
+main.tscn::PackedScene::7984649854034017783::1699559728::0::1::::<><>::res://main.gd
+TextEdit.gd::GDScript::-1::1699558073::0::1::::<>TextEdit<>::
+world.tscn::PackedScene::994622590766756023::1699559728::0::1::::<><>::uid://d0gj3jl7apxhe::::res://Characters/player.tscn<>uid://c5ve45e108aet::::res://Assets/Sprout Lands - Sprites - Basic pack/Tilesets/Grass.png<>uid://b1y8lsbrsqywt::::res://Assets/Sprout Lands - Sprites - Basic pack/Tilesets/Tilled Dirt.png<>uid://bj1co8e3bkfgd::::res://Assets/Sprout Lands - Sprites - Basic pack/Tilesets/Water.png<>uid://bp3601431nvd0::::res://Assets/Sprout Lands - Sprites - Basic pack/Tilesets/Wooden House.png<>uid://skxfbvruhf1d::::res://Assets/Sprout Lands - Sprites - Basic pack/Tilesets/Fences.png<>uid://b7ehlxwpvki6g::::res://Assets/Sprout Lands - Sprites - Basic pack/Tilesets/Hills.png
+::res://addons/::1699558478
+::res://addons/dialogue_manager/::1699558478
+constants.gd::GDScript::-1::1699558478::0::1::::<>Node<>::
+dialogue_label.gd::GDScript::-1::1699558478::0::1::::DialogueLabel<>RichTextLabel<>res://addons/dialogue_manager/assets/icon.svg::
+dialogue_label.tscn::PackedScene::5518490004210093266::1699558478::0::1::::<><>::res://addons/dialogue_manager/dialogue_label.gd
+dialogue_line.gd::GDScript::-1::1699558478::0::1::::DialogueLine<>RefCounted<>::
+dialogue_manager.gd::GDScript::-1::1699558478::0::1::::<>Node<>::
+dialogue_reponses_menu.gd::GDScript::-1::1699558478::0::1::::DialogueResponsesMenu<>VBoxContainer<>res://addons/dialogue_manager/assets/responses_menu.svg::
+dialogue_resource.gd::GDScript::-1::1699558478::0::1::::DialogueResource<>Resource<>res://addons/dialogue_manager/assets/icon.svg::
+dialogue_response.gd::GDScript::-1::1699558478::0::1::::DialogueResponse<>RefCounted<>::
+editor_translation_parser_plugin.gd::GDScript::-1::1699558478::0::1::::<>EditorTranslationParserPlugin<>::
+import_plugin.gd::GDScript::-1::1699558478::0::1::::<>EditorImportPlugin<>::
+plugin.cfg::TextFile::-1::1699558478::0::1::::<><>::
+plugin.gd::GDScript::-1::1699558478::0::1::::<>EditorPlugin<>::
+test_scene.gd::GDScript::-1::1699558478::0::1::::BaseDialogueTestScene<>Node2D<>::
+test_scene.tscn::PackedScene::-1::1699558478::0::1::::<><>::res://addons/dialogue_manager/test_scene.gd
+::res://addons/dialogue_manager/assets/::1699558487
+icon.svg::CompressedTexture2D::9148339284877624195::1699558478::1699558487::1::::<><>::
+responses_menu.svg::CompressedTexture2D::8371359403825774630::1699558478::1699558487::1::::<><>::
+update.svg::CompressedTexture2D::9126631778427806641::1699558478::1699558487::1::::<><>::
+::res://addons/dialogue_manager/components/::1699558478
+code_edit.gd::GDScript::-1::1699558478::0::1::::<>CodeEdit<>::
+code_edit.tscn::PackedScene::5379618807048408118::1699558478::0::1::::<><>::res://addons/dialogue_manager/components/code_edit_syntax_highlighter.gd<>res://addons/dialogue_manager/components/code_edit.gd
+code_edit_syntax_highlighter.gd::GDScript::-1::1699558478::0::1::::<>SyntaxHighlighter<>::
+dialogue_cache.gd::GDScript::-1::1699558478::0::1::::<>Node<>::
+download_update_panel.gd::GDScript::-1::1699558478::0::1::::<>Control<>::
+download_update_panel.tscn::PackedScene::1130642722554629364::1699558478::0::1::::<><>::res://addons/dialogue_manager/components/download_update_panel.gd<>uid://d3baj6rygkb3f
+errors_panel.gd::GDScript::-1::1699558478::0::1::::<>HBoxContainer<>::
+errors_panel.tscn::PackedScene::6105315990352960875::1699558478::0::1::::<><>::res://addons/dialogue_manager/components/errors_panel.gd
+files_list.gd::GDScript::-1::1699558478::0::1::::<>VBoxContainer<>::
+files_list.tscn::PackedScene::8113335055803740416::1699558478::0::1::::<><>::res://addons/dialogue_manager/components/files_list.gd<>uid://d3lr2uas6ax8v
+parser.gd::GDScript::-1::1699558478::0::1::::DialogueManagerParser<>Object<>::
+parse_result.gd::GDScript::-1::1699558478::0::1::::DialogueManagerParseResult<>RefCounted<>::
+resolved_line_data.gd::GDScript::-1::1699558478::0::1::::<>RefCounted<>::
+resolved_tag_data.gd::GDScript::-1::1699558478::0::1::::<>RefCounted<>::
+search_and_replace.gd::GDScript::-1::1699558478::0::1::::<>VBoxContainer<>::
+search_and_replace.tscn::PackedScene::458254375860855630::1699558478::0::1::::<><>::res://addons/dialogue_manager/components/search_and_replace.gd
+settings.gd::GDScript::-1::1699558478::0::1::::<>Node<>::
+title_list.gd::GDScript::-1::1699558478::0::1::::<>VBoxContainer<>::
+title_list.tscn::PackedScene::6134415340044566558::1699558478::0::1::::<><>::res://addons/dialogue_manager/components/title_list.gd
+update_button.gd::GDScript::-1::1699558478::0::1::::<>Button<>::
+update_button.tscn::PackedScene::5825087957514786930::1699558478::0::1::::<><>::res://addons/dialogue_manager/components/update_button.gd<>uid://qdxrxv3c3hxk
+::res://addons/dialogue_manager/example_balloon/::1699558478
+example_balloon.gd::GDScript::-1::1699558478::0::1::::<>CanvasLayer<>::
+example_balloon.tscn::PackedScene::2304415056852043862::1699558478::0::1::::<><>::res://addons/dialogue_manager/example_balloon/example_balloon.gd<>uid://ckvgyvclnwggo
+small_example_balloon.tscn::PackedScene::1883859960814163368::1699558478::0::1::::<><>::res://addons/dialogue_manager/example_balloon/example_balloon.gd<>uid://ckvgyvclnwggo
+::res://addons/dialogue_manager/l10n/::1699558478
+en.mo::Translation::-1::1699558478::0::1::::<><>::
+en.po::Translation::-1::1699558478::0::1::::<><>::
+zh.po::Translation::-1::1699558478::0::1::::<><>::
+zh_TW.po::Translation::-1::1699558478::0::1::::<><>::
+::res://addons/dialogue_manager/views/::1699558478
+main_view.gd::GDScript::-1::1699558478::0::1::::<>Control<>::
+main_view.tscn::PackedScene::4884668666408697448::1699558478::0::1::::<><>::res://addons/dialogue_manager/views/main_view.gd<>uid://civ6shmka5e8u
+settings_view.gd::GDScript::-1::1699558478::0::1::::<>TabContainer<>::
+settings_view.tscn::PackedScene::5839841081119266502::1699558478::0::1::::<><>::res://addons/dialogue_manager/views/settings_view.gd
+::res://Assets/::1699559073
+::res://Assets/Forest BETA V3/::1699558191
+Forest Cliff.png::CompressedTexture2D::6483364455787207853::1699558073::1699558190::1::::<><>::
+Forest Props.png::CompressedTexture2D::3301073766214839723::1699558073::1699558190::1::::<><>::
+Forest Structures.png::CompressedTexture2D::5573039483093932195::1699558073::1699558190::1::::<><>::
+Forest Tilesett.png::CompressedTexture2D::1386262220975942995::1699558073::1699558190::1::::<><>::
+Sample.png::CompressedTexture2D::4466263199070730582::1699558073::1699558191::1::::<><>::
+Settlement.png::CompressedTexture2D::757632864557220571::1699558073::1699558190::1::::<><>::
+Trees.png::CompressedTexture2D::5935668284987553250::1699558073::1699558190::1::::<><>::
+Water Tileset.png::CompressedTexture2D::3803000606228677773::1699558073::1699558190::1::::<><>::
+::res://Assets/Free Fantasy Dreamland - Sprites/::1699558073
+License.txt::TextFile::-1::1699558073::0::1::::<><>::
+::res://Assets/Free Fantasy Dreamland - Sprites/16x16/::1699559073
+Character_001.png::CompressedTexture2D::3058393942396068114::1699558073::1699558190::1::::<><>::
+Character_002.png::CompressedTexture2D::2474534720639292207::1699558073::1699558190::1::::<><>::
+Character_003.png::CompressedTexture2D::4085941139637828193::1699558073::1699558190::1::::<><>::
+Character_004.png::CompressedTexture2D::1725241099983620933::1699558073::1699558190::1::::<><>::
+Character_005.png::CompressedTexture2D::6275992894320534171::1699558073::1699558190::1::::<><>::
+Character_006.png::CompressedTexture2D::2744571458592603748::1699558073::1699558190::1::::<><>::
+Character_007.png::CompressedTexture2D::1835060556308806385::1699558073::1699558190::1::::<><>::
+::res://Assets/Free Fantasy Dreamland - Sprites/32x32/::1699558190
+Character_001.png::CompressedTexture2D::3341801074640683154::1699558073::1699558190::1::::<><>::
+Character_002.png::CompressedTexture2D::651028219094984081::1699558073::1699558190::1::::<><>::
+Character_003.png::CompressedTexture2D::4554260065530058055::1699558073::1699558190::1::::<><>::
+Character_004.png::CompressedTexture2D::9100326307143288231::1699558073::1699558190::1::::<><>::
+Character_005.png::CompressedTexture2D::6101222889307713322::1699558073::1699558190::1::::<><>::
+Character_006.png::CompressedTexture2D::849840696579828249::1699558073::1699558190::1::::<><>::
+Character_007.png::CompressedTexture2D::1339978466862909511::1699558073::1699558190::1::::<><>::
+::res://Assets/Free Fantasy Dreamland - Sprites/48x48/::1699558190
+Character_001.png::CompressedTexture2D::394874390251962977::1699558073::1699558190::1::::<><>::
+Character_002.png::CompressedTexture2D::6620628098123666866::1699558073::1699558190::1::::<><>::
+Character_003.png::CompressedTexture2D::6582565194262510483::1699558073::1699558190::1::::<><>::
+Character_004.png::CompressedTexture2D::7973759514297862700::1699558073::1699558190::1::::<><>::
+Character_005.png::CompressedTexture2D::8388223051551151393::1699558073::1699558190::1::::<><>::
+Character_006.png::CompressedTexture2D::6335255935459767347::1699558073::1699558190::1::::<><>::
+Character_007.png::CompressedTexture2D::3519444256659478760::1699558073::1699558190::1::::<><>::
+::res://Assets/Free Fantasy Dreamland - Sprites/RPG Maker/::1699558073
+::res://Assets/Free Fantasy Dreamland - Sprites/RPG Maker/RPG Maker MV/::1699558073
+::res://Assets/Free Fantasy Dreamland - Sprites/RPG Maker/RPG Maker MV/characters/::1699558190
+$Character_001.png::CompressedTexture2D::5764249410754833459::1699558073::1699558190::1::::<><>::
+$Character_002.png::CompressedTexture2D::4427372834844228524::1699558073::1699558190::1::::<><>::
+$Character_003.png::CompressedTexture2D::1712175820909215220::1699558073::1699558190::1::::<><>::
+$Character_004.png::CompressedTexture2D::8292697986591754472::1699558073::1699558190::1::::<><>::
+$Character_005.png::CompressedTexture2D::5027562271496207745::1699558073::1699558190::1::::<><>::
+$Character_006.png::CompressedTexture2D::4841032555018128174::1699558073::1699558190::1::::<><>::
+$Character_007.png::CompressedTexture2D::7954479045668329454::1699558073::1699558190::1::::<><>::
+::res://Assets/Free Fantasy Dreamland - Sprites/RPG Maker/RPG Maker MV/sv_actors/::1699558190
+Character_001_Battler.png::CompressedTexture2D::5157183901147525008::1699558073::1699558190::1::::<><>::
+Character_002_Battler.png::CompressedTexture2D::479422811265039703::1699558073::1699558190::1::::<><>::
+Character_003_Battler.png::CompressedTexture2D::8868860498639546570::1699558073::1699558190::1::::<><>::
+Character_004_Battler.png::CompressedTexture2D::2832882976404509686::1699558073::1699558190::1::::<><>::
+Character_005_Battler.png::CompressedTexture2D::2856989243456904456::1699558073::1699558190::1::::<><>::
+Character_006_Battler.png::CompressedTexture2D::4330894174689696660::1699558073::1699558190::1::::<><>::
+Character_007_Battler.png::CompressedTexture2D::3687194591329431044::1699558073::1699558190::1::::<><>::
+::res://Assets/Free Fantasy Dreamland - Sprites/RPG Maker/RPG Maker MZ (16x16)/::1699558073
+::res://Assets/Free Fantasy Dreamland - Sprites/RPG Maker/RPG Maker MZ (16x16)/characters/::1699558190
+$Character_001.png::CompressedTexture2D::7586336097831086165::1699558073::1699558190::1::::<><>::
+$Character_002.png::CompressedTexture2D::5679267177937190034::1699558073::1699558190::1::::<><>::
+$Character_003.png::CompressedTexture2D::328975863038383490::1699558073::1699558190::1::::<><>::
+$Character_004.png::CompressedTexture2D::1842484419248346192::1699558073::1699558190::1::::<><>::
+$Character_005.png::CompressedTexture2D::8335252878245673589::1699558073::1699558190::1::::<><>::
+$Character_006.png::CompressedTexture2D::5228283609647047441::1699558073::1699558190::1::::<><>::
+$Character_007.png::CompressedTexture2D::1993398738435925082::1699558073::1699558190::1::::<><>::
+::res://Assets/Free Fantasy Dreamland - Sprites/RPG Maker/RPG Maker MZ (16x16)/sv_actors/::1699558190
+Character_001_Battler.png::CompressedTexture2D::333535505863170180::1699558073::1699558190::1::::<><>::
+Character_002_Battler.png::CompressedTexture2D::2931330024545301445::1699558073::1699558190::1::::<><>::
+Character_003_Battler.png::CompressedTexture2D::587300793383267578::1699558073::1699558190::1::::<><>::
+Character_004_Battler.png::CompressedTexture2D::601196588332263508::1699558073::1699558190::1::::<><>::
+Character_005_Battler.png::CompressedTexture2D::8958052411966344701::1699558073::1699558190::1::::<><>::
+Character_006_Battler.png::CompressedTexture2D::4142533735970136257::1699558073::1699558190::1::::<><>::
+Character_007_Battler.png::CompressedTexture2D::3176651170660655053::1699558073::1699558190::1::::<><>::
+::res://Assets/Free Fantasy Dreamland - Sprites/RPG Maker/RPG Maker MZ (32x32)/::1699558073
+::res://Assets/Free Fantasy Dreamland - Sprites/RPG Maker/RPG Maker MZ (32x32)/characters/::1699558190
+$Character_001.png::CompressedTexture2D::5469151918571170445::1699558073::1699558190::1::::<><>::
+$Character_002.png::CompressedTexture2D::2470640157375425505::1699558073::1699558190::1::::<><>::
+$Character_003.png::CompressedTexture2D::509009327984380425::1699558073::1699558190::1::::<><>::
+$Character_004.png::CompressedTexture2D::407362092324123874::1699558073::1699558190::1::::<><>::
+$Character_005.png::CompressedTexture2D::4302916739307527764::1699558073::1699558190::1::::<><>::
+$Character_006.png::CompressedTexture2D::163041317394493415::1699558073::1699558190::1::::<><>::
+$Character_007.png::CompressedTexture2D::2801774007162392768::1699558073::1699558190::1::::<><>::
+::res://Assets/Free Fantasy Dreamland - Sprites/RPG Maker/RPG Maker MZ (32x32)/sv_actors/::1699558190
+Character_001_Battler.png::CompressedTexture2D::4386121732910565201::1699558073::1699558190::1::::<><>::
+Character_002_Battler.png::CompressedTexture2D::6124953710534773076::1699558073::1699558190::1::::<><>::
+Character_003_Battler.png::CompressedTexture2D::1808082833136294279::1699558073::1699558190::1::::<><>::
+Character_004_Battler.png::CompressedTexture2D::8373789575351542455::1699558073::1699558190::1::::<><>::
+Character_005_Battler.png::CompressedTexture2D::8234615510408937046::1699558073::1699558190::1::::<><>::
+Character_006_Battler.png::CompressedTexture2D::2135706094283182192::1699558073::1699558190::1::::<><>::
+Character_007_Battler.png::CompressedTexture2D::8306346769972984871::1699558073::1699558190::1::::<><>::
+::res://Assets/Free Fantasy Dreamland - Sprites/RPG Maker/RPG Maker MZ (48x48)/::1699558073
+::res://Assets/Free Fantasy Dreamland - Sprites/RPG Maker/RPG Maker MZ (48x48)/characters/::1699558190
+$Character_001.png::CompressedTexture2D::6615936482665373502::1699558073::1699558190::1::::<><>::
+$Character_002.png::CompressedTexture2D::3669095532739950429::1699558073::1699558190::1::::<><>::
+$Character_003.png::CompressedTexture2D::6035724942735579520::1699558073::1699558190::1::::<><>::
+$Character_004.png::CompressedTexture2D::6572213115319378837::1699558073::1699558190::1::::<><>::
+$Character_005.png::CompressedTexture2D::1838420520905611085::1699558073::1699558190::1::::<><>::
+$Character_006.png::CompressedTexture2D::8348351230762597887::1699558073::1699558189::1::::<><>::
+$Character_007.png::CompressedTexture2D::913110021058282741::1699558073::1699558189::1::::<><>::
+::res://Assets/Free Fantasy Dreamland - Sprites/RPG Maker/RPG Maker MZ (48x48)/sv_actors/::1699558189
+Character_001_Battler.png::CompressedTexture2D::4366375995968584125::1699558073::1699558189::1::::<><>::
+Character_002_Battler.png::CompressedTexture2D::3098630117360096686::1699558073::1699558189::1::::<><>::
+Character_003_Battler.png::CompressedTexture2D::3680124212310189605::1699558073::1699558189::1::::<><>::
+Character_004_Battler.png::CompressedTexture2D::7111276775960640657::1699558073::1699558189::1::::<><>::
+Character_005_Battler.png::CompressedTexture2D::2593368366948238273::1699558073::1699558189::1::::<><>::
+Character_006_Battler.png::CompressedTexture2D::4202967979952888225::1699558073::1699558189::1::::<><>::
+Character_007_Battler.png::CompressedTexture2D::5262006905697450088::1699558073::1699558189::1::::<><>::
+::res://Assets/Free Fantasy Dreamland - Sprites/RPG Maker/RPG Maker VX Ace/::1699558073
+::res://Assets/Free Fantasy Dreamland - Sprites/RPG Maker/RPG Maker VX Ace/characters/::1699558189
+$Character_001.png::CompressedTexture2D::1248576351672386629::1699558073::1699558189::1::::<><>::
+$Character_002.png::CompressedTexture2D::5032497393706785255::1699558073::1699558189::1::::<><>::
+$Character_003.png::CompressedTexture2D::7190700397075433804::1699558073::1699558189::1::::<><>::
+$Character_004.png::CompressedTexture2D::5704682286837185467::1699558073::1699558189::1::::<><>::
+$Character_005.png::CompressedTexture2D::7537190479218054278::1699558073::1699558189::1::::<><>::
+$Character_006.png::CompressedTexture2D::3478190016713315600::1699558073::1699558189::1::::<><>::
+$Character_007.png::CompressedTexture2D::51469846945137988::1699558073::1699558189::1::::<><>::
+::res://Assets/Free Fantasy Dreamland - Sprites/Unity, Godot, GameMaker/::1699558189
+Character_001.png::CompressedTexture2D::4063001019797278086::1699558073::1699558189::1::::<><>::
+Character_002.png::CompressedTexture2D::1262757166789918398::1699558073::1699558189::1::::<><>::
+Character_003.png::CompressedTexture2D::3522747617596725232::1699558073::1699558189::1::::<><>::
+Character_004.png::CompressedTexture2D::7629015690144403994::1699558073::1699558189::1::::<><>::
+Character_005.png::CompressedTexture2D::3634577067917370653::1699558073::1699558189::1::::<><>::
+Character_006.png::CompressedTexture2D::3851400579993766736::1699558073::1699558189::1::::<><>::
+Character_007.png::CompressedTexture2D::7351386933187106576::1699558073::1699558189::1::::<><>::
+::res://Assets/Package_Marketplace_week40/::1699559059
+::res://Assets/Package_Marketplace_week40/Package_Marketplace/::1699559074
+atlas_16x.png::CompressedTexture2D::4613759780753274188::1699559059::1699559074::1::::<><>::
+atlas_32x.png::CompressedTexture2D::2258287531735916344::1699559059::1699559074::1::::<><>::
+atlas_48x.png::CompressedTexture2D::6260961733041676665::1699559059::1699559074::1::::<><>::
+LICENCE.txt::TextFile::-1::1699559059::0::1::::<><>::
+README.txt::TextFile::-1::1699559059::0::1::::<><>::
+::res://Assets/Package_Marketplace_week40/Package_Marketplace/rpgmaker/::1699559059
+::res://Assets/Package_Marketplace_week40/Package_Marketplace/rpgmaker/MV/::1699559059
+::res://Assets/Package_Marketplace_week40/Package_Marketplace/rpgmaker/MV/characters/::1699559075
+!chests.png::CompressedTexture2D::278067696222602857::1699559059::1699559074::1::::<><>::
+!doors_01.png::CompressedTexture2D::5422587101077922595::1699559059::1699559074::1::::<><>::
+!doors_02.png::CompressedTexture2D::8117358468899410709::1699559059::1699559074::1::::<><>::
+$water.png::CompressedTexture2D::3068987855913586251::1699559059::1699559074::1::::<><>::
+$waterfall_effects.png::CompressedTexture2D::4366520943266994501::1699559059::1699559074::1::::<><>::
+::res://Assets/Package_Marketplace_week40/Package_Marketplace/rpgmaker/MV/tilesets/::1699559075
+SRW_Marketplace_A1.png::CompressedTexture2D::1673413649487952508::1699559059::1699559074::1::::<><>::
+SRW_Marketplace_autotile_A2.png::CompressedTexture2D::4767022674207530039::1699559059::1699559074::1::::<><>::
+SRW_Marketplace_tileset_B.png::CompressedTexture2D::2005461984692266920::1699559059::1699559074::1::::<><>::
+SRW_Marketplace_tileset_C.png::CompressedTexture2D::4895601191956995534::1699559059::1699559074::1::::<><>::
+::res://Assets/Package_Marketplace_week40/Package_Marketplace/rpgmaker/MZ/::1699559059
+::res://Assets/Package_Marketplace_week40/Package_Marketplace/rpgmaker/MZ/characters/::1699559074
+!chests.png::CompressedTexture2D::8319547130597856434::1699559059::1699559074::1::::<><>::
+!doors_01.png::CompressedTexture2D::5960049111533241993::1699559059::1699559074::1::::<><>::
+!doors_02.png::CompressedTexture2D::4789874779855548240::1699559059::1699559074::1::::<><>::
+$water.png::CompressedTexture2D::7533841516707568851::1699559059::1699559074::1::::<><>::
+$waterfall_effects.png::CompressedTexture2D::3578679091944869515::1699559059::1699559074::1::::<><>::
+::res://Assets/Package_Marketplace_week40/Package_Marketplace/rpgmaker/MZ/tilesets/::1699559075
+SRW_Marketplace_A1.png::CompressedTexture2D::7281487225289278476::1699559059::1699559074::1::::<><>::
+SRW_Marketplace_autotile_A2.png::CompressedTexture2D::8797096217852716807::1699559059::1699559074::1::::<><>::
+SRW_Marketplace_tileset_B.png::CompressedTexture2D::5508211383261209274::1699559059::1699559074::1::::<><>::
+SRW_Marketplace_tileset_C.png::CompressedTexture2D::3818716743035857253::1699559059::1699559075::1::::<><>::
+::res://Assets/Package_Marketplace_week40/Package_Marketplace/rpgmaker/VX/::1699559059
+::res://Assets/Package_Marketplace_week40/Package_Marketplace/rpgmaker/VX/characters/::1699559075
+!chests.png::CompressedTexture2D::4957683933096514803::1699559059::1699559075::1::::<><>::
+!doors_01.png::CompressedTexture2D::1628182989435041946::1699559059::1699559075::1::::<><>::
+!doors_02.png::CompressedTexture2D::3092066175120419021::1699559059::1699559075::1::::<><>::
+$water.png::CompressedTexture2D::760498676615335175::1699559059::1699559075::1::::<><>::
+$waterfall_effects.png::CompressedTexture2D::2932147697594853488::1699559059::1699559075::1::::<><>::
+::res://Assets/Package_Marketplace_week40/Package_Marketplace/rpgmaker/VX/tilesets/::1699559075
+TileA1.png::CompressedTexture2D::1537805801731876843::1699559059::1699559075::1::::<><>::
+TileA2.png::CompressedTexture2D::3699899784751774436::1699559059::1699559075::1::::<><>::
+TileB.png::CompressedTexture2D::2166734351757625923::1699559059::1699559075::1::::<><>::
+TileC.png::CompressedTexture2D::1548456925288155868::1699559059::1699559075::1::::<><>::
+::res://Assets/Package_Marketplace_week40/Package_Marketplace/screenshots/::1699559075
+screenshots (1).jpg::CompressedTexture2D::3938366502591982754::1699559059::1699559075::1::::<><>::
+screenshots (1).png::CompressedTexture2D::4526948297905521965::1699559059::1699559075::1::::<><>::
+screenshots (2).jpg::CompressedTexture2D::8781552872429050914::1699559059::1699559075::1::::<><>::
+screenshots (2).png::CompressedTexture2D::4637741685974455413::1699559059::1699559075::1::::<><>::
+screenshots (3).png::CompressedTexture2D::5915257417349910653::1699559059::1699559075::1::::<><>::
+screenshots (4).PNG::CompressedTexture2D::6383430571618454248::1699559059::1699559075::1::::<><>::
+screenshots (5).png::CompressedTexture2D::3589395347669389910::1699559059::1699559075::1::::<><>::
+screenshots (6).png::CompressedTexture2D::2513089968419409165::1699559059::1699559074::1::::<><>::
+screenshots (7).png::CompressedTexture2D::2662109179980939368::1699559059::1699559074::1::::<><>::
+screenshots (8).png::CompressedTexture2D::4086981768658727596::1699559059::1699559074::1::::<><>::
+screenshots (9).png::CompressedTexture2D::2053574771329125211::1699559059::1699559074::1::::<><>::
+screenshots (10).png::CompressedTexture2D::3516563876874506709::1699559059::1699559074::1::::<><>::
+screenshots (11).png::CompressedTexture2D::2474508367333382180::1699559059::1699559074::1::::<><>::
+screenshots (12).png::CompressedTexture2D::7305273700414759645::1699559059::1699559074::1::::<><>::
+screenshots (13).png::CompressedTexture2D::6712052342673868910::1699559059::1699559074::1::::<><>::
+screenshots (14).png::CompressedTexture2D::4880019573679118468::1699559059::1699559074::1::::<><>::
+screenshots (15).png::CompressedTexture2D::3031400125647530579::1699559059::1699559074::1::::<><>::
+screenshots (16).png::CompressedTexture2D::6124958017382866641::1699559059::1699559074::1::::<><>::
+screenshots (17).png::CompressedTexture2D::370740782253180370::1699559059::1699559074::1::::<><>::
+screenshots (18).png::CompressedTexture2D::6927108242705791616::1699559059::1699559074::1::::<><>::
+screenshots (19).png::CompressedTexture2D::5192000964124403095::1699559059::1699559074::1::::<><>::
+screenshots (20).png::CompressedTexture2D::1741430878758156748::1699559059::1699559074::1::::<><>::
+screenshots (21).png::CompressedTexture2D::1042819442336024994::1699559059::1699559074::1::::<><>::
+screenshots (22).png::CompressedTexture2D::1916620326635186413::1699559059::1699559074::1::::<><>::
+screenshots (23).png::CompressedTexture2D::7752665018876438528::1699559059::1699559074::1::::<><>::
+screenshots (24).png::CompressedTexture2D::1336432188390918489::1699559059::1699559075::1::::<><>::
+screenshots (25).png::CompressedTexture2D::8324552254380980020::1699559059::1699559074::1::::<><>::
+screenshots (26).png::CompressedTexture2D::7704626215009523498::1699559059::1699559074::1::::<><>::
+screenshots (27).png::CompressedTexture2D::4080745557450838267::1699559059::1699559074::1::::<><>::
+screenshots (28).png::CompressedTexture2D::8209313827223626332::1699559059::1699559074::1::::<><>::
+screenshots (29).png::CompressedTexture2D::8066961426862906024::1699559059::1699559074::1::::<><>::
+screenshots (30).png::CompressedTexture2D::5878772908739675683::1699559059::1699559074::1::::<><>::
+screenshots (31).png::::-1::0::0::0::::<><>::
+screenshots (32).png::CompressedTexture2D::6781793618864257546::1699559059::1699559074::1::::<><>::
+screenshots (33).png::::-1::0::0::0::::<><>::
+::res://Assets/Package_Marketplace_week40/Package_Marketplace/sprites/::1699559074
+!chests.png::CompressedTexture2D::7288973155310494324::1699559059::1699559074::1::::<><>::
+!doors_01.png::CompressedTexture2D::7257180621304755782::1699559059::1699559074::1::::<><>::
+!doors_02.png::CompressedTexture2D::2951320792653149981::1699559059::1699559074::1::::<><>::
+$water.png::CompressedTexture2D::7926758219846623899::1699559059::1699559074::1::::<><>::
+$waterfall_effects.png::CompressedTexture2D::6318862535856514230::1699559059::1699559074::1::::<><>::
+::res://Assets/RPGW_Caves_v2.1/::1699558190
+decorative.png::CompressedTexture2D::5837207052810270416::1699558073::1699558189::1::::<><>::
+MainLev2.0.png::CompressedTexture2D::8287461426571572688::1699558073::1699558190::1::::<><>::
+_license.txt::TextFile::-1::1699558073::0::1::::<><>::
+::res://Assets/RPGW_Caves_v2.1/Anim/::1699558189
+LedA.png::CompressedTexture2D::1263414671203690087::1699558073::1699558189::1::::<><>::
+LedB.png::CompressedTexture2D::1594272793717326830::1699558073::1699558189::1::::<><>::
+LedC.png::CompressedTexture2D::6338251908697838313::1699558073::1699558189::1::::<><>::
+LedD.png::CompressedTexture2D::6430149964925488017::1699558073::1699558189::1::::<><>::
+::res://Assets/RPGW_Caves_v2.1/_PSD/::1699558073
+::res://Assets/RPGW_Caves_v2.1/_PSD/Anim/::1699558073
+::res://Assets/SERENE_VILLAGE_REVAMPED/::1699558190
+Serene_Village_16x16.png::CompressedTexture2D::8410105874743657579::1699558073::1699558190::1::::<><>::
+Serene_Village_32x32.png::CompressedTexture2D::668608216702920028::1699558073::1699558190::1::::<><>::
+Serene_Village_48x48.png::CompressedTexture2D::3623569513109622910::1699558073::1699558190::1::::<><>::
+::res://Assets/SERENE_VILLAGE_REVAMPED/Animated stuff/::1699558190
+campfire_16x16.png::CompressedTexture2D::5794298807188036990::1699558073::1699558189::1::::<><>::
+campfire_32x32.png::CompressedTexture2D::8369190660054408918::1699558073::1699558189::1::::<><>::
+campfire_48x48.png::CompressedTexture2D::6357041277908527899::1699558073::1699558189::1::::<><>::
+door_16x16.png::CompressedTexture2D::5748982199434166710::1699558073::1699558189::1::::<><>::
+door_32x32.png::CompressedTexture2D::3013458644214967302::1699558073::1699558189::1::::<><>::
+door_48x48.png::CompressedTexture2D::5506534880923324802::1699558073::1699558189::1::::<><>::
+water_waves_16x16.png::CompressedTexture2D::4141294756915894917::1699558073::1699558189::1::::<><>::
+water_waves_32x32.png::CompressedTexture2D::7029118465677402062::1699558073::1699558189::1::::<><>::
+water_waves_48x48.png::CompressedTexture2D::812654708484919063::1699558073::1699558190::1::::<><>::
+::res://Assets/SERENE_VILLAGE_REVAMPED/Construct 3/::1699558190
+Autotiles_no_inner_corners_16x16.png::CompressedTexture2D::8240459989026265913::1699558073::1699558190::1::::<><>::
+::res://Assets/SERENE_VILLAGE_REVAMPED/RPG_MAKER_MV/::1699558190
+!$Campfire.png::CompressedTexture2D::5155997605566315384::1699558073::1699558190::1::::<><>::
+!$door.png::CompressedTexture2D::8495233700550380499::1699558073::1699558190::1::::<><>::
+Houses_TILESET_B-C-D-E.png::CompressedTexture2D::6309136332264208345::1699558073::1699558190::1::::<><>::
+Outside_Stuff_TILESET_B-C-D-E.png::CompressedTexture2D::5261885026022681691::1699558073::1699558190::1::::<><>::
+Terrains_TILESET_B-C-D-E.png::CompressedTexture2D::4292302656268545547::1699558073::1699558190::1::::<><>::
+::res://Assets/SERENE_VILLAGE_REVAMPED/RPG_MAKER_VX_ACE/::1699558190
+B-C-D-E_Serene_Village_01.png::CompressedTexture2D::4852575909803400641::1699558073::1699558190::1::::<><>::
+B-C-D-E_Serene_Village_02.png::CompressedTexture2D::4450546260714189410::1699558073::1699558190::1::::<><>::
+B-C-D-E_Serene_Village_03.png::CompressedTexture2D::4831830890986336886::1699558073::1699558190::1::::<><>::
+::res://Assets/SERENE_VILLAGE_REVAMPED/RPG_MAKER_XP/::1699558190
+Serene_Village_XP.png::CompressedTexture2D::2071356833206034272::1699558073::1699558190::1::::<><>::
+::res://Assets/Sprout Lands - Sprites - Basic pack/::1699558073
+read_me.txt::TextFile::-1::1699558073::0::1::::<><>::
+::res://Assets/Sprout Lands - Sprites - Basic pack/Characters/::1699558190
+Basic Charakter Actions.png::CompressedTexture2D::5932964048390560895::1699558073::1699558190::1::::<><>::
+Basic Charakter Spritesheet.png::CompressedTexture2D::8335827166071234452::1699558073::1699558190::1::::<><>::
+Egg_And_Nest.png::CompressedTexture2D::6422360912991857639::1699558073::1699558190::1::::<><>::
+Free Chicken Sprites.png::CompressedTexture2D::3667477289906073502::1699558073::1699558190::1::::<><>::
+Free Cow Sprites.png::CompressedTexture2D::9080703907456883373::1699558073::1699558190::1::::<><>::
+Tools.png::CompressedTexture2D::836776289100239802::1699558073::1699558189::1::::<><>::
+::res://Assets/Sprout Lands - Sprites - Basic pack/Objects/::1699558189
+Basic Furniture.png::CompressedTexture2D::2860912163490083595::1699558073::1699558189::1::::<><>::
+Basic Grass Biom things 1.png::CompressedTexture2D::572327674347951635::1699558073::1699558189::1::::<><>::
+Basic Plants.png::CompressedTexture2D::8237403904968742890::1699558073::1699558189::1::::<><>::
+Basic tools and meterials.png::CompressedTexture2D::1316400437438607049::1699558073::1699558189::1::::<><>::
+Chest.png::CompressedTexture2D::4090824663812668605::1699558073::1699558189::1::::<><>::
+Egg item.png::CompressedTexture2D::2054520258720701046::1699558073::1699558189::1::::<><>::
+Free_Chicken_House.png::CompressedTexture2D::2893072304482164051::1699558073::1699558189::1::::<><>::
+Paths.png::CompressedTexture2D::486705460312517124::1699558073::1699558189::1::::<><>::
+Simple Milk and grass item.png::CompressedTexture2D::2477078277067257622::1699558073::1699558189::1::::<><>::
+Wood Bridge.png::CompressedTexture2D::6919558509216148239::1699558073::1699558189::1::::<><>::
+::res://Assets/Sprout Lands - Sprites - Basic pack/Sprout Lands color pallet/::1699558189
+Sprout Lands defautlt palette snip.PNG::CompressedTexture2D::500207121559126156::1699558073::1699558189::1::::<><>::
+Sprout Lands defautlt palette.png::CompressedTexture2D::5763002697970604341::1699558073::1699558189::1::::<><>::
+::res://Assets/Sprout Lands - Sprites - Basic pack/Tilesets/::1699558190
+Fences.png::CompressedTexture2D::1285448468591987427::1699558073::1699558189::1::::<><>::
+Grass.png::CompressedTexture2D::6922154848452485363::1699558073::1699558189::1::::<><>::
+Hills.png::CompressedTexture2D::4641167096541443780::1699558073::1699558189::1::::<><>::
+Tilled Dirt.png::CompressedTexture2D::4262899936635845471::1699558073::1699558189::1::::<><>::
+Water.png::CompressedTexture2D::3071942273864847811::1699558073::1699558189::1::::<><>::
+Wooden House.png::CompressedTexture2D::3498984198714547099::1699558073::1699558190::1::::<><>::
+::res://Buildings/::1699558478
+witch_house.tscn::PackedScene::1125801844586221219::1699558478::0::1::::<><>::uid://b4vqx46sis24a
+::res://Characters/::1699559728
+player.gd::GDScript::-1::1699558583::0::1::::<>CharacterBody2D<>::
+player.tscn::PackedScene::8926966354876256518::1699559728::0::1::::<><>::res://Characters/player.gd<>uid://dc0cjewq7s3ei::::res://Assets/Free Fantasy Dreamland - Sprites/Unity, Godot, GameMaker/Character_007.png
+::res://Components/::1699558073
+input_name.gd::GDScript::-1::1699558073::0::1::::<>LineEdit<>::
+input_name.tscn::PackedScene::3596640395899177422::1699558073::0::1::::<><>::uid://b6dyqdswr2d6g
+::res://Cutscenes/::1699559733
+Antique.tscn::PackedScene::557143884467634624::1699559731::0::1::::<><>::uid://bugg4ng1m0ka4::::res://Assets/Forest BETA V3/Water Tileset.png<>uid://dqcrjqngssu3y::::res://Assets/RPGW_Caves_v2.1/MainLev2.0.png<>uid://cbevhmabx3upd::::res://Assets/SERENE_VILLAGE_REVAMPED/RPG_MAKER_VX_ACE/B-C-D-E_Serene_Village_01.png<>uid://bg032m8n1gkqt::::res://Assets/Sprout Lands - Sprites - Basic pack/Objects/Basic Furniture.png<>uid://b4n43107k78s1::::res://Assets/SERENE_VILLAGE_REVAMPED/RPG_MAKER_VX_ACE/B-C-D-E_Serene_Village_02.png<>uid://cymuchsy16yqv::::res://Assets/Forest BETA V3/Forest Cliff.png<>uid://bj1co8e3bkfgd::::res://Assets/Sprout Lands - Sprites - Basic pack/Tilesets/Water.png<>uid://ca3tswpoi123c::::res://Assets/SERENE_VILLAGE_REVAMPED/RPG_MAKER_VX_ACE/B-C-D-E_Serene_Village_03.png<>uid://c5ve45e108aet::::res://Assets/Sprout Lands - Sprites - Basic pack/Tilesets/Grass.png<>uid://d0gj3jl7apxhe::::res://Characters/player.tscn<>uid://b7ehlxwpvki6g::::res://Assets/Sprout Lands - Sprites - Basic pack/Tilesets/Hills.png<>uid://g60752ko2djo::::res://Assets/Sprout Lands - Sprites - Basic pack/Objects/Paths.png<>uid://qbl16o1v5exf::::res://Buildings/witch_house.tscn
+guimaras_scene.tscn::PackedScene::923168321359382996::1699559733::0::1::::<><>::uid://1e6gdhrglbn2::::res://Assets/Free Fantasy Dreamland - Sprites/16x16/Character_007.png<>uid://b6y67jvs0srku::::res://Assets/Package_Marketplace_week40/Package_Marketplace/atlas_16x.png<>uid://7f6wvs8iascm::::res://Assets/Package_Marketplace_week40/Package_Marketplace/atlas_32x.png<>uid://cvg4eirhabv5b::::res://Assets/Package_Marketplace_week40/Package_Marketplace/atlas_48x.png<>uid://c5ve45e108aet::::res://Assets/Sprout Lands - Sprites - Basic pack/Tilesets/Grass.png<>uid://b7ehlxwpvki6g::::res://Assets/Sprout Lands - Sprites - Basic pack/Tilesets/Hills.png<>uid://d0gj3jl7apxhe::::res://Characters/player.tscn
+::res://dialogues/::1699558566
+main.dialogue::Resource::8824197166065302552::1699558478::1699558566::1::::<><>::res://addons/dialogue_manager/dialogue_resource.gd
+::res://Fonts/::1699558073
+SourceCodePro-Regular.ttf::FontFile::575513628999857563::1699558073::1699558073::1::::<><>::
+source_code_pro_theme.tres::Theme::4569953936663050456::1699558073::0::1::::<><>::uid://ig1vi7f4vi4j
+::res://Global/::1699558073
+Game.gd::GDScript::-1::1699558073::0::1::::<>Node<>::
+::res://helpers/::1699558478
+Actionables.gd::GDScript::-1::1699558478::0::1::::<>Area2D<>::
+Actionables.tscn::PackedScene::7886953971173081526::1699558478::0::1::::<><>::res://helpers/Actionables.gd
