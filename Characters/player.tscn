@@ -1,10 +1,10 @@
-[gd_scene load_steps=28 format=3 uid="uid://d0gj3jl7apxhe"]
+[gd_scene load_steps=29 format=3 uid="uid://d0gj3jl7apxhe"]
 
 [ext_resource type="Script" path="res://Characters/player.gd" id="1_fb18b"]
 [ext_resource type="Texture2D" uid="uid://dc0cjewq7s3ei" path="res://Assets/Free Fantasy Dreamland - Sprites/Unity, Godot, GameMaker/Character_007.png" id="2_54fo4"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_jjgff"]
-size = Vector2(10, 4)
+size = Vector2(12, 7)
 
 [sub_resource type="Animation" id="Animation_11fks"]
 length = 0.001
@@ -233,7 +233,11 @@ states/Walk/node = SubResource("AnimationNodeBlendSpace2D_dnyqs")
 states/Walk/position = Vector2(521, 100)
 transitions = ["Idle", "Walk", SubResource("AnimationNodeStateMachineTransition_7llq3"), "Walk", "Idle", SubResource("AnimationNodeStateMachineTransition_61q0q"), "Start", "Idle", SubResource("AnimationNodeStateMachineTransition_m3s5a")]
 
+[sub_resource type="CircleShape2D" id="CircleShape2D_7tj4r"]
+radius = 0.405453
+
 [node name="Player" type="CharacterBody2D"]
+y_sort_enabled = true
 script = ExtResource("1_fb18b")
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
@@ -242,7 +246,7 @@ hframes = 4
 vframes = 4
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-position = Vector2(0, 10)
+position = Vector2(0, 8.5)
 shape = SubResource("RectangleShape2D_jjgff")
 
 [node name="Camera2D" type="Camera2D" parent="."]
@@ -259,3 +263,10 @@ anim_player = NodePath("../AnimationPlayer")
 active = true
 parameters/Idle/blend_position = Vector2(-0.000896871, 1.09039)
 parameters/Walk/blend_position = Vector2(-0.0170404, -0.734935)
+
+[node name="Area2D" type="Area2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
+position = Vector2(0, 8)
+scale = Vector2(15, -15.089)
+shape = SubResource("CircleShape2D_7tj4r")
