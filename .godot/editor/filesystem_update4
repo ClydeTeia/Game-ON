@@ -1,7 +1,9 @@
 res://main.tscn
 res://Characters/player.gd
 res://world.tscn
-res://credits_page.tscn
 res://Cutscenes/Antique.tscn
 res://Characters/player.tscn
 res://Buildings/witch_house.tscn
+res://Actionables.tscn
+res://helpers/Actionables.gd
+res://helpers/Actionables.tscn
