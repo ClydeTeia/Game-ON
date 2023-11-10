@@ -1,5 +1,30 @@
 ~ start
 
-Nathan: Hi wassup
+Fortune Teller: Hi Sasuke
 
+
+
+if State.player_response == "":
+	Fortune Teller: Can you help me find my gem? It was missing while I was exploring the cave.
+	- Okay sure
+		Fortune Teller: Awesome thank you!
+		set State.player_response = "okay"
+	- No sorry
+		Sasuke: I have to go
+		Fortune Teller: Bye...
+
+if State.player_response == "okay":
+	Fortune Teller: Thank you so much! You can find the cave at West. You have to go through a forest before you see a mountain
+
+if State.gem_status == "has":
+	Sasuke: I found your gem at the cave.
+	- Give to the Teller
+		Fortune Teller: Awesome!
+		set State.gem_status = "gave"
+	- Keep it
+		Sasuke: Sorry I like this gem
+		Fortune Teller: Give it back! It's mine
+elif State.gem_status == "gave":
+	Fortune Teller: Yayyy!
+	
 => END

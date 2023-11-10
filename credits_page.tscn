@@ -1,20 +1,53 @@
-[gd_scene format=3 uid="uid://bfyv7uy18w4fv"]
+[gd_scene load_steps=2 format=3 uid="uid://bfyv7uy18w4fv"]
+
+[sub_resource type="GDScript" id="GDScript_pq7eh"]
+script/source = "extends Node2D
+
+
+# Called when the node enters the scene tree for the first time.
+func _ready():
+	pass # Replace with function body.
+
+
+# Called every frame. 'delta' is the elapsed time since the previous frame.
+func _process(delta):
+	pass
+
+
+
+func _on_back_to_home_btn_pressed():
+	get_tree().change_scene_to_file(\"res://main.tscn\")
+"
 
 [node name="Credits page" type="Node2D"]
+script = SubResource("GDScript_pq7eh")
 
 [node name="RichTextLabel" type="RichTextLabel" parent="."]
 offset_left = 36.0
-offset_top = 39.0
+offset_top = 43.0
 offset_right = 1104.0
-offset_bottom = 611.0
+offset_bottom = 574.0
 text = "Credits:
 
 	Enter icons created by Freepik - Flaticon
-
+	
+	ElvGames:
 	https://elv-games.itch.io/
 
 	https://cupnooble.itch.io/sprout-lands-asset-pack
 
 	AxulArt :
 	https://axulart.itch.io/axularts-beach-and-caves-tileset
-	https://axulart.tumblr.com/"
+	https://axulart.tumblr.com/
+
+	LimeZu:
+	https://limezu.itch.io/serenevillagerevamped"
+
+[node name="BackToHomeBtn" type="Button" parent="."]
+offset_left = 21.0
+offset_top = 6.0
+offset_right = 115.0
+offset_bottom = 37.0
+text = "Go Back"
+
+[connection signal="pressed" from="BackToHomeBtn" to="." method="_on_back_to_home_btn_pressed"]

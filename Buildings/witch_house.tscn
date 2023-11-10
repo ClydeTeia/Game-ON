@@ -1,8 +1,7 @@
-[gd_scene load_steps=8 format=3 uid="uid://qbl16o1v5exf"]
+[gd_scene load_steps=7 format=3 uid="uid://qbl16o1v5exf"]
 
 [ext_resource type="Texture2D" uid="uid://b4vqx46sis24a" path="res://Assets/Forest BETA V3/Sample.png" id="1_6clmt"]
 [ext_resource type="PackedScene" uid="uid://dkmq8kop4ol0y" path="res://helpers/Actionables.tscn" id="2_i2sox"]
-[ext_resource type="Script" path="res://helpers/Actionables.gd" id="3_yk18a"]
 [ext_resource type="Resource" uid="uid://dxyridibix5jw" path="res://dialogues/main.dialogue" id="4_0hcok"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_knc2a"]
@@ -5295,7 +5294,6 @@ layer_0/tile_data = PackedInt32Array(-327698, 4718592, 86, -262162, 4718592, 87,
 
 [node name="Actionables" parent="TileMap" instance=ExtResource("2_i2sox")]
 position = Vector2(67, 320)
-script = ExtResource("3_yk18a")
 dialogue_resource = ExtResource("4_0hcok")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="TileMap/Actionables"]
