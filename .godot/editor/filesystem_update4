@@ -1,8 +1,1 @@
-res://Characters/player.tscn
 res://Characters/player.gd
-res://main.tscn
-res://world.tscn
-res://Cutscenes/Antique.tscn
-res://Buildings/witch_house.tscn
-res://helpers/Actionables.tscn
-res://Levels/car_crash.tscn
