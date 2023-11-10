@@ -1,164 +1,201 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1699185367
-credits_page.tscn::PackedScene::2788243259002377395::1699184703::0::1::::<><>::
-icon.svg::CompressedTexture2D::8876792594650363110::1698910177::1698910183::1::::<><>::
-main.gd::GDScript::-1::1698913153::0::1::::<>Node2D<>::
-main.tscn::PackedScene::7984649854034017783::1699184702::0::1::::<><>::res://main.gd
-TextEdit.gd::GDScript::-1::1698917055::0::1::::<>TextEdit<>::
-world.tscn::PackedScene::994622590766756023::1699184709::0::1::::<><>::uid://d0gj3jl7apxhe::::res://Characters/player.tscn<>uid://c5ve45e108aet::::res://Sprout Lands - Sprites - Basic pack/Tilesets/Grass.png<>uid://b7ehlxwpvki6g::::res://Sprout Lands - Sprites - Basic pack/Tilesets/Hills.png<>uid://b1y8lsbrsqywt::::res://Sprout Lands - Sprites - Basic pack/Tilesets/Tilled Dirt.png<>uid://bj1co8e3bkfgd::::res://Sprout Lands - Sprites - Basic pack/Tilesets/Water.png<>uid://bp3601431nvd0::::res://Sprout Lands - Sprites - Basic pack/Tilesets/Wooden House.png<>uid://skxfbvruhf1d::::res://Sprout Lands - Sprites - Basic pack/Tilesets/Fences.png
-::res://Characters/::1699184768
-player.gd::GDScript::-1::1699184722::0::1::::<>CharacterBody2D<>::
-player.tscn::PackedScene::8926966354876256518::1699184768::0::1::::<><>::res://Characters/player.gd<>uid://dc0cjewq7s3ei::::res://Free Fantasy Dreamland - Sprites/Unity, Godot, GameMaker/Character_007.png
-::res://Components/::1699150533
-input_name.gd::GDScript::-1::1698921615::0::1::::<>LineEdit<>::
-input_name.tscn::PackedScene::3596640395899177422::1699150533::0::1::::<><>::uid://b6dyqdswr2d6g
-::res://Cutscenes/::1699184703
-scene0.tscn::PackedScene::557143884467634624::1699184703::0::1::::<><>::
-::res://Fonts/::1698914788
-SourceCodePro-Regular.ttf::FontFile::575513628999857563::1698914088::1698914102::1::::<><>::
-source_code_pro_theme.tres::Theme::4569953936663050456::1698914788::0::1::::<><>::uid://ig1vi7f4vi4j
-::res://Free Fantasy Dreamland - Sprites/::1699184330
-License.txt::TextFile::-1::1699184330::0::1::::<><>::
-::res://Free Fantasy Dreamland - Sprites/16x16/::1699148225
-Character_001.png::CompressedTexture2D::3058393942396068114::1699148224::1699148225::1::::<><>::
-Character_002.png::CompressedTexture2D::2474534720639292207::1699148224::1699148225::1::::<><>::
-Character_003.png::CompressedTexture2D::4085941139637828193::1699148224::1699148225::1::::<><>::
-Character_004.png::CompressedTexture2D::1725241099983620933::1699148224::1699148225::1::::<><>::
-Character_005.png::CompressedTexture2D::6275992894320534171::1699148224::1699148225::1::::<><>::
-Character_006.png::CompressedTexture2D::2744571458592603748::1699148224::1699148225::1::::<><>::
-Character_007.png::CompressedTexture2D::1835060556308806385::1699148224::1699148225::1::::<><>::
-::res://Free Fantasy Dreamland - Sprites/32x32/::1699148225
-Character_001.png::CompressedTexture2D::3341801074640683154::1699148224::1699148225::1::::<><>::
-Character_002.png::CompressedTexture2D::651028219094984081::1699148224::1699148225::1::::<><>::
-Character_003.png::CompressedTexture2D::4554260065530058055::1699148224::1699148225::1::::<><>::
-Character_004.png::CompressedTexture2D::9100326307143288231::1699148224::1699148225::1::::<><>::
-Character_005.png::CompressedTexture2D::6101222889307713322::1699148224::1699148225::1::::<><>::
-Character_006.png::CompressedTexture2D::849840696579828249::1699148224::1699148225::1::::<><>::
-Character_007.png::CompressedTexture2D::1339978466862909511::1699148224::1699148225::1::::<><>::
-::res://Free Fantasy Dreamland - Sprites/48x48/::1699148225
-Character_001.png::CompressedTexture2D::394874390251962977::1699148224::1699148225::1::::<><>::
-Character_002.png::CompressedTexture2D::6620628098123666866::1699148224::1699148225::1::::<><>::
-Character_003.png::CompressedTexture2D::6582565194262510483::1699148224::1699148225::1::::<><>::
-Character_004.png::CompressedTexture2D::7973759514297862700::1699148224::1699148225::1::::<><>::
-Character_005.png::CompressedTexture2D::8388223051551151393::1699148224::1699148225::1::::<><>::
-Character_006.png::CompressedTexture2D::6335255935459767347::1699148224::1699148225::1::::<><>::
-Character_007.png::CompressedTexture2D::3519444256659478760::1699148224::1699148225::1::::<><>::
-::res://Free Fantasy Dreamland - Sprites/RPG Maker/::1699148224
-::res://Free Fantasy Dreamland - Sprites/RPG Maker/RPG Maker MV/::1699148224
-::res://Free Fantasy Dreamland - Sprites/RPG Maker/RPG Maker MV/characters/::1699148225
-$Character_001.png::CompressedTexture2D::5764249410754833459::1699148224::1699148225::1::::<><>::
-$Character_002.png::CompressedTexture2D::4427372834844228524::1699148224::1699148225::1::::<><>::
-$Character_003.png::CompressedTexture2D::1712175820909215220::1699148224::1699148225::1::::<><>::
-$Character_004.png::CompressedTexture2D::8292697986591754472::1699148224::1699148225::1::::<><>::
-$Character_005.png::CompressedTexture2D::5027562271496207745::1699148224::1699148225::1::::<><>::
-$Character_006.png::CompressedTexture2D::4841032555018128174::1699148224::1699148225::1::::<><>::
-$Character_007.png::CompressedTexture2D::7954479045668329454::1699148224::1699148225::1::::<><>::
-::res://Free Fantasy Dreamland - Sprites/RPG Maker/RPG Maker MV/sv_actors/::1699148225
-Character_001_Battler.png::CompressedTexture2D::5157183901147525008::1699148224::1699148225::1::::<><>::
-Character_002_Battler.png::CompressedTexture2D::479422811265039703::1699148224::1699148225::1::::<><>::
-Character_003_Battler.png::CompressedTexture2D::8868860498639546570::1699148224::1699148225::1::::<><>::
-Character_004_Battler.png::CompressedTexture2D::2832882976404509686::1699148224::1699148225::1::::<><>::
-Character_005_Battler.png::CompressedTexture2D::2856989243456904456::1699148224::1699148225::1::::<><>::
-Character_006_Battler.png::CompressedTexture2D::4330894174689696660::1699148224::1699148225::1::::<><>::
-Character_007_Battler.png::CompressedTexture2D::3687194591329431044::1699148224::1699148225::1::::<><>::
-::res://Free Fantasy Dreamland - Sprites/RPG Maker/RPG Maker MZ (16x16)/::1699148224
-::res://Free Fantasy Dreamland - Sprites/RPG Maker/RPG Maker MZ (16x16)/characters/::1699148225
-$Character_001.png::CompressedTexture2D::7586336097831086165::1699148224::1699148225::1::::<><>::
-$Character_002.png::CompressedTexture2D::5679267177937190034::1699148224::1699148225::1::::<><>::
-$Character_003.png::CompressedTexture2D::328975863038383490::1699148224::1699148225::1::::<><>::
-$Character_004.png::CompressedTexture2D::1842484419248346192::1699148224::1699148225::1::::<><>::
-$Character_005.png::CompressedTexture2D::8335252878245673589::1699148224::1699148225::1::::<><>::
-$Character_006.png::CompressedTexture2D::5228283609647047441::1699148224::1699148225::1::::<><>::
-$Character_007.png::CompressedTexture2D::1993398738435925082::1699148224::1699148225::1::::<><>::
-::res://Free Fantasy Dreamland - Sprites/RPG Maker/RPG Maker MZ (16x16)/sv_actors/::1699148225
-Character_001_Battler.png::CompressedTexture2D::333535505863170180::1699148224::1699148225::1::::<><>::
-Character_002_Battler.png::CompressedTexture2D::2931330024545301445::1699148224::1699148225::1::::<><>::
-Character_003_Battler.png::CompressedTexture2D::587300793383267578::1699148224::1699148225::1::::<><>::
-Character_004_Battler.png::CompressedTexture2D::601196588332263508::1699148224::1699148225::1::::<><>::
-Character_005_Battler.png::CompressedTexture2D::8958052411966344701::1699148224::1699148224::1::::<><>::
-Character_006_Battler.png::CompressedTexture2D::4142533735970136257::1699148224::1699148224::1::::<><>::
-Character_007_Battler.png::CompressedTexture2D::3176651170660655053::1699148224::1699148224::1::::<><>::
-::res://Free Fantasy Dreamland - Sprites/RPG Maker/RPG Maker MZ (32x32)/::1699148224
-::res://Free Fantasy Dreamland - Sprites/RPG Maker/RPG Maker MZ (32x32)/characters/::1699148224
-$Character_001.png::CompressedTexture2D::5469151918571170445::1699148224::1699148224::1::::<><>::
-$Character_002.png::CompressedTexture2D::2470640157375425505::1699148224::1699148224::1::::<><>::
-$Character_003.png::CompressedTexture2D::509009327984380425::1699148224::1699148224::1::::<><>::
-$Character_004.png::CompressedTexture2D::407362092324123874::1699148224::1699148224::1::::<><>::
-$Character_005.png::CompressedTexture2D::4302916739307527764::1699148224::1699148224::1::::<><>::
-$Character_006.png::CompressedTexture2D::163041317394493415::1699148224::1699148224::1::::<><>::
-$Character_007.png::CompressedTexture2D::2801774007162392768::1699148224::1699148224::1::::<><>::
-::res://Free Fantasy Dreamland - Sprites/RPG Maker/RPG Maker MZ (32x32)/sv_actors/::1699148224
-Character_001_Battler.png::CompressedTexture2D::4386121732910565201::1699148224::1699148224::1::::<><>::
-Character_002_Battler.png::CompressedTexture2D::6124953710534773076::1699148224::1699148224::1::::<><>::
-Character_003_Battler.png::CompressedTexture2D::1808082833136294279::1699148224::1699148224::1::::<><>::
-Character_004_Battler.png::CompressedTexture2D::8373789575351542455::1699148224::1699148224::1::::<><>::
-Character_005_Battler.png::CompressedTexture2D::8234615510408937046::1699148224::1699148224::1::::<><>::
-Character_006_Battler.png::CompressedTexture2D::2135706094283182192::1699148224::1699148224::1::::<><>::
-Character_007_Battler.png::CompressedTexture2D::8306346769972984871::1699148224::1699148224::1::::<><>::
-::res://Free Fantasy Dreamland - Sprites/RPG Maker/RPG Maker MZ (48x48)/::1699148224
-::res://Free Fantasy Dreamland - Sprites/RPG Maker/RPG Maker MZ (48x48)/characters/::1699148225
-$Character_001.png::CompressedTexture2D::6615936482665373502::1699148224::1699148224::1::::<><>::
-$Character_002.png::CompressedTexture2D::3669095532739950429::1699148224::1699148224::1::::<><>::
-$Character_003.png::CompressedTexture2D::6035724942735579520::1699148224::1699148224::1::::<><>::
-$Character_004.png::CompressedTexture2D::6572213115319378837::1699148224::1699148224::1::::<><>::
-$Character_005.png::CompressedTexture2D::1838420520905611085::1699148224::1699148224::1::::<><>::
-$Character_006.png::CompressedTexture2D::8348351230762597887::1699148224::1699148225::1::::<><>::
-$Character_007.png::CompressedTexture2D::913110021058282741::1699148224::1699148225::1::::<><>::
-::res://Free Fantasy Dreamland - Sprites/RPG Maker/RPG Maker MZ (48x48)/sv_actors/::1699148225
-Character_001_Battler.png::CompressedTexture2D::4366375995968584125::1699148224::1699148225::1::::<><>::
-Character_002_Battler.png::CompressedTexture2D::3098630117360096686::1699148224::1699148225::1::::<><>::
-Character_003_Battler.png::CompressedTexture2D::3680124212310189605::1699148224::1699148225::1::::<><>::
-Character_004_Battler.png::CompressedTexture2D::7111276775960640657::1699148224::1699148225::1::::<><>::
-Character_005_Battler.png::CompressedTexture2D::2593368366948238273::1699148224::1699148225::1::::<><>::
-Character_006_Battler.png::CompressedTexture2D::4202967979952888225::1699148224::1699148225::1::::<><>::
-Character_007_Battler.png::CompressedTexture2D::5262006905697450088::1699148224::1699148225::1::::<><>::
-::res://Free Fantasy Dreamland - Sprites/RPG Maker/RPG Maker VX Ace/::1699148224
-::res://Free Fantasy Dreamland - Sprites/RPG Maker/RPG Maker VX Ace/characters/::1699148225
-$Character_001.png::CompressedTexture2D::1248576351672386629::1699148224::1699148225::1::::<><>::
-$Character_002.png::CompressedTexture2D::5032497393706785255::1699148224::1699148224::1::::<><>::
-$Character_003.png::CompressedTexture2D::7190700397075433804::1699148224::1699148224::1::::<><>::
-$Character_004.png::CompressedTexture2D::5704682286837185467::1699148224::1699148224::1::::<><>::
-$Character_005.png::CompressedTexture2D::7537190479218054278::1699148224::1699148224::1::::<><>::
-$Character_006.png::CompressedTexture2D::3478190016713315600::1699148224::1699148224::1::::<><>::
-$Character_007.png::CompressedTexture2D::51469846945137988::1699148224::1699148224::1::::<><>::
-::res://Free Fantasy Dreamland - Sprites/Unity, Godot, GameMaker/::1699152623
-Character_001.png::CompressedTexture2D::4063001019797278086::1699148224::1699148224::1::::<><>::
-Character_002.png::CompressedTexture2D::1262757166789918398::1699148224::1699148224::1::::<><>::
-Character_003.png::CompressedTexture2D::3522747617596725232::1699148224::1699148224::1::::<><>::
-Character_004.png::CompressedTexture2D::7629015690144403994::1699148224::1699148224::1::::<><>::
-Character_005.png::CompressedTexture2D::3634577067917370653::1699148224::1699148224::1::::<><>::
-Character_006.png::CompressedTexture2D::3851400579993766736::1699148224::1699148224::1::::<><>::
-Character_007.png::CompressedTexture2D::7351386933187106576::1699149480::1699149481::1::::<><>::
-::res://Game/::1699169424
-::res://Global/::1698921605
-Game.gd::GDScript::-1::1698921605::0::1::::<>Node<>::
-::res://Sprout Lands - Sprites - Basic pack/::1699169410
-read_me.txt::TextFile::-1::1699169410::0::1::::<><>::
-::res://Sprout Lands - Sprites - Basic pack/Characters/::1699169424
-Basic Charakter Actions.png::CompressedTexture2D::5932964048390560895::1699169410::1699169424::1::::<><>::
-Basic Charakter Spritesheet.png::CompressedTexture2D::8335827166071234452::1699169410::1699169424::1::::<><>::
-Egg_And_Nest.png::CompressedTexture2D::6422360912991857639::1699169410::1699169424::1::::<><>::
-Free Chicken Sprites.png::CompressedTexture2D::3667477289906073502::1699169410::1699169424::1::::<><>::
-Free Cow Sprites.png::CompressedTexture2D::9080703907456883373::1699169410::1699169424::1::::<><>::
-Tools.png::CompressedTexture2D::836776289100239802::1699169410::1699169424::1::::<><>::
-::res://Sprout Lands - Sprites - Basic pack/Objects/::1699169424
-Basic Furniture.png::CompressedTexture2D::2860912163490083595::1699169410::1699169424::1::::<><>::
-Basic Grass Biom things 1.png::CompressedTexture2D::572327674347951635::1699169410::1699169424::1::::<><>::
-Basic Plants.png::CompressedTexture2D::8237403904968742890::1699169410::1699169424::1::::<><>::
-Basic tools and meterials.png::CompressedTexture2D::1316400437438607049::1699169410::1699169424::1::::<><>::
-Chest.png::CompressedTexture2D::4090824663812668605::1699169410::1699169424::1::::<><>::
-Egg item.png::CompressedTexture2D::2054520258720701046::1699169410::1699169424::1::::<><>::
-Free_Chicken_House.png::CompressedTexture2D::2893072304482164051::1699169410::1699169424::1::::<><>::
-Paths.png::CompressedTexture2D::486705460312517124::1699169410::1699169424::1::::<><>::
-Simple Milk and grass item.png::CompressedTexture2D::2477078277067257622::1699169410::1699169424::1::::<><>::
-Wood Bridge.png::CompressedTexture2D::6919558509216148239::1699169410::1699169424::1::::<><>::
-::res://Sprout Lands - Sprites - Basic pack/Sprout Lands color pallet/::1699169424
-Sprout Lands defautlt palette snip.PNG::CompressedTexture2D::500207121559126156::1699169410::1699169424::1::::<><>::
-Sprout Lands defautlt palette.png::CompressedTexture2D::5763002697970604341::1699169410::1699169424::1::::<><>::
-::res://Sprout Lands - Sprites - Basic pack/Tilesets/::1699169424
-Fences.png::CompressedTexture2D::1285448468591987427::1699169410::1699169424::1::::<><>::
-Grass.png::CompressedTexture2D::6922154848452485363::1699169410::1699169424::1::::<><>::
-Hills.png::CompressedTexture2D::4641167096541443780::1699169410::1699169424::1::::<><>::
-Tilled Dirt.png::CompressedTexture2D::4262899936635845471::1699169410::1699169424::1::::<><>::
-Water.png::CompressedTexture2D::3071942273864847811::1699169410::1699169424::1::::<><>::
-Wooden House.png::CompressedTexture2D::3498984198714547099::1699169410::1699169424::1::::<><>::
+::res://::1699623547
+credits_page.tscn::PackedScene::2788243259002377395::1699609949::0::1::::<><>::
+icon.svg::CompressedTexture2D::8876792594650363110::1699534597::1699534597::1::::<><>::
+main.gd::GDScript::-1::1699534597::0::1::::<>Node2D<>::
+main.tscn::PackedScene::7984649854034017783::1699609948::0::1::::<><>::res://main.gd
+TextEdit.gd::GDScript::-1::1699534597::0::1::::<>TextEdit<>::
+world.tscn::PackedScene::994622590766756023::1699609948::0::1::::<><>::uid://d0gj3jl7apxhe::::res://Characters/player.tscn<>uid://c5ve45e108aet::::res://Sprout Lands - Sprites - Basic pack/Tilesets/Grass.png<>uid://b7ehlxwpvki6g::::res://Sprout Lands - Sprites - Basic pack/Tilesets/Hills.png<>uid://b1y8lsbrsqywt::::res://Sprout Lands - Sprites - Basic pack/Tilesets/Tilled Dirt.png<>uid://bj1co8e3bkfgd::::res://Sprout Lands - Sprites - Basic pack/Tilesets/Water.png<>uid://bp3601431nvd0::::res://Sprout Lands - Sprites - Basic pack/Tilesets/Wooden House.png<>uid://skxfbvruhf1d::::res://Sprout Lands - Sprites - Basic pack/Tilesets/Fences.png
+::res://assets/::1699624982
+::res://assets/forest/::1699623560
+Forest Cliff.png::CompressedTexture2D::1496965027226992172::1699559703::1699623560::1::::<><>::
+Forest Props.png::CompressedTexture2D::5694477707009532346::1699559703::1699623560::1::::<><>::
+Forest Structures.png::CompressedTexture2D::3405649249486479714::1699559703::1699623560::1::::<><>::
+Forest Tilesett.png::CompressedTexture2D::3816965109337516703::1699559703::1699623560::1::::<><>::
+Sample.png::CompressedTexture2D::3719525902654308893::1699559703::1699623560::1::::<><>::
+Settlement.png::CompressedTexture2D::1877153581620447210::1699559703::1699623560::1::::<><>::
+Trees.png::CompressedTexture2D::2462786746136987863::1699559703::1699623560::1::::<><>::
+Water Tileset.png::CompressedTexture2D::3648833453815850328::1699559703::1699623560::1::::<><>::
+::res://assets/SERENE_VILLAGE_REVAMPED/::1699624982
+Serene_Village_16x16.png::CompressedTexture2D::7399607616475017182::1699559671::1699624984::1::::<><>::
+Serene_Village_32x32.png::CompressedTexture2D::4122914787686045439::1699559671::1699624984::1::::<><>::
+Serene_Village_48x48.png::CompressedTexture2D::5077650530943221558::1699559671::1699624984::1::::<><>::
+::res://assets/SERENE_VILLAGE_REVAMPED/Animated stuff/::1699624982
+campfire_16x16.png::CompressedTexture2D::7437661833253419659::1699559671::1699624984::1::::<><>::
+campfire_32x32.png::CompressedTexture2D::8906546036734821167::1699559671::1699624984::1::::<><>::
+campfire_48x48.png::CompressedTexture2D::7777164194779711002::1699559671::1699624984::1::::<><>::
+door_16x16.png::CompressedTexture2D::3942553039446481104::1699559671::1699624984::1::::<><>::
+door_32x32.png::CompressedTexture2D::5401163397059554584::1699559671::1699624984::1::::<><>::
+door_48x48.png::CompressedTexture2D::7711570581733187136::1699559672::1699624984::1::::<><>::
+water_waves_16x16.png::CompressedTexture2D::4168520746309184622::1699559672::1699624984::1::::<><>::
+water_waves_32x32.png::CompressedTexture2D::5088666863011758571::1699559672::1699624984::1::::<><>::
+water_waves_48x48.png::CompressedTexture2D::400319221950639001::1699559672::1699624984::1::::<><>::
+::res://assets/SERENE_VILLAGE_REVAMPED/Construct 3/::1699624982
+Autotiles_no_inner_corners_16x16.png::CompressedTexture2D::3531716649970137634::1699559672::1699624984::1::::<><>::
+::res://assets/SERENE_VILLAGE_REVAMPED/RPG_MAKER_MV/::1699624982
+!$Campfire.png::CompressedTexture2D::2396948682586963609::1699559672::1699624984::1::::<><>::
+!$door.png::CompressedTexture2D::5689327477568873140::1699559672::1699624984::1::::<><>::
+Houses_TILESET_B-C-D-E.png::CompressedTexture2D::7313815716231918922::1699559672::1699624984::1::::<><>::
+Outside_Stuff_TILESET_B-C-D-E.png::CompressedTexture2D::7078102101781455359::1699559672::1699624984::1::::<><>::
+Terrains_TILESET_B-C-D-E.png::CompressedTexture2D::6988567417553170599::1699559672::1699624984::1::::<><>::
+::res://assets/SERENE_VILLAGE_REVAMPED/RPG_MAKER_VX_ACE/::1699624982
+B-C-D-E_Serene_Village_01.png::CompressedTexture2D::4193631201551613431::1699559672::1699624984::1::::<><>::
+B-C-D-E_Serene_Village_02.png::CompressedTexture2D::2662412794603499303::1699559672::1699624984::1::::<><>::
+B-C-D-E_Serene_Village_03.png::CompressedTexture2D::3068522054634420290::1699559672::1699624984::1::::<><>::
+::res://assets/SERENE_VILLAGE_REVAMPED/RPG_MAKER_XP/::1699624982
+Serene_Village_XP.png::CompressedTexture2D::8706136892340363603::1699559672::1699624984::1::::<><>::
+::res://Characters/::1699609949
+player.gd::GDScript::-1::1699606540::0::1::::<>CharacterBody2D<>::
+player.tscn::PackedScene::8926966354876256518::1699609949::0::1::::<><>::res://Characters/player.gd<>uid://dc0cjewq7s3ei::::res://Free Fantasy Dreamland - Sprites/Unity, Godot, GameMaker/Character_007.png
+::res://Components/::1699534597
+input_name.gd::GDScript::-1::1699534597::0::1::::<>LineEdit<>::
+input_name.tscn::PackedScene::3596640395899177422::1699534597::0::1::::<><>::uid://b6dyqdswr2d6g
+::res://Cutscenes/::1699609949
+scene0.tscn::PackedScene::557143884467634624::1699609949::0::1::::<><>::
+::res://Fonts/::1699534597
+SourceCodePro-Regular.ttf::FontFile::575513628999857563::1699534597::1699534597::1::::<><>::
+source_code_pro_theme.tres::Theme::4569953936663050456::1699534597::0::1::::<><>::uid://ig1vi7f4vi4j
+::res://Free Fantasy Dreamland - Sprites/::1699606540
+License.txt::TextFile::-1::1699606540::0::1::::<><>::
+::res://Free Fantasy Dreamland - Sprites/16x16/::1699606540
+Character_001.png::CompressedTexture2D::3058393942396068114::1699606540::1699606540::1::::<><>::
+Character_002.png::CompressedTexture2D::2474534720639292207::1699606540::1699606540::1::::<><>::
+Character_003.png::CompressedTexture2D::4085941139637828193::1699606540::1699606540::1::::<><>::
+Character_004.png::CompressedTexture2D::1725241099983620933::1699606540::1699606540::1::::<><>::
+Character_005.png::CompressedTexture2D::6275992894320534171::1699606540::1699606540::1::::<><>::
+Character_006.png::CompressedTexture2D::2744571458592603748::1699606540::1699606540::1::::<><>::
+Character_007.png::CompressedTexture2D::1835060556308806385::1699606540::1699606540::1::::<><>::
+::res://Free Fantasy Dreamland - Sprites/32x32/::1699606540
+Character_001.png::CompressedTexture2D::3341801074640683154::1699606540::1699606540::1::::<><>::
+Character_002.png::CompressedTexture2D::651028219094984081::1699606540::1699606540::1::::<><>::
+Character_003.png::CompressedTexture2D::4554260065530058055::1699606540::1699606540::1::::<><>::
+Character_004.png::CompressedTexture2D::9100326307143288231::1699606540::1699606540::1::::<><>::
+Character_005.png::CompressedTexture2D::6101222889307713322::1699606540::1699606540::1::::<><>::
+Character_006.png::CompressedTexture2D::849840696579828249::1699606540::1699606540::1::::<><>::
+Character_007.png::CompressedTexture2D::1339978466862909511::1699606540::1699606540::1::::<><>::
+::res://Free Fantasy Dreamland - Sprites/48x48/::1699606540
+Character_001.png::CompressedTexture2D::394874390251962977::1699606540::1699606540::1::::<><>::
+Character_002.png::CompressedTexture2D::6620628098123666866::1699606540::1699606540::1::::<><>::
+Character_003.png::CompressedTexture2D::6582565194262510483::1699606540::1699606540::1::::<><>::
+Character_004.png::CompressedTexture2D::7973759514297862700::1699606540::1699606540::1::::<><>::
+Character_005.png::CompressedTexture2D::8388223051551151393::1699606540::1699606540::1::::<><>::
+Character_006.png::CompressedTexture2D::6335255935459767347::1699606540::1699606540::1::::<><>::
+Character_007.png::CompressedTexture2D::3519444256659478760::1699606540::1699606540::1::::<><>::
+::res://Free Fantasy Dreamland - Sprites/RPG Maker/::1699606540
+::res://Free Fantasy Dreamland - Sprites/RPG Maker/RPG Maker MV/::1699606540
+::res://Free Fantasy Dreamland - Sprites/RPG Maker/RPG Maker MV/characters/::1699606540
+$Character_001.png::CompressedTexture2D::5764249410754833459::1699606540::1699606540::1::::<><>::
+$Character_002.png::CompressedTexture2D::4427372834844228524::1699606540::1699606540::1::::<><>::
+$Character_003.png::CompressedTexture2D::1712175820909215220::1699606540::1699606540::1::::<><>::
+$Character_004.png::CompressedTexture2D::8292697986591754472::1699606540::1699606540::1::::<><>::
+$Character_005.png::CompressedTexture2D::5027562271496207745::1699606540::1699606540::1::::<><>::
+$Character_006.png::CompressedTexture2D::4841032555018128174::1699606540::1699606540::1::::<><>::
+$Character_007.png::CompressedTexture2D::7954479045668329454::1699606540::1699606540::1::::<><>::
+::res://Free Fantasy Dreamland - Sprites/RPG Maker/RPG Maker MV/sv_actors/::1699606540
+Character_001_Battler.png::CompressedTexture2D::5157183901147525008::1699606540::1699606540::1::::<><>::
+Character_002_Battler.png::CompressedTexture2D::479422811265039703::1699606540::1699606540::1::::<><>::
+Character_003_Battler.png::CompressedTexture2D::8868860498639546570::1699606540::1699606540::1::::<><>::
+Character_004_Battler.png::CompressedTexture2D::2832882976404509686::1699606540::1699606540::1::::<><>::
+Character_005_Battler.png::CompressedTexture2D::2856989243456904456::1699606540::1699606540::1::::<><>::
+Character_006_Battler.png::CompressedTexture2D::4330894174689696660::1699606540::1699606540::1::::<><>::
+Character_007_Battler.png::CompressedTexture2D::3687194591329431044::1699606540::1699606540::1::::<><>::
+::res://Free Fantasy Dreamland - Sprites/RPG Maker/RPG Maker MZ (16x16)/::1699606540
+::res://Free Fantasy Dreamland - Sprites/RPG Maker/RPG Maker MZ (16x16)/characters/::1699606540
+$Character_001.png::CompressedTexture2D::7586336097831086165::1699606540::1699606540::1::::<><>::
+$Character_002.png::CompressedTexture2D::5679267177937190034::1699606540::1699606540::1::::<><>::
+$Character_003.png::CompressedTexture2D::328975863038383490::1699606540::1699606540::1::::<><>::
+$Character_004.png::CompressedTexture2D::1842484419248346192::1699606540::1699606540::1::::<><>::
+$Character_005.png::CompressedTexture2D::8335252878245673589::1699606540::1699606540::1::::<><>::
+$Character_006.png::CompressedTexture2D::5228283609647047441::1699606540::1699606540::1::::<><>::
+$Character_007.png::CompressedTexture2D::1993398738435925082::1699606540::1699606540::1::::<><>::
+::res://Free Fantasy Dreamland - Sprites/RPG Maker/RPG Maker MZ (16x16)/sv_actors/::1699606540
+Character_001_Battler.png::CompressedTexture2D::333535505863170180::1699606540::1699606540::1::::<><>::
+Character_002_Battler.png::CompressedTexture2D::2931330024545301445::1699606540::1699606540::1::::<><>::
+Character_003_Battler.png::CompressedTexture2D::587300793383267578::1699606540::1699606540::1::::<><>::
+Character_004_Battler.png::CompressedTexture2D::601196588332263508::1699606540::1699606540::1::::<><>::
+Character_005_Battler.png::CompressedTexture2D::8958052411966344701::1699606540::1699606540::1::::<><>::
+Character_006_Battler.png::CompressedTexture2D::4142533735970136257::1699606540::1699606540::1::::<><>::
+Character_007_Battler.png::CompressedTexture2D::3176651170660655053::1699606540::1699606540::1::::<><>::
+::res://Free Fantasy Dreamland - Sprites/RPG Maker/RPG Maker MZ (32x32)/::1699606540
+::res://Free Fantasy Dreamland - Sprites/RPG Maker/RPG Maker MZ (32x32)/characters/::1699606540
+$Character_001.png::CompressedTexture2D::5469151918571170445::1699606540::1699606540::1::::<><>::
+$Character_002.png::CompressedTexture2D::2470640157375425505::1699606540::1699606540::1::::<><>::
+$Character_003.png::CompressedTexture2D::509009327984380425::1699606540::1699606540::1::::<><>::
+$Character_004.png::CompressedTexture2D::407362092324123874::1699606540::1699606540::1::::<><>::
+$Character_005.png::CompressedTexture2D::4302916739307527764::1699606540::1699606540::1::::<><>::
+$Character_006.png::CompressedTexture2D::163041317394493415::1699606540::1699606540::1::::<><>::
+$Character_007.png::CompressedTexture2D::2801774007162392768::1699606540::1699606540::1::::<><>::
+::res://Free Fantasy Dreamland - Sprites/RPG Maker/RPG Maker MZ (32x32)/sv_actors/::1699606540
+Character_001_Battler.png::CompressedTexture2D::4386121732910565201::1699606540::1699606540::1::::<><>::
+Character_002_Battler.png::CompressedTexture2D::6124953710534773076::1699606540::1699606540::1::::<><>::
+Character_003_Battler.png::CompressedTexture2D::1808082833136294279::1699606540::1699606540::1::::<><>::
+Character_004_Battler.png::CompressedTexture2D::8373789575351542455::1699606540::1699606540::1::::<><>::
+Character_005_Battler.png::CompressedTexture2D::8234615510408937046::1699606540::1699606540::1::::<><>::
+Character_006_Battler.png::CompressedTexture2D::2135706094283182192::1699606540::1699606540::1::::<><>::
+Character_007_Battler.png::CompressedTexture2D::8306346769972984871::1699606540::1699606540::1::::<><>::
+::res://Free Fantasy Dreamland - Sprites/RPG Maker/RPG Maker MZ (48x48)/::1699606540
+::res://Free Fantasy Dreamland - Sprites/RPG Maker/RPG Maker MZ (48x48)/characters/::1699606540
+$Character_001.png::CompressedTexture2D::6615936482665373502::1699606540::1699606540::1::::<><>::
+$Character_002.png::CompressedTexture2D::3669095532739950429::1699606540::1699606540::1::::<><>::
+$Character_003.png::CompressedTexture2D::6035724942735579520::1699606540::1699606540::1::::<><>::
+$Character_004.png::CompressedTexture2D::6572213115319378837::1699606540::1699606540::1::::<><>::
+$Character_005.png::CompressedTexture2D::1838420520905611085::1699606540::1699606540::1::::<><>::
+$Character_006.png::CompressedTexture2D::8348351230762597887::1699606540::1699606540::1::::<><>::
+$Character_007.png::CompressedTexture2D::913110021058282741::1699606540::1699606540::1::::<><>::
+::res://Free Fantasy Dreamland - Sprites/RPG Maker/RPG Maker MZ (48x48)/sv_actors/::1699606540
+Character_001_Battler.png::CompressedTexture2D::4366375995968584125::1699606540::1699606540::1::::<><>::
+Character_002_Battler.png::CompressedTexture2D::3098630117360096686::1699606540::1699606540::1::::<><>::
+Character_003_Battler.png::CompressedTexture2D::3680124212310189605::1699606540::1699606540::1::::<><>::
+Character_004_Battler.png::CompressedTexture2D::7111276775960640657::1699606540::1699606540::1::::<><>::
+Character_005_Battler.png::CompressedTexture2D::2593368366948238273::1699606540::1699606540::1::::<><>::
+Character_006_Battler.png::CompressedTexture2D::4202967979952888225::1699606540::1699606540::1::::<><>::
+Character_007_Battler.png::CompressedTexture2D::5262006905697450088::1699606540::1699606540::1::::<><>::
+::res://Free Fantasy Dreamland - Sprites/RPG Maker/RPG Maker VX Ace/::1699606540
+::res://Free Fantasy Dreamland - Sprites/RPG Maker/RPG Maker VX Ace/characters/::1699606540
+$Character_001.png::CompressedTexture2D::1248576351672386629::1699606540::1699606540::1::::<><>::
+$Character_002.png::CompressedTexture2D::5032497393706785255::1699606540::1699606540::1::::<><>::
+$Character_003.png::CompressedTexture2D::7190700397075433804::1699606540::1699606540::1::::<><>::
+$Character_004.png::CompressedTexture2D::5704682286837185467::1699606540::1699606540::1::::<><>::
+$Character_005.png::CompressedTexture2D::7537190479218054278::1699606540::1699606540::1::::<><>::
+$Character_006.png::CompressedTexture2D::3478190016713315600::1699606540::1699606540::1::::<><>::
+$Character_007.png::CompressedTexture2D::51469846945137988::1699606540::1699606540::1::::<><>::
+::res://Free Fantasy Dreamland - Sprites/Unity, Godot, GameMaker/::1699606540
+Character_001.png::CompressedTexture2D::4063001019797278086::1699606540::1699606540::1::::<><>::
+Character_002.png::CompressedTexture2D::1262757166789918398::1699606540::1699606540::1::::<><>::
+Character_003.png::CompressedTexture2D::3522747617596725232::1699606540::1699606540::1::::<><>::
+Character_004.png::CompressedTexture2D::7629015690144403994::1699606540::1699606540::1::::<><>::
+Character_005.png::CompressedTexture2D::3634577067917370653::1699606540::1699606540::1::::<><>::
+Character_006.png::CompressedTexture2D::3851400579993766736::1699606540::1699606540::1::::<><>::
+Character_007.png::CompressedTexture2D::7351386933187106576::1699606540::1699606540::1::::<><>::
+::res://Global/::1699534597
+Game.gd::GDScript::-1::1699534597::0::1::::<>Node<>::
+::res://Sprout Lands - Sprites - Basic pack/::1699606540
+read_me.txt::TextFile::-1::1699606540::0::1::::<><>::
+::res://Sprout Lands - Sprites - Basic pack/Characters/::1699606540
+Basic Charakter Actions.png::CompressedTexture2D::5932964048390560895::1699606540::1699606540::1::::<><>::
+Basic Charakter Spritesheet.png::CompressedTexture2D::8335827166071234452::1699606540::1699606540::1::::<><>::
+Egg_And_Nest.png::CompressedTexture2D::6422360912991857639::1699606540::1699606540::1::::<><>::
+Free Chicken Sprites.png::CompressedTexture2D::3667477289906073502::1699606540::1699606540::1::::<><>::
+Free Cow Sprites.png::CompressedTexture2D::9080703907456883373::1699606540::1699606540::1::::<><>::
+Tools.png::CompressedTexture2D::836776289100239802::1699606540::1699606540::1::::<><>::
+::res://Sprout Lands - Sprites - Basic pack/Objects/::1699606540
+Basic Furniture.png::CompressedTexture2D::2860912163490083595::1699606540::1699606540::1::::<><>::
+Basic Grass Biom things 1.png::CompressedTexture2D::572327674347951635::1699606540::1699606540::1::::<><>::
+Basic Plants.png::CompressedTexture2D::8237403904968742890::1699606540::1699606540::1::::<><>::
+Basic tools and meterials.png::CompressedTexture2D::1316400437438607049::1699606540::1699606540::1::::<><>::
+Chest.png::CompressedTexture2D::4090824663812668605::1699606540::1699606540::1::::<><>::
+Egg item.png::CompressedTexture2D::2054520258720701046::1699606540::1699606540::1::::<><>::
+Free_Chicken_House.png::CompressedTexture2D::2893072304482164051::1699606540::1699606540::1::::<><>::
+Paths.png::CompressedTexture2D::486705460312517124::1699606540::1699606540::1::::<><>::
+Simple Milk and grass item.png::CompressedTexture2D::2477078277067257622::1699606540::1699606540::1::::<><>::
+Wood Bridge.png::CompressedTexture2D::6919558509216148239::1699606540::1699606540::1::::<><>::
+::res://Sprout Lands - Sprites - Basic pack/Sprout Lands color pallet/::1699606540
+Sprout Lands defautlt palette snip.PNG::CompressedTexture2D::500207121559126156::1699606540::1699606540::1::::<><>::
+Sprout Lands defautlt palette.png::CompressedTexture2D::5763002697970604341::1699606540::1699606540::1::::<><>::
+::res://Sprout Lands - Sprites - Basic pack/Tilesets/::1699606540
+Fences.png::CompressedTexture2D::1285448468591987427::1699606540::1699606540::1::::<><>::
+Grass.png::CompressedTexture2D::6922154848452485363::1699606540::1699606540::1::::<><>::
+Hills.png::CompressedTexture2D::4641167096541443780::1699606540::1699606540::1::::<><>::
+Tilled Dirt.png::CompressedTexture2D::4262899936635845471::1699606540::1699606540::1::::<><>::
+Water.png::CompressedTexture2D::3071942273864847811::1699606540::1699606540::1::::<><>::
+Wooden House.png::CompressedTexture2D::3498984198714547099::1699606540::1699606540::1::::<><>::
