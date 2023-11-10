@@ -1,4 +1,5 @@
 TileMap
+Label
 CollisionShape2D
 Area2D
 Marker2D
