@@ -1,14 +1,16 @@
-3acdcc5cb6df755358dde907981ccea8
-::res://::1699712670
-credits_page.tscn::PackedScene::2788243259002377395::1699712480::0::1::::<><>::
+ea4bc82a6ad023ab7ee23ee620429895
+::res://::1699719179
+credits_page.tscn::PackedScene::2788243259002377395::1699719175::0::1::::<><>::
 export_presets.cfg::TextFile::-1::1699632313::0::1::::<><>::
-icon.svg::CompressedTexture2D::8876792594650363110::1698910177::1698910183::1::::<><>::
-main.gd::GDScript::-1::1699710607::0::1::::<>Node2D<>::
-main.tscn::PackedScene::7984649854034017783::1699712478::0::1::::<><>::res://main.gd
+icon.svg::CompressedTexture2D::8876792594650363110::1699714688::1699715303::1::::<><>::
+living_room.tscn::PackedScene::2858088071000676984::1699719179::0::1::::<><>::uid://d3r4fodxex50i::::res://Assets/Super_Retro_World_Interior_pack_week42/rpgmaker/mvmz/tileset_B.png<>uid://b51ecispl426r::::res://Assets/Super_Retro_World_Interior_pack_week42/rpgmaker/mvmz/tileset_C.png<>uid://b7eowaqpacnel::::res://Assets/Super_Retro_World_Interior_pack_week42/rpgmaker/mvmz/tileset_D.png
+main.gd::GDScript::-1::1699717069::0::1::::<>Node2D<>::
+main.tscn::PackedScene::7984649854034017783::1699719172::0::1::::<><>::res://main.gd
+room.tscn::PackedScene::7186303700733342246::1699719178::0::1::::<><>::uid://d3r4fodxex50i::::res://Assets/Super_Retro_World_Interior_pack_week42/rpgmaker/mvmz/tileset_B.png<>uid://b51ecispl426r::::res://Assets/Super_Retro_World_Interior_pack_week42/rpgmaker/mvmz/tileset_C.png<>uid://b7eowaqpacnel::::res://Assets/Super_Retro_World_Interior_pack_week42/rpgmaker/mvmz/tileset_D.png<>uid://d0gj3jl7apxhe::::res://Characters/player.tscn
 TextEdit.gd::GDScript::-1::1698917055::0::1::::<>TextEdit<>::
-world.tscn::PackedScene::994622590766756023::1699712478::0::1::::<><>::uid://d0gj3jl7apxhe::::res://Characters/player.tscn<>uid://c5ve45e108aet::::res://Assets/Sprout Lands - Sprites - Basic pack/Tilesets/Grass.png<>uid://b1y8lsbrsqywt::::res://Assets/Sprout Lands - Sprites - Basic pack/Tilesets/Tilled Dirt.png<>uid://bj1co8e3bkfgd::::res://Assets/Sprout Lands - Sprites - Basic pack/Tilesets/Water.png<>uid://bp3601431nvd0::::res://Assets/Sprout Lands - Sprites - Basic pack/Tilesets/Wooden House.png<>uid://skxfbvruhf1d::::res://Assets/Sprout Lands - Sprites - Basic pack/Tilesets/Fences.png<>uid://b7ehlxwpvki6g::::res://Assets/Sprout Lands - Sprites - Basic pack/Tilesets/Hills.png
-::res://addons/::1699710603
-::res://addons/dialogue_manager/::1699710603
+world.tscn::PackedScene::994622590766756023::1699719172::0::1::::<><>::uid://d0gj3jl7apxhe::::res://Characters/player.tscn<>uid://c5ve45e108aet::::res://Assets/Sprout Lands - Sprites - Basic pack/Tilesets/Grass.png<>uid://b1y8lsbrsqywt::::res://Assets/Sprout Lands - Sprites - Basic pack/Tilesets/Tilled Dirt.png<>uid://bj1co8e3bkfgd::::res://Assets/Sprout Lands - Sprites - Basic pack/Tilesets/Water.png<>uid://bp3601431nvd0::::res://Assets/Sprout Lands - Sprites - Basic pack/Tilesets/Wooden House.png<>uid://skxfbvruhf1d::::res://Assets/Sprout Lands - Sprites - Basic pack/Tilesets/Fences.png<>uid://b7ehlxwpvki6g::::res://Assets/Sprout Lands - Sprites - Basic pack/Tilesets/Hills.png
+::res://addons/::1699716158
+::res://addons/dialogue_manager/::1699719175
 constants.gd::GDScript::-1::1699710603::0::1::::<>Node<>::
 dialogue_label.gd::GDScript::-1::1699710603::0::1::::DialogueLabel<>RichTextLabel<>res://addons/dialogue_manager/assets/icon.svg::
 dialogue_label.tscn::PackedScene::5518490004210093266::1699710603::0::1::::<><>::res://addons/dialogue_manager/dialogue_label.gd
@@ -19,10 +21,10 @@ dialogue_resource.gd::GDScript::-1::1699710603::0::1::::DialogueResource<>Resour
 dialogue_response.gd::GDScript::-1::1699710603::0::1::::DialogueResponse<>RefCounted<>::
 editor_translation_parser_plugin.gd::GDScript::-1::1699710603::0::1::::<>EditorTranslationParserPlugin<>::
 import_plugin.gd::GDScript::-1::1699710603::0::1::::<>EditorImportPlugin<>::
-plugin.cfg::TextFile::-1::1699710603::0::1::::<><>::
+plugin.cfg::TextFile::-1::1699715450::0::1::::<><>::
 plugin.gd::GDScript::-1::1699710603::0::1::::<>EditorPlugin<>::
 test_scene.gd::GDScript::-1::1699710603::0::1::::BaseDialogueTestScene<>Node2D<>::
-test_scene.tscn::PackedScene::-1::1699710603::0::1::::<><>::res://addons/dialogue_manager/test_scene.gd
+test_scene.tscn::PackedScene::4143776881218878151::1699719175::0::1::::<><>::res://addons/dialogue_manager/test_scene.gd
 ::res://addons/dialogue_manager/assets/::1699710603
 icon.svg::CompressedTexture2D::9148339284877624195::1699710603::1699710603::1::::<><>::
 responses_menu.svg::CompressedTexture2D::8371359403825774630::1699710603::1699710603::1::::<><>::
@@ -33,11 +35,11 @@ code_edit.tscn::PackedScene::5379618807048408118::1699710603::0::1::::<><>::res:
 code_edit_syntax_highlighter.gd::GDScript::-1::1699710603::0::1::::<>SyntaxHighlighter<>::
 dialogue_cache.gd::GDScript::-1::1699710603::0::1::::<>Node<>::
 download_update_panel.gd::GDScript::-1::1699710603::0::1::::<>Control<>::
-download_update_panel.tscn::PackedScene::1130642722554629364::1699710603::0::1::::<><>::res://addons/dialogue_manager/components/download_update_panel.gd<>uid://d3baj6rygkb3f::::res://addons/dialogue_manager/assets/update.svg
+download_update_panel.tscn::PackedScene::1130642722554629364::1699710603::0::1::::<><>::res://addons/dialogue_manager/components/download_update_panel.gd<>uid://d3baj6rygkb3f
 errors_panel.gd::GDScript::-1::1699710603::0::1::::<>HBoxContainer<>::
 errors_panel.tscn::PackedScene::6105315990352960875::1699710603::0::1::::<><>::res://addons/dialogue_manager/components/errors_panel.gd
 files_list.gd::GDScript::-1::1699710603::0::1::::<>VBoxContainer<>::
-files_list.tscn::PackedScene::8113335055803740416::1699710603::0::1::::<><>::res://addons/dialogue_manager/components/files_list.gd<>uid://d3lr2uas6ax8v::::res://addons/dialogue_manager/assets/icon.svg
+files_list.tscn::PackedScene::8113335055803740416::1699710603::0::1::::<><>::res://addons/dialogue_manager/components/files_list.gd<>uid://d3lr2uas6ax8v
 parser.gd::GDScript::-1::1699710603::0::1::::DialogueManagerParser<>Object<>::
 parse_result.gd::GDScript::-1::1699710603::0::1::::DialogueManagerParseResult<>RefCounted<>::
 resolved_line_data.gd::GDScript::-1::1699710603::0::1::::<>RefCounted<>::
@@ -48,11 +50,11 @@ settings.gd::GDScript::-1::1699710603::0::1::::<>Node<>::
 title_list.gd::GDScript::-1::1699710603::0::1::::<>VBoxContainer<>::
 title_list.tscn::PackedScene::6134415340044566558::1699710603::0::1::::<><>::res://addons/dialogue_manager/components/title_list.gd
 update_button.gd::GDScript::-1::1699710603::0::1::::<>Button<>::
-update_button.tscn::PackedScene::5825087957514786930::1699710603::0::1::::<><>::res://addons/dialogue_manager/components/update_button.gd<>uid://qdxrxv3c3hxk::::res://addons/dialogue_manager/components/download_update_panel.tscn
+update_button.tscn::PackedScene::5825087957514786930::1699710603::0::1::::<><>::res://addons/dialogue_manager/components/update_button.gd<>uid://qdxrxv3c3hxk
 ::res://addons/dialogue_manager/example_balloon/::1699710603
 example_balloon.gd::GDScript::-1::1699710603::0::1::::<>CanvasLayer<>::
-example_balloon.tscn::PackedScene::2304415056852043862::1699710603::0::1::::<><>::res://addons/dialogue_manager/example_balloon/example_balloon.gd<>uid://ckvgyvclnwggo::::res://addons/dialogue_manager/dialogue_label.tscn<>res://addons/dialogue_manager/dialogue_reponses_menu.gd
-small_example_balloon.tscn::PackedScene::1883859960814163368::1699710603::0::1::::<><>::res://addons/dialogue_manager/example_balloon/example_balloon.gd<>uid://ckvgyvclnwggo::::res://addons/dialogue_manager/dialogue_label.tscn<>res://addons/dialogue_manager/dialogue_reponses_menu.gd
+example_balloon.tscn::PackedScene::2304415056852043862::1699710603::0::1::::<><>::res://addons/dialogue_manager/example_balloon/example_balloon.gd<>uid://ckvgyvclnwggo
+small_example_balloon.tscn::PackedScene::1883859960814163368::1699710603::0::1::::<><>::res://addons/dialogue_manager/example_balloon/example_balloon.gd<>uid://ckvgyvclnwggo
 ::res://addons/dialogue_manager/l10n/::1699710603
 en.mo::Translation::-1::1699710603::0::1::::<><>::
 en.po::Translation::-1::1699710603::0::1::::<><>::
@@ -60,10 +62,10 @@ zh.po::Translation::-1::1699710603::0::1::::<><>::
 zh_TW.po::Translation::-1::1699710603::0::1::::<><>::
 ::res://addons/dialogue_manager/views/::1699710603
 main_view.gd::GDScript::-1::1699710603::0::1::::<>Control<>::
-main_view.tscn::PackedScene::4884668666408697448::1699710603::0::1::::<><>::res://addons/dialogue_manager/views/main_view.gd<>uid://civ6shmka5e8u::::res://addons/dialogue_manager/components/code_edit.tscn<>uid://dnufpcdrreva3::::res://addons/dialogue_manager/components/files_list.tscn<>uid://ctns6ouwwd68i::::res://addons/dialogue_manager/components/title_list.tscn<>uid://co8yl23idiwbi::::res://addons/dialogue_manager/components/update_button.tscn<>uid://gr8nakpbrhby::::res://addons/dialogue_manager/components/search_and_replace.tscn<>uid://cs8pwrxr5vxix::::res://addons/dialogue_manager/components/errors_panel.tscn<>res://addons/dialogue_manager/components/code_edit_syntax_highlighter.gd<>uid://cpg4lg1r3ff6m::::res://addons/dialogue_manager/views/settings_view.tscn
+main_view.tscn::PackedScene::4884668666408697448::1699710603::0::1::::<><>::res://addons/dialogue_manager/views/main_view.gd<>uid://civ6shmka5e8u
 settings_view.gd::GDScript::-1::1699710603::0::1::::<>TabContainer<>::
 settings_view.tscn::PackedScene::5839841081119266502::1699710603::0::1::::<><>::res://addons/dialogue_manager/views/settings_view.gd
-::res://Assets/::1699710607
+::res://Assets/::1699718833
 ::res://Assets/City/::1699710607
 buildings.png::CompressedTexture2D::101936838341362039::1699710607::1699710607::1::::<><>::
 fences.png::CompressedTexture2D::2113691705455382106::1699710607::1699710607::1::::<><>::
@@ -72,15 +74,15 @@ vehicles.png::CompressedTexture2D::7652257396813612318::1699710607::1699710607::
 ::res://Assets/City/previews/::1699710607
 0.png::CompressedTexture2D::8108765430479151737::1699710607::1699710607::1::::<><>::
 thumb.png::CompressedTexture2D::5012999480868767316::1699710607::1699710607::1::::<><>::
-::res://Assets/Forest BETA V3/::1699710602
-Forest Cliff.png::CompressedTexture2D::6483364455787207853::1699710602::1699710602::1::::<><>::
-Forest Props.png::CompressedTexture2D::3301073766214839723::1699710602::1699710602::1::::<><>::
-Forest Structures.png::CompressedTexture2D::5573039483093932195::1699710602::1699710602::1::::<><>::
-Forest Tilesett.png::CompressedTexture2D::1386262220975942995::1699710602::1699710602::1::::<><>::
-Sample.png::CompressedTexture2D::4466263199070730582::1699710602::1699710602::1::::<><>::
-Settlement.png::CompressedTexture2D::757632864557220571::1699710602::1699710602::1::::<><>::
-Trees.png::CompressedTexture2D::5935668284987553250::1699710602::1699710602::1::::<><>::
-Water Tileset.png::CompressedTexture2D::3803000606228677773::1699710602::1699710602::1::::<><>::
+::res://Assets/Forest BETA V3/::1699715303
+Forest Cliff.png::CompressedTexture2D::6483364455787207853::1699714355::1699715303::1::::<><>::
+Forest Props.png::CompressedTexture2D::3301073766214839723::1699714355::1699715303::1::::<><>::
+Forest Structures.png::CompressedTexture2D::5573039483093932195::1699714355::1699715303::1::::<><>::
+Forest Tilesett.png::CompressedTexture2D::1386262220975942995::1699714355::1699715303::1::::<><>::
+Sample.png::CompressedTexture2D::4466263199070730582::1699714355::1699715303::1::::<><>::
+Settlement.png::CompressedTexture2D::757632864557220571::1699714355::1699715303::1::::<><>::
+Trees.png::CompressedTexture2D::5935668284987553250::1699714355::1699715303::1::::<><>::
+Water Tileset.png::CompressedTexture2D::3803000606228677773::1699714355::1699715303::1::::<><>::
 ::res://Assets/Free Fantasy Dreamland - Sprites/::1699710602
 License.txt::TextFile::-1::1699710602::0::1::::<><>::
 ::res://Assets/Free Fantasy Dreamland - Sprites/16x16/::1699710602
@@ -193,6 +195,92 @@ Character_004.png::CompressedTexture2D::7629015690144403994::1699710602::1699710
 Character_005.png::CompressedTexture2D::3634577067917370653::1699710602::1699710602::1::::<><>::
 Character_006.png::CompressedTexture2D::3851400579993766736::1699710602::1699710602::1::::<><>::
 Character_007.png::CompressedTexture2D::7351386933187106576::1699710602::1699710603::1::::<><>::
+::res://Assets/Package_Marketplace_week40/::1699716123
+::res://Assets/Package_Marketplace_week40/Package_Marketplace/::1699718876
+atlas_16x.png::CompressedTexture2D::1971873948322706314::1699716123::1699718876::1::::<><>::
+atlas_32x.png::CompressedTexture2D::3054687453931342430::1699716123::1699718876::1::::<><>::
+atlas_48x.png::CompressedTexture2D::70149187718184911::1699716123::1699718876::1::::<><>::
+LICENCE.txt::TextFile::-1::1699716123::0::1::::<><>::
+README.txt::TextFile::-1::1699716123::0::1::::<><>::
+::res://Assets/Package_Marketplace_week40/Package_Marketplace/rpgmaker/::1699716124
+::res://Assets/Package_Marketplace_week40/Package_Marketplace/rpgmaker/MV/::1699716123
+::res://Assets/Package_Marketplace_week40/Package_Marketplace/rpgmaker/MV/characters/::1699718877
+!chests.png::CompressedTexture2D::8238102077007165385::1699716123::1699718877::1::::<><>::
+!doors_01.png::CompressedTexture2D::1233224295702955851::1699716123::1699718877::1::::<><>::
+!doors_02.png::CompressedTexture2D::5964180948393806327::1699716123::1699718877::1::::<><>::
+$water.png::CompressedTexture2D::3967103987543015636::1699716123::1699718877::1::::<><>::
+$waterfall_effects.png::CompressedTexture2D::1480540014541824966::1699716123::1699718877::1::::<><>::
+::res://Assets/Package_Marketplace_week40/Package_Marketplace/rpgmaker/MV/tilesets/::1699718877
+SRW_Marketplace_A1.png::CompressedTexture2D::157331202302678113::1699716123::1699718877::1::::<><>::
+SRW_Marketplace_autotile_A2.png::CompressedTexture2D::3103601505711798806::1699716123::1699718877::1::::<><>::
+SRW_Marketplace_tileset_B.png::CompressedTexture2D::5138699118586132160::1699716124::1699718877::1::::<><>::
+SRW_Marketplace_tileset_C.png::CompressedTexture2D::8812978855891397674::1699716124::1699718877::1::::<><>::
+::res://Assets/Package_Marketplace_week40/Package_Marketplace/rpgmaker/MZ/::1699716124
+::res://Assets/Package_Marketplace_week40/Package_Marketplace/rpgmaker/MZ/characters/::1699718877
+!chests.png::CompressedTexture2D::4496025943976071513::1699716124::1699718877::1::::<><>::
+!doors_01.png::CompressedTexture2D::7251094211140708372::1699716124::1699718877::1::::<><>::
+!doors_02.png::CompressedTexture2D::7648036369511996833::1699716124::1699718877::1::::<><>::
+$water.png::CompressedTexture2D::5782698931437620485::1699716124::1699718877::1::::<><>::
+$waterfall_effects.png::CompressedTexture2D::9006272783571527215::1699716124::1699718877::1::::<><>::
+::res://Assets/Package_Marketplace_week40/Package_Marketplace/rpgmaker/MZ/tilesets/::1699718877
+SRW_Marketplace_A1.png::CompressedTexture2D::4719606059395400333::1699716124::1699718877::1::::<><>::
+SRW_Marketplace_autotile_A2.png::CompressedTexture2D::1978663671297990623::1699716124::1699718877::1::::<><>::
+SRW_Marketplace_tileset_B.png::CompressedTexture2D::4836292851677269155::1699716124::1699718877::1::::<><>::
+SRW_Marketplace_tileset_C.png::CompressedTexture2D::1578044072921347225::1699716124::1699718877::1::::<><>::
+::res://Assets/Package_Marketplace_week40/Package_Marketplace/rpgmaker/VX/::1699716124
+::res://Assets/Package_Marketplace_week40/Package_Marketplace/rpgmaker/VX/characters/::1699718877
+!chests.png::CompressedTexture2D::8949920568672048430::1699716124::1699718877::1::::<><>::
+!doors_01.png::CompressedTexture2D::5091065325175240234::1699716124::1699718877::1::::<><>::
+!doors_02.png::CompressedTexture2D::6037245409891876600::1699716124::1699718877::1::::<><>::
+$water.png::CompressedTexture2D::2161655310728719751::1699716124::1699718877::1::::<><>::
+$waterfall_effects.png::CompressedTexture2D::8923198080539592833::1699716124::1699718877::1::::<><>::
+::res://Assets/Package_Marketplace_week40/Package_Marketplace/rpgmaker/VX/tilesets/::1699718877
+TileA1.png::CompressedTexture2D::8263429424494737155::1699716124::1699718877::1::::<><>::
+TileA2.png::CompressedTexture2D::4082389479791350691::1699716124::1699718877::1::::<><>::
+TileB.png::CompressedTexture2D::685226065568856507::1699716124::1699718877::1::::<><>::
+TileC.png::CompressedTexture2D::8207700362631600868::1699716124::1699718877::1::::<><>::
+::res://Assets/Package_Marketplace_week40/Package_Marketplace/screenshots/::1699718878
+screenshots (1).jpg::CompressedTexture2D::1156432090701319479::1699716124::1699718877::1::::<><>::
+screenshots (1).png::CompressedTexture2D::2492090623165774196::1699716124::1699718877::1::::<><>::
+screenshots (2).jpg::CompressedTexture2D::1812820565407550326::1699716124::1699718877::1::::<><>::
+screenshots (2).png::CompressedTexture2D::5544855359970191343::1699716124::1699718877::1::::<><>::
+screenshots (3).png::CompressedTexture2D::9078221073198749977::1699716124::1699718877::1::::<><>::
+screenshots (4).PNG::CompressedTexture2D::8533526604430660397::1699716124::1699718877::1::::<><>::
+screenshots (5).png::CompressedTexture2D::5180299711856123195::1699716124::1699718877::1::::<><>::
+screenshots (6).png::CompressedTexture2D::935516409573889116::1699716124::1699718877::1::::<><>::
+screenshots (7).png::CompressedTexture2D::5546938229898083827::1699716124::1699718877::1::::<><>::
+screenshots (8).png::CompressedTexture2D::5335574672543683667::1699716124::1699718877::1::::<><>::
+screenshots (9).png::CompressedTexture2D::1446204065243525120::1699716124::1699718877::1::::<><>::
+screenshots (10).png::CompressedTexture2D::974499526040060127::1699716124::1699718877::1::::<><>::
+screenshots (11).png::CompressedTexture2D::2364851918612612549::1699716124::1699718877::1::::<><>::
+screenshots (12).png::CompressedTexture2D::2531733331962685388::1699716124::1699718877::1::::<><>::
+screenshots (13).png::CompressedTexture2D::8409181247337122231::1699716124::1699718877::1::::<><>::
+screenshots (14).png::CompressedTexture2D::7929873611418401025::1699716124::1699718877::1::::<><>::
+screenshots (15).png::CompressedTexture2D::5576278387064188777::1699716124::1699718877::1::::<><>::
+screenshots (16).png::CompressedTexture2D::5049339180279914290::1699716124::1699718877::1::::<><>::
+screenshots (17).png::CompressedTexture2D::4396275527973045477::1699716124::1699718877::1::::<><>::
+screenshots (18).png::CompressedTexture2D::9125961149324670547::1699716124::1699718877::1::::<><>::
+screenshots (19).png::CompressedTexture2D::6137019129321703015::1699716124::1699718877::1::::<><>::
+screenshots (20).png::CompressedTexture2D::7817896133523573305::1699716124::1699718877::1::::<><>::
+screenshots (21).png::CompressedTexture2D::9169478416508408705::1699716124::1699718876::1::::<><>::
+screenshots (22).png::CompressedTexture2D::3326770401051311343::1699716124::1699718877::1::::<><>::
+screenshots (23).png::CompressedTexture2D::5110097073855776579::1699716124::1699718877::1::::<><>::
+screenshots (24).png::CompressedTexture2D::1799916598842222597::1699716124::1699718877::1::::<><>::
+screenshots (25).png::CompressedTexture2D::2569451814535722733::1699716124::1699718876::1::::<><>::
+screenshots (26).png::CompressedTexture2D::5705620964996466373::1699716124::1699718876::1::::<><>::
+screenshots (27).png::CompressedTexture2D::3600518068316112274::1699716124::1699718876::1::::<><>::
+screenshots (28).png::CompressedTexture2D::5018914083805198902::1699716124::1699718876::1::::<><>::
+screenshots (29).png::CompressedTexture2D::2927311577246553516::1699716124::1699718876::1::::<><>::
+screenshots (30).png::CompressedTexture2D::5277072895567979957::1699716124::1699718876::1::::<><>::
+screenshots (31).png::::-1::0::0::0::::<><>::
+screenshots (32).png::CompressedTexture2D::5679895624391219039::1699716124::1699718877::1::::<><>::
+screenshots (33).png::::-1::0::0::0::::<><>::
+::res://Assets/Package_Marketplace_week40/Package_Marketplace/sprites/::1699718876
+!chests.png::CompressedTexture2D::9108070538854048326::1699716124::1699718876::1::::<><>::
+!doors_01.png::CompressedTexture2D::7961403366645110702::1699716124::1699718876::1::::<><>::
+!doors_02.png::CompressedTexture2D::8439171540649465329::1699716124::1699718876::1::::<><>::
+$water.png::CompressedTexture2D::7411050073194382715::1699716124::1699718876::1::::<><>::
+$waterfall_effects.png::CompressedTexture2D::8330503704955260289::1699716124::1699718876::1::::<><>::
 ::res://Assets/RPGW_Caves_v2.1/::1699710603
 decorative.png::CompressedTexture2D::5837207052810270416::1699710603::1699710603::1::::<><>::
 MainLev2.0.png::CompressedTexture2D::8287461426571572688::1699710603::1699710603::1::::<><>::
@@ -262,36 +350,132 @@ Hills.png::CompressedTexture2D::4641167096541443780::1699710603::1699710603::1::
 Tilled Dirt.png::CompressedTexture2D::4262899936635845471::1699710603::1699710603::1::::<><>::
 Water.png::CompressedTexture2D::3071942273864847811::1699710603::1699710603::1::::<><>::
 Wooden House.png::CompressedTexture2D::3498984198714547099::1699710603::1699710603::1::::<><>::
-::res://Buildings/::1699712480
-house_1.tscn::PackedScene::7190619147558413307::1699710607::0::1::::<><>::uid://brvjwpre5d30e::::res://Assets/SERENE_VILLAGE_REVAMPED/Serene_Village_48x48.png
-house_2.tscn::PackedScene::9199703227589942175::1699710607::0::1::::<><>::uid://brvjwpre5d30e::::res://Assets/SERENE_VILLAGE_REVAMPED/Serene_Village_48x48.png
-house_3.tscn::PackedScene::4969337093969860763::1699710607::0::1::::<><>::uid://brvjwpre5d30e::::res://Assets/SERENE_VILLAGE_REVAMPED/Serene_Village_48x48.png
-house_4.tscn::PackedScene::243873696611592793::1699710607::0::1::::<><>::uid://brvjwpre5d30e::::res://Assets/SERENE_VILLAGE_REVAMPED/Serene_Village_48x48.png
-house_5.tscn::PackedScene::4221005730788957078::1699710607::0::1::::<><>::uid://brvjwpre5d30e::::res://Assets/SERENE_VILLAGE_REVAMPED/Serene_Village_48x48.png
-house_6.tscn::PackedScene::2810792642637935243::1699710607::0::1::::<><>::uid://brvjwpre5d30e::::res://Assets/SERENE_VILLAGE_REVAMPED/Serene_Village_48x48.png
-witch_house.tscn::PackedScene::1125801844586221219::1699712480::0::1::::<><>::uid://b4vqx46sis24a::::res://Assets/Forest BETA V3/Sample.png<>uid://dkmq8kop4ol0y::::res://helpers/Actionables.tscn<>uid://dxyridibix5jw::::res://dialogues/Antique.dialogue
-::res://Buildings/Signage/::1699712480
-arrow_left_wooden_sign.tscn::PackedScene::3978498202001812074::1699712480::0::1::::<><>::uid://cg75qid5gpnnv::::res://Assets/SERENE_VILLAGE_REVAMPED/RPG_MAKER_MV/Outside_Stuff_TILESET_B-C-D-E.png<>uid://dkmq8kop4ol0y::::res://helpers/Actionables.tscn<>uid://dxyridibix5jw::::res://dialogues/Antique.dialogue
-::res://Characters/::1699712526
-player.gd::GDScript::-1::1699711436::0::1::::<>CharacterBody2D<>::
-player.tscn::PackedScene::8926966354876256518::1699712526::0::1::::<><>::res://Characters/player.gd<>uid://dc0cjewq7s3ei::::res://Assets/Free Fantasy Dreamland - Sprites/Unity, Godot, GameMaker/Character_007.png
+::res://Assets/Super_Retro_World_Interior_pack_week42/::1699718877
+atlas_16x.png::CompressedTexture2D::1516230120724941524::1699716060::1699718876::1::::<><>::
+atlas_32x.png::CompressedTexture2D::3106775110823002994::1699716060::1699718877::1::::<><>::
+atlas_48x.png::CompressedTexture2D::7035156424483775396::1699716060::1699718877::1::::<><>::
+README.txt::TextFile::-1::1699716060::0::1::::<><>::
+::res://Assets/Super_Retro_World_Interior_pack_week42/animation/::1699718877
+chest_001.png::CompressedTexture2D::5211849935837856765::1699716060::1699718876::1::::<><>::
+chest_002.png::CompressedTexture2D::4639850028321777065::1699716061::1699718876::1::::<><>::
+chest_003.png::CompressedTexture2D::4104621179830932041::1699716061::1699718876::1::::<><>::
+chest_004.png::CompressedTexture2D::2607128245280708201::1699716061::1699718877::1::::<><>::
+fire2.png::CompressedTexture2D::6145065933717069998::1699716061::1699718877::1::::<><>::
+fire.png::CompressedTexture2D::4022646173339970602::1699716061::1699718877::1::::<><>::
+::res://Assets/Super_Retro_World_Interior_pack_week42/every_packs_screenshots/::1699718877
+screenshot (1).jpg::CompressedTexture2D::4322174404475444121::1699716061::1699718877::1::::<><>::
+screenshot (1).png::CompressedTexture2D::3680644831522327863::1699716061::1699718877::1::::<><>::
+screenshot (2).jpg::CompressedTexture2D::4441150554858459271::1699716061::1699718877::1::::<><>::
+screenshot (2).png::CompressedTexture2D::8631395063202525796::1699716061::1699718877::1::::<><>::
+screenshot (3).png::CompressedTexture2D::5519651772290429373::1699716061::1699718877::1::::<><>::
+screenshot (4).png::CompressedTexture2D::8353125794855460333::1699716061::1699718877::1::::<><>::
+screenshot (5).png::CompressedTexture2D::9139239334767736119::1699716061::1699718877::1::::<><>::
+screenshot (6).png::CompressedTexture2D::7071880637645619903::1699716061::1699718877::1::::<><>::
+screenshot (7).png::CompressedTexture2D::5025955584556269443::1699716061::1699718877::1::::<><>::
+screenshot (8).png::CompressedTexture2D::2501798308981324104::1699716061::1699718877::1::::<><>::
+screenshot (9).png::CompressedTexture2D::7521490463639538709::1699716061::1699718877::1::::<><>::
+screenshot (10).png::CompressedTexture2D::4541049053174188151::1699716061::1699718877::1::::<><>::
+screenshot (11).png::CompressedTexture2D::3598528664752825706::1699716061::1699718877::1::::<><>::
+::res://Assets/Super_Retro_World_Interior_pack_week42/rpgmaker/::1699716061
+::res://Assets/Super_Retro_World_Interior_pack_week42/rpgmaker/mvmz/::1699718877
+tileset_B.png::CompressedTexture2D::9161414557535592938::1699716061::1699718877::1::::<><>::
+tileset_C.png::CompressedTexture2D::4546006702689186195::1699716061::1699718877::1::::<><>::
+tileset_D.png::CompressedTexture2D::4641610541889510455::1699716061::1699718877::1::::<><>::
+::res://Assets/Super_Retro_World_Interior_pack_week42/rpgmaker/vxace/::1699718877
+tileset_B.png::CompressedTexture2D::4868552208554619631::1699716061::1699718876::1::::<><>::
+tileset_C.png::CompressedTexture2D::4182442740935944098::1699716062::1699718876::1::::<><>::
+tileset_D.png::CompressedTexture2D::615894090578735440::1699716062::1699718877::1::::<><>::
+::res://Assets/Super_Retro_World_Interior_pack_week42/unity/::1699716062
+::res://Buildings/::1699715938
+house_1.tscn::PackedScene::7190619147558413307::1699710607::0::1::::<><>::uid://brvjwpre5d30e
+house_2.tscn::PackedScene::9199703227589942175::1699710607::0::1::::<><>::uid://brvjwpre5d30e
+house_3.tscn::PackedScene::4969337093969860763::1699710607::0::1::::<><>::uid://brvjwpre5d30e
+house_4.tscn::PackedScene::243873696611592793::1699710607::0::1::::<><>::uid://brvjwpre5d30e
+house_5.tscn::PackedScene::4221005730788957078::1699710607::0::1::::<><>::uid://brvjwpre5d30e
+house_6.tscn::PackedScene::2810792642637935243::1699710607::0::1::::<><>::uid://brvjwpre5d30e
+witch_house.tscn::PackedScene::1125801844586221219::1699715938::0::1::::<><>::uid://b4vqx46sis24a
+::res://Buildings/Signage/::1699719175
+arrow_left_wooden_sign.tscn::PackedScene::3978498202001812074::1699719175::0::1::::<><>::uid://cg75qid5gpnnv::::res://Assets/SERENE_VILLAGE_REVAMPED/RPG_MAKER_MV/Outside_Stuff_TILESET_B-C-D-E.png<>uid://dkmq8kop4ol0y::::res://helpers/Actionables.tscn<>uid://dxyridibix5jw::::res://dialogues/Antique.dialogue
+::res://Characters/::1699719175
+player.gd::GDScript::-1::1699719114::0::1::::<>CharacterBody2D<>::
+player.tscn::PackedScene::8926966354876256518::1699719174::0::1::::<><>::res://Characters/player.gd<>uid://dc0cjewq7s3ei::::res://Assets/Free Fantasy Dreamland - Sprites/Unity, Godot, GameMaker/Character_007.png
 ::res://Components/::1699150533
 input_name.gd::GDScript::-1::1699185605::0::1::::<>LineEdit<>::
 input_name.tscn::PackedScene::3596640395899177422::1699150533::0::1::::<><>::uid://b6dyqdswr2d6g
-::res://Cutscenes/::1699712526
-Antique.tscn::PackedScene::557143884467634624::1699712480::0::1::::<><>::uid://bugg4ng1m0ka4::::res://Assets/Forest BETA V3/Water Tileset.png<>uid://dqcrjqngssu3y::::res://Assets/RPGW_Caves_v2.1/MainLev2.0.png<>uid://cbevhmabx3upd::::res://Assets/SERENE_VILLAGE_REVAMPED/RPG_MAKER_VX_ACE/B-C-D-E_Serene_Village_01.png<>uid://b4n43107k78s1::::res://Assets/SERENE_VILLAGE_REVAMPED/RPG_MAKER_VX_ACE/B-C-D-E_Serene_Village_02.png<>uid://cymuchsy16yqv::::res://Assets/Forest BETA V3/Forest Cliff.png<>uid://bj1co8e3bkfgd::::res://Assets/Sprout Lands - Sprites - Basic pack/Tilesets/Water.png<>uid://skxfbvruhf1d::::res://Assets/Sprout Lands - Sprites - Basic pack/Tilesets/Fences.png<>uid://ca3tswpoi123c::::res://Assets/SERENE_VILLAGE_REVAMPED/RPG_MAKER_VX_ACE/B-C-D-E_Serene_Village_03.png<>uid://c5ve45e108aet::::res://Assets/Sprout Lands - Sprites - Basic pack/Tilesets/Grass.png<>uid://d0gj3jl7apxhe::::res://Characters/player.tscn<>uid://b7ehlxwpvki6g::::res://Assets/Sprout Lands - Sprites - Basic pack/Tilesets/Hills.png<>uid://g60752ko2djo::::res://Assets/Sprout Lands - Sprites - Basic pack/Objects/Paths.png<>uid://dkmq8kop4ol0y::::res://helpers/Actionables.tscn<>uid://qbl16o1v5exf::::res://Buildings/witch_house.tscn<>uid://dxyridibix5jw::::res://dialogues/Antique.dialogue<>uid://bwxhjwpdjakek::::res://Buildings/Signage/arrow_left_wooden_sign.tscn<>res://Cutscenes/GoToCave.gd
-GoToCave.gd::GDScript::-1::1699712526::0::1::::<>Area2D<>::
-::res://dialogues/::1699710613
-Antique.dialogue::Resource::8824197166065302552::1699710613::1699710613::1::::<><>::
+::res://Cutscenes/::1699719174
+Antique.tscn::PackedScene::557143884467634624::1699719174::0::1::::<><>::uid://bugg4ng1m0ka4::::res://Assets/Forest BETA V3/Water Tileset.png<>uid://dqcrjqngssu3y::::res://Assets/RPGW_Caves_v2.1/MainLev2.0.png<>uid://cbevhmabx3upd::::res://Assets/SERENE_VILLAGE_REVAMPED/RPG_MAKER_VX_ACE/B-C-D-E_Serene_Village_01.png<>uid://b4n43107k78s1::::res://Assets/SERENE_VILLAGE_REVAMPED/RPG_MAKER_VX_ACE/B-C-D-E_Serene_Village_02.png<>uid://cymuchsy16yqv::::res://Assets/Forest BETA V3/Forest Cliff.png<>uid://bj1co8e3bkfgd::::res://Assets/Sprout Lands - Sprites - Basic pack/Tilesets/Water.png<>uid://skxfbvruhf1d::::res://Assets/Sprout Lands - Sprites - Basic pack/Tilesets/Fences.png<>uid://ca3tswpoi123c::::res://Assets/SERENE_VILLAGE_REVAMPED/RPG_MAKER_VX_ACE/B-C-D-E_Serene_Village_03.png<>uid://c5ve45e108aet::::res://Assets/Sprout Lands - Sprites - Basic pack/Tilesets/Grass.png<>uid://d0gj3jl7apxhe::::res://Characters/player.tscn<>uid://b7ehlxwpvki6g::::res://Assets/Sprout Lands - Sprites - Basic pack/Tilesets/Hills.png<>uid://g60752ko2djo::::res://Assets/Sprout Lands - Sprites - Basic pack/Objects/Paths.png<>uid://dkmq8kop4ol0y::::res://helpers/Actionables.tscn<>uid://qbl16o1v5exf::::res://Buildings/witch_house.tscn<>uid://dxyridibix5jw::::res://dialogues/Antique.dialogue<>uid://bwxhjwpdjakek::::res://Buildings/Signage/arrow_left_wooden_sign.tscn<>res://Cutscenes/GoToCave.gd
+GoToCave.gd::GDScript::-1::1699715938::0::1::::<>Area2D<>::
+::res://dialogues/::1699715938
+Antique.dialogue::Resource::8824197166065302552::1699715938::1699715938::1::::<><>::
 ::res://Fonts/::1698914788
 SourceCodePro-Regular.ttf::FontFile::575513628999857563::1698914088::1698914102::1::::<><>::
 source_code_pro_theme.tres::Theme::4569953936663050456::1698914788::0::1::::<><>::uid://ig1vi7f4vi4j
 ::res://Game/::1699169424
-::res://Global/::1699711436
-Game.gd::GDScript::-1::1699711436::0::1::::<>Node<>::
+::res://Global/::1699715227
+Game.gd::GDScript::-1::1699715227::0::1::::<>Node<>::
 State.gd::GDScript::-1::1699710607::0::1::::<>Node<>::
 ::res://helpers/::1699710603
 Actionables.gd::GDScript::-1::1699710603::0::1::::<>Area2D<>::
 Actionables.tscn::PackedScene::7886953971173081526::1699710603::0::1::::<><>::res://helpers/Actionables.gd
-::res://Levels/::1699710607
-car_crash.tscn::PackedScene::7148034728339476478::1699710607::0::1::::<><>::uid://d0gj3jl7apxhe::::res://Characters/player.tscn<>uid://c5ve45e108aet::::res://Assets/Sprout Lands - Sprites - Basic pack/Tilesets/Grass.png<>uid://b7ehlxwpvki6g::::res://Assets/Sprout Lands - Sprites - Basic pack/Tilesets/Hills.png<>uid://b1y8lsbrsqywt::::res://Assets/Sprout Lands - Sprites - Basic pack/Tilesets/Tilled Dirt.png<>uid://bj1co8e3bkfgd::::res://Assets/Sprout Lands - Sprites - Basic pack/Tilesets/Water.png<>uid://bbp3fme7d3mbg::::res://Assets/City/street.png<>uid://dha2tc480j5wc::::res://Assets/City/vehicles.png
+::res://House/::1699718877
+icon.svg::CompressedTexture2D::3912764688057327074::1699716056::1699718877::1::::<><>::
+::res://House/Assets/::1699718833
+::res://House/Assets/Forest BETA V3/::1699716636
+Forest Cliff.png::CompressedTexture2D::9095171280223083617::1699716123::1699716635::1::::<><>::
+Forest Props.png::CompressedTexture2D::370445426155434298::1699716123::1699716635::1::::<><>::
+Forest Structures.png::CompressedTexture2D::8956767282622720736::1699716123::1699716635::1::::<><>::
+Forest Tilesett.png::CompressedTexture2D::519496184391374522::1699716123::1699716635::1::::<><>::
+Sample.png::CompressedTexture2D::3096912055400755268::1699716123::1699716636::1::::<><>::
+Settlement.png::CompressedTexture2D::2079147175050250608::1699716123::1699716635::1::::<><>::
+Trees.png::CompressedTexture2D::1573422524064337509::1699716123::1699716635::1::::<><>::
+Water Tileset.png::CompressedTexture2D::2806074578946443193::1699716123::1699716635::1::::<><>::
+::res://House/Assets/Serene_Village_revamped_v1.9/::1699716124
+::res://House/Assets/Serene_Village_revamped_v1.9/SERENE_VILLAGE_REVAMPED/::1699716635
+Serene_Village_16x16.png::CompressedTexture2D::4166838176630038028::1699716124::1699716635::1::::<><>::
+Serene_Village_32x32.png::CompressedTexture2D::5644393696361731912::1699716124::1699716635::1::::<><>::
+Serene_Village_48x48.png::CompressedTexture2D::7036439417499208925::1699716124::1699716635::1::::<><>::
+::res://House/Assets/Serene_Village_revamped_v1.9/SERENE_VILLAGE_REVAMPED/Animated stuff/::1699716635
+campfire_16x16.png::CompressedTexture2D::8965509763634567006::1699716124::1699716635::1::::<><>::
+campfire_32x32.png::CompressedTexture2D::7504846473408586017::1699716124::1699716635::1::::<><>::
+campfire_48x48.png::CompressedTexture2D::7954682072031784983::1699716124::1699716635::1::::<><>::
+door_16x16.png::CompressedTexture2D::6235416433784908257::1699716124::1699716635::1::::<><>::
+door_32x32.png::CompressedTexture2D::6676175458492042926::1699716124::1699716635::1::::<><>::
+door_48x48.png::CompressedTexture2D::4891095880035165606::1699716124::1699716635::1::::<><>::
+water_waves_16x16.png::CompressedTexture2D::5437823344007272462::1699716124::1699716635::1::::<><>::
+water_waves_32x32.png::CompressedTexture2D::6233534886198462719::1699716124::1699716635::1::::<><>::
+water_waves_48x48.png::CompressedTexture2D::7489750074492786871::1699716124::1699716635::1::::<><>::
+::res://House/Assets/Serene_Village_revamped_v1.9/SERENE_VILLAGE_REVAMPED/Construct 3/::1699716635
+Autotiles_no_inner_corners_16x16.png::CompressedTexture2D::1548563985172373898::1699716124::1699716635::1::::<><>::
+::res://House/Assets/Serene_Village_revamped_v1.9/SERENE_VILLAGE_REVAMPED/RPG_MAKER_MV/::1699716635
+!$Campfire.png::CompressedTexture2D::7102740560078112345::1699716124::1699716635::1::::<><>::
+!$door.png::CompressedTexture2D::6212431928466793982::1699716124::1699716635::1::::<><>::
+Houses_TILESET_B-C-D-E.png::CompressedTexture2D::4049950718475725946::1699716124::1699716635::1::::<><>::
+Outside_Stuff_TILESET_B-C-D-E.png::CompressedTexture2D::55485724708171371::1699716124::1699716635::1::::<><>::
+Terrains_TILESET_B-C-D-E.png::CompressedTexture2D::5271350008702578681::1699716124::1699716635::1::::<><>::
+::res://House/Assets/Serene_Village_revamped_v1.9/SERENE_VILLAGE_REVAMPED/RPG_MAKER_VX_ACE/::1699716635
+B-C-D-E_Serene_Village_01.png::CompressedTexture2D::4455230190771729408::1699716124::1699716635::1::::<><>::
+B-C-D-E_Serene_Village_02.png::CompressedTexture2D::5808226460539152899::1699716124::1699716635::1::::<><>::
+B-C-D-E_Serene_Village_03.png::CompressedTexture2D::4717700330971936419::1699716124::1699716635::1::::<><>::
+::res://House/Assets/Serene_Village_revamped_v1.9/SERENE_VILLAGE_REVAMPED/RPG_MAKER_XP/::1699716635
+Serene_Village_XP.png::CompressedTexture2D::2300564971311302931::1699716124::1699716635::1::::<><>::
+::res://Levels/::1699719175
+broken_bus.tscn::PackedScene::9147727930862462178::1699719175::0::1::::<><>::uid://dha2tc480j5wc::::res://Assets/City/vehicles.png<>uid://bbp3fme7d3mbg::::res://Assets/City/street.png<>uid://5d5gt1i0i4tq::::res://Assets/City/fences.png<>uid://bpm5c4r7w1pb::::res://Assets/City/buildings.png<>uid://d0gj3jl7apxhe::::res://Characters/player.tscn
+car_crash.tscn::PackedScene::7148034728339476478::1699719175::0::1::::<><>::uid://d0gj3jl7apxhe::::res://Characters/player.tscn<>uid://c5ve45e108aet::::res://Assets/Sprout Lands - Sprites - Basic pack/Tilesets/Grass.png<>uid://b7ehlxwpvki6g::::res://Assets/Sprout Lands - Sprites - Basic pack/Tilesets/Hills.png<>uid://b1y8lsbrsqywt::::res://Assets/Sprout Lands - Sprites - Basic pack/Tilesets/Tilled Dirt.png<>uid://bj1co8e3bkfgd::::res://Assets/Sprout Lands - Sprites - Basic pack/Tilesets/Water.png<>uid://bbp3fme7d3mbg::::res://Assets/City/street.png<>uid://dha2tc480j5wc::::res://Assets/City/vehicles.png
+cpu.tscn::PackedScene::2661126296428761583::1699719175::0::1::::<><>::uid://bpm5c4r7w1pb::::res://Assets/City/buildings.png<>uid://5d5gt1i0i4tq::::res://Assets/City/fences.png<>uid://bbp3fme7d3mbg::::res://Assets/City/street.png<>uid://dha2tc480j5wc::::res://Assets/City/vehicles.png<>uid://c5ve45e108aet::::res://Assets/Sprout Lands - Sprites - Basic pack/Tilesets/Grass.png<>uid://d0gj3jl7apxhe::::res://Characters/player.tscn
+downtown.tscn::PackedScene::2774614059029817447::1699719175::0::1::::<><>::uid://dha2tc480j5wc::::res://Assets/City/vehicles.png<>uid://bbp3fme7d3mbg::::res://Assets/City/street.png<>uid://5d5gt1i0i4tq::::res://Assets/City/fences.png<>uid://bpm5c4r7w1pb::::res://Assets/City/buildings.png<>uid://d0gj3jl7apxhe::::res://Characters/player.tscn
+::res://Package_Marketplace_week40/::1699716164
+::res://Package_Marketplace_week40/Package_Marketplace/::1699716373
+::res://Package_Marketplace_week40/Package_Marketplace/rpgmaker/::1699716164
+::res://Package_Marketplace_week40/Package_Marketplace/rpgmaker/MV/::1699716164
+::res://Package_Marketplace_week40/Package_Marketplace/rpgmaker/MV/characters/::1699716373
+::res://Package_Marketplace_week40/Package_Marketplace/rpgmaker/MV/tilesets/::1699716373
+::res://Package_Marketplace_week40/Package_Marketplace/rpgmaker/MZ/::1699716164
+::res://Package_Marketplace_week40/Package_Marketplace/rpgmaker/MZ/characters/::1699716373
+::res://Package_Marketplace_week40/Package_Marketplace/rpgmaker/MZ/tilesets/::1699716373
+::res://Package_Marketplace_week40/Package_Marketplace/rpgmaker/VX/::1699716164
+::res://Package_Marketplace_week40/Package_Marketplace/rpgmaker/VX/characters/::1699716373
+::res://Package_Marketplace_week40/Package_Marketplace/rpgmaker/VX/tilesets/::1699716373
+::res://Package_Marketplace_week40/Package_Marketplace/screenshots/::1699716373
+::res://Package_Marketplace_week40/Package_Marketplace/sprites/::1699716373
+::res://Scenes/::1699719176
+province.tscn::PackedScene::2840295030636081259::1699719176::0::1::::<><>::uid://hnwa5ma7o8cc::::res://House/Assets/Forest BETA V3/Forest Tilesett.png<>uid://143vdkc7brf::::res://House/Assets/Serene_Village_revamped_v1.9/SERENE_VILLAGE_REVAMPED/RPG_MAKER_MV/Outside_Stuff_TILESET_B-C-D-E.png<>uid://b0mphlxeotywi::::res://House/Assets/Serene_Village_revamped_v1.9/SERENE_VILLAGE_REVAMPED/Serene_Village_16x16.png<>uid://curl31huqisbu::::res://House/Assets/Serene_Village_revamped_v1.9/SERENE_VILLAGE_REVAMPED/RPG_MAKER_MV/!$door.png<>uid://bxx3djx4uihdy::::res://House/Assets/Serene_Village_revamped_v1.9/SERENE_VILLAGE_REVAMPED/RPG_MAKER_MV/Houses_TILESET_B-C-D-E.png<>uid://chdqmnl5naldx::::res://House/Assets/Serene_Village_revamped_v1.9/SERENE_VILLAGE_REVAMPED/RPG_MAKER_MV/Terrains_TILESET_B-C-D-E.png<>uid://d0gj3jl7apxhe::::res://Characters/player.tscn
