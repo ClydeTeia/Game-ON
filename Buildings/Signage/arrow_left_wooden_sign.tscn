@@ -2,7 +2,7 @@
 
 [ext_resource type="Texture2D" uid="uid://cg75qid5gpnnv" path="res://Assets/SERENE_VILLAGE_REVAMPED/RPG_MAKER_MV/Outside_Stuff_TILESET_B-C-D-E.png" id="1_fdu3y"]
 [ext_resource type="PackedScene" uid="uid://dkmq8kop4ol0y" path="res://helpers/Actionables.tscn" id="2_gyol5"]
-[ext_resource type="Resource" uid="uid://dxyridibix5jw" path="res://dialogues/main.dialogue" id="3_aecmq"]
+[ext_resource type="Resource" uid="uid://dxyridibix5jw" path="res://dialogues/Antique.dialogue" id="3_xfah6"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_4c3x1"]
 texture = ExtResource("1_fdu3y")
@@ -29,7 +29,8 @@ layer_0/tile_data = PackedInt32Array(0, 1376257, 9)
 
 [node name="Actionables" parent="." instance=ExtResource("2_gyol5")]
 position = Vector2(3, 8)
-dialogue_resource = ExtResource("3_aecmq")
+dialogue_resource = ExtResource("3_xfah6")
+dialogue_start = "arrow_right_sign"
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Actionables"]
 shape = SubResource("CircleShape2D_mnhty")

@@ -1,12 +1,9 @@
-TileMap
-Label
 CollisionShape2D
 Area2D
-<<<<<<< HEAD
+TileMap
+Label
 TileMap
 Button
-=======
->>>>>>> origin/main
 Marker2D
 AnimationTree
 AnimationPlayer

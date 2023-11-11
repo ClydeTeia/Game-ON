@@ -1,8 +1,6 @@
 ~ start
 
-Fortune Teller: Hi Sasuke
-
-
+Fortune Teller: Maayong adlaw adventurer!
 
 if State.player_response == "":
 	Fortune Teller: Can you help me find my gem? It was missing while I was exploring the cave.
@@ -10,19 +8,19 @@ if State.player_response == "":
 		Fortune Teller: Awesome thank you!
 		set State.player_response = "okay"
 	- No sorry
-		Game.playerName: I have to go
+		You: I have to go
 		Fortune Teller: Bye...
 
 if State.player_response == "okay":
 	Fortune Teller: Thank you so much! You can find the cave at West. You have to go through a forest before you see a mountain
 
 if State.gem_status == "has":
-	Game.playerName: I found your gem at the cave.
+	You: I found your gem at the cave.
 	- Give to the Teller
 		Fortune Teller: Awesome!
 		set State.gem_status = "gave"
 	- Keep it
-		Game.playerName: Sorry I like this gem
+		You: Sorry I like this gem
 		Fortune Teller: Give it back! It's mine
 elif State.gem_status == "gave":
 	Fortune Teller: Yayyy!
@@ -31,7 +29,7 @@ elif State.gem_status == "gave":
 
 ~ lockedCave
 
-Game.playerName: It seems like this cave is blocked. Lets look for another one.
+You: It seems like this cave is blocked. Lets look for another one.
 
 => END
 
@@ -44,5 +42,16 @@ Sign: Mysterious Mountain this way >
 ~ sign_below_mountain
 
 Sign: Mountain
+
+=> END
+
+~ apple_tree
+
+You: Hmmm an apple tree.
+- I'll get one
+	You: Yay I have an apple. I'll save it for later.
+- Maybe on another day
+	Tree: rattles...
+	Wind: Swoosh...
 
 => END
