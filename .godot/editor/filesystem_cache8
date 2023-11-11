@@ -25,7 +25,7 @@ import_plugin.gd::GDScript::-1::1699710603::0::1::::<>EditorImportPlugin<>::
 plugin.cfg::TextFile::-1::1699715450::0::1::::<><>::
 plugin.gd::GDScript::-1::1699710603::0::1::::<>EditorPlugin<>::
 test_scene.gd::GDScript::-1::1699710603::0::1::::BaseDialogueTestScene<>Node2D<>::
-test_scene.tscn::PackedScene::-1::1699710603::0::1::::<><>::res://addons/dialogue_manager/test_scene.gd
+test_scene.tscn::PackedScene::4143776881218878151::1699719175::0::1::::<><>::res://addons/dialogue_manager/test_scene.gd
 ::res://addons/dialogue_manager/assets/::1699710603
 icon.svg::CompressedTexture2D::9148339284877624195::1699710603::1699710603::1::::<><>::
 responses_menu.svg::CompressedTexture2D::8371359403825774630::1699710603::1699710603::1::::<><>::
@@ -66,7 +66,7 @@ main_view.gd::GDScript::-1::1699710603::0::1::::<>Control<>::
 main_view.tscn::PackedScene::4884668666408697448::1699710603::0::1::::<><>::res://addons/dialogue_manager/views/main_view.gd<>uid://civ6shmka5e8u
 settings_view.gd::GDScript::-1::1699710603::0::1::::<>TabContainer<>::
 settings_view.tscn::PackedScene::5839841081119266502::1699710603::0::1::::<><>::res://addons/dialogue_manager/views/settings_view.gd
-::res://Assets/::1699710607
+::res://Assets/::1699718833
 ::res://Assets/City/::1699710607
 buildings.png::CompressedTexture2D::101936838341362039::1699710607::1699710607::1::::<><>::
 fences.png::CompressedTexture2D::2113691705455382106::1699710607::1699710607::1::::<><>::
