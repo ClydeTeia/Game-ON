@@ -4,7 +4,7 @@
 [ext_resource type="Texture2D" uid="uid://dc0cjewq7s3ei" path="res://Assets/Free Fantasy Dreamland - Sprites/Unity, Godot, GameMaker/Character_007.png" id="2_54fo4"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_jjgff"]
-size = Vector2(12, 7)
+size = Vector2(12, 8)
 
 [sub_resource type="Animation" id="Animation_11fks"]
 length = 0.001
@@ -77,6 +77,18 @@ tracks/0/keys = {
 "update": 1,
 "values": [4]
 }
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("Direction:rotation")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [1.5708]
+}
 
 [sub_resource type="Animation" id="Animation_lh5qj"]
 resource_name = "idle_right"
@@ -93,6 +105,18 @@ tracks/0/keys = {
 "update": 1,
 "values": [8]
 }
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("Direction:rotation")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [4.71239]
+}
 
 [sub_resource type="Animation" id="Animation_6eyql"]
 resource_name = "idle_up"
@@ -108,6 +132,18 @@ tracks/0/keys = {
 "transitions": PackedFloat32Array(1),
 "update": 1,
 "values": [12]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("Direction:rotation")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [-3.14159]
 }
 
 [sub_resource type="Animation" id="Animation_rb81g"]
@@ -126,6 +162,18 @@ tracks/0/keys = {
 "update": 1,
 "values": [0, 1, 2, 3]
 }
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("Direction:rotation")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [-6.28319]
+}
 
 [sub_resource type="Animation" id="Animation_u3ije"]
 resource_name = "walk_left"
@@ -142,6 +190,18 @@ tracks/0/keys = {
 "transitions": PackedFloat32Array(1, 1, 1, 1),
 "update": 1,
 "values": [4, 5, 6, 7]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("Direction:rotation")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [-4.71239]
 }
 
 [sub_resource type="Animation" id="Animation_t22a8"]
@@ -160,6 +220,18 @@ tracks/0/keys = {
 "update": 1,
 "values": [8, 9, 10, 11]
 }
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("Direction:rotation")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [-1.5708]
+}
 
 [sub_resource type="Animation" id="Animation_o53uw"]
 resource_name = "walk_up"
@@ -176,6 +248,18 @@ tracks/0/keys = {
 "transitions": PackedFloat32Array(1, 1, 1, 1),
 "update": 1,
 "values": [12, 13, 14, 15]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("Direction:rotation")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [-3.14159]
 }
 
 [sub_resource type="AnimationLibrary" id="AnimationLibrary_fbmwj"]
@@ -261,17 +345,16 @@ transitions = ["Idle", "Walk", SubResource("AnimationNodeStateMachineTransition_
 radius = 7.0
 
 [node name="Player" type="CharacterBody2D"]
-y_sort_enabled = true
 script = ExtResource("1_fb18b")
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(0, -5)
 texture = ExtResource("2_54fo4")
 hframes = 4
 vframes = 4
-frame = 12
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-position = Vector2(0, 8.5)
+position = Vector2(0, 3)
 shape = SubResource("RectangleShape2D_jjgff")
 
 [node name="Camera2D" type="Camera2D" parent="."]
@@ -285,7 +368,8 @@ libraries = {
 [node name="AnimationTree" type="AnimationTree" parent="."]
 tree_root = SubResource("AnimationNodeStateMachine_oftbw")
 anim_player = NodePath("../AnimationPlayer")
-parameters/Idle/blend_position = Vector2(0.0240384, 0.454491)
+active = true
+parameters/Idle/blend_position = Vector2(0.0192307, -0.264192)
 parameters/Walk/blend_position = Vector2(0.0368589, 0.158515)
 
 [node name="Direction" type="Marker2D" parent="."]
@@ -295,5 +379,5 @@ collision_layer = 0
 collision_mask = 16
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Direction/ActionableFinder"]
-position = Vector2(0, 13)
+position = Vector2(0, 7)
 shape = SubResource("CircleShape2D_lyjye")

@@ -1,4 +1,4 @@
 extends Node
 
 
-var playerName
+var playerName = 'USER'

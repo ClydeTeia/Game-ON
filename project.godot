@@ -19,6 +19,7 @@ config/icon="res://icon.svg"
 
 Game="*res://Global/Game.gd"
 DialogueManager="*res://addons/dialogue_manager/dialogue_manager.gd"
+State="*res://Global/State.gd"
 
 [display]
 
