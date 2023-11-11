@@ -5,7 +5,6 @@ var entered = false
 func _on_body_entered(_body: PhysicsBody2D):
 	entered = true
 
-
 func _on_body_exited(_body):
 	entered = false
 
