@@ -27466,7 +27466,7 @@ shape = SubResource("CircleShape2D_1sphd")
 z_index = 3
 z_as_relative = false
 y_sort_enabled = true
-position = Vector2(326, 177)
+position = Vector2(515, 371)
 
 [node name="witch_house" parent="." instance=ExtResource("12_tjsjo")]
 z_index = 3
@@ -27503,6 +27503,9 @@ dialogue_start = "apple_tree"
 [node name="CollisionShape2D" type="CollisionShape2D" parent="AppleTree"]
 position = Vector2(0.5, -20.5)
 shape = SubResource("RectangleShape2D_50vt4")
+
+[node name="arrow_right_wooden_sign" parent="." instance=ExtResource("14_8nmhl")]
+position = Vector2(594, 348)
 
 [connection signal="body_entered" from="GoToCave" to="GoToCave" method="_on_body_entered"]
 [connection signal="body_exited" from="GoToCave" to="GoToCave" method="_on_body_exited"]

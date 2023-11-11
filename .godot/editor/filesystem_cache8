@@ -1,12 +1,12 @@
 3acdcc5cb6df755358dde907981ccea8
-::res://::1699712670
-credits_page.tscn::PackedScene::2788243259002377395::1699712480::0::1::::<><>::
+::res://::1699713821
+credits_page.tscn::PackedScene::2788243259002377395::1699713628::0::1::::<><>::
 export_presets.cfg::TextFile::-1::1699632313::0::1::::<><>::
 icon.svg::CompressedTexture2D::8876792594650363110::1698910177::1698910183::1::::<><>::
 main.gd::GDScript::-1::1699710607::0::1::::<>Node2D<>::
-main.tscn::PackedScene::7984649854034017783::1699712478::0::1::::<><>::res://main.gd
+main.tscn::PackedScene::7984649854034017783::1699713626::0::1::::<><>::res://main.gd
 TextEdit.gd::GDScript::-1::1698917055::0::1::::<>TextEdit<>::
-world.tscn::PackedScene::994622590766756023::1699712478::0::1::::<><>::uid://d0gj3jl7apxhe::::res://Characters/player.tscn<>uid://c5ve45e108aet::::res://Assets/Sprout Lands - Sprites - Basic pack/Tilesets/Grass.png<>uid://b1y8lsbrsqywt::::res://Assets/Sprout Lands - Sprites - Basic pack/Tilesets/Tilled Dirt.png<>uid://bj1co8e3bkfgd::::res://Assets/Sprout Lands - Sprites - Basic pack/Tilesets/Water.png<>uid://bp3601431nvd0::::res://Assets/Sprout Lands - Sprites - Basic pack/Tilesets/Wooden House.png<>uid://skxfbvruhf1d::::res://Assets/Sprout Lands - Sprites - Basic pack/Tilesets/Fences.png<>uid://b7ehlxwpvki6g::::res://Assets/Sprout Lands - Sprites - Basic pack/Tilesets/Hills.png
+world.tscn::PackedScene::994622590766756023::1699713626::0::1::::<><>::uid://d0gj3jl7apxhe::::res://Characters/player.tscn<>uid://c5ve45e108aet::::res://Assets/Sprout Lands - Sprites - Basic pack/Tilesets/Grass.png<>uid://b1y8lsbrsqywt::::res://Assets/Sprout Lands - Sprites - Basic pack/Tilesets/Tilled Dirt.png<>uid://bj1co8e3bkfgd::::res://Assets/Sprout Lands - Sprites - Basic pack/Tilesets/Water.png<>uid://bp3601431nvd0::::res://Assets/Sprout Lands - Sprites - Basic pack/Tilesets/Wooden House.png<>uid://skxfbvruhf1d::::res://Assets/Sprout Lands - Sprites - Basic pack/Tilesets/Fences.png<>uid://b7ehlxwpvki6g::::res://Assets/Sprout Lands - Sprites - Basic pack/Tilesets/Hills.png
 ::res://addons/::1699710603
 ::res://addons/dialogue_manager/::1699710603
 constants.gd::GDScript::-1::1699710603::0::1::::<>Node<>::
@@ -33,11 +33,11 @@ code_edit.tscn::PackedScene::5379618807048408118::1699710603::0::1::::<><>::res:
 code_edit_syntax_highlighter.gd::GDScript::-1::1699710603::0::1::::<>SyntaxHighlighter<>::
 dialogue_cache.gd::GDScript::-1::1699710603::0::1::::<>Node<>::
 download_update_panel.gd::GDScript::-1::1699710603::0::1::::<>Control<>::
-download_update_panel.tscn::PackedScene::1130642722554629364::1699710603::0::1::::<><>::res://addons/dialogue_manager/components/download_update_panel.gd<>uid://d3baj6rygkb3f::::res://addons/dialogue_manager/assets/update.svg
+download_update_panel.tscn::PackedScene::1130642722554629364::1699710603::0::1::::<><>::res://addons/dialogue_manager/components/download_update_panel.gd<>uid://d3baj6rygkb3f
 errors_panel.gd::GDScript::-1::1699710603::0::1::::<>HBoxContainer<>::
 errors_panel.tscn::PackedScene::6105315990352960875::1699710603::0::1::::<><>::res://addons/dialogue_manager/components/errors_panel.gd
 files_list.gd::GDScript::-1::1699710603::0::1::::<>VBoxContainer<>::
-files_list.tscn::PackedScene::8113335055803740416::1699710603::0::1::::<><>::res://addons/dialogue_manager/components/files_list.gd<>uid://d3lr2uas6ax8v::::res://addons/dialogue_manager/assets/icon.svg
+files_list.tscn::PackedScene::8113335055803740416::1699710603::0::1::::<><>::res://addons/dialogue_manager/components/files_list.gd<>uid://d3lr2uas6ax8v
 parser.gd::GDScript::-1::1699710603::0::1::::DialogueManagerParser<>Object<>::
 parse_result.gd::GDScript::-1::1699710603::0::1::::DialogueManagerParseResult<>RefCounted<>::
 resolved_line_data.gd::GDScript::-1::1699710603::0::1::::<>RefCounted<>::
@@ -48,11 +48,11 @@ settings.gd::GDScript::-1::1699710603::0::1::::<>Node<>::
 title_list.gd::GDScript::-1::1699710603::0::1::::<>VBoxContainer<>::
 title_list.tscn::PackedScene::6134415340044566558::1699710603::0::1::::<><>::res://addons/dialogue_manager/components/title_list.gd
 update_button.gd::GDScript::-1::1699710603::0::1::::<>Button<>::
-update_button.tscn::PackedScene::5825087957514786930::1699710603::0::1::::<><>::res://addons/dialogue_manager/components/update_button.gd<>uid://qdxrxv3c3hxk::::res://addons/dialogue_manager/components/download_update_panel.tscn
+update_button.tscn::PackedScene::5825087957514786930::1699710603::0::1::::<><>::res://addons/dialogue_manager/components/update_button.gd<>uid://qdxrxv3c3hxk
 ::res://addons/dialogue_manager/example_balloon/::1699710603
 example_balloon.gd::GDScript::-1::1699710603::0::1::::<>CanvasLayer<>::
-example_balloon.tscn::PackedScene::2304415056852043862::1699710603::0::1::::<><>::res://addons/dialogue_manager/example_balloon/example_balloon.gd<>uid://ckvgyvclnwggo::::res://addons/dialogue_manager/dialogue_label.tscn<>res://addons/dialogue_manager/dialogue_reponses_menu.gd
-small_example_balloon.tscn::PackedScene::1883859960814163368::1699710603::0::1::::<><>::res://addons/dialogue_manager/example_balloon/example_balloon.gd<>uid://ckvgyvclnwggo::::res://addons/dialogue_manager/dialogue_label.tscn<>res://addons/dialogue_manager/dialogue_reponses_menu.gd
+example_balloon.tscn::PackedScene::2304415056852043862::1699710603::0::1::::<><>::res://addons/dialogue_manager/example_balloon/example_balloon.gd<>uid://ckvgyvclnwggo
+small_example_balloon.tscn::PackedScene::1883859960814163368::1699710603::0::1::::<><>::res://addons/dialogue_manager/example_balloon/example_balloon.gd<>uid://ckvgyvclnwggo
 ::res://addons/dialogue_manager/l10n/::1699710603
 en.mo::Translation::-1::1699710603::0::1::::<><>::
 en.po::Translation::-1::1699710603::0::1::::<><>::
@@ -60,7 +60,7 @@ zh.po::Translation::-1::1699710603::0::1::::<><>::
 zh_TW.po::Translation::-1::1699710603::0::1::::<><>::
 ::res://addons/dialogue_manager/views/::1699710603
 main_view.gd::GDScript::-1::1699710603::0::1::::<>Control<>::
-main_view.tscn::PackedScene::4884668666408697448::1699710603::0::1::::<><>::res://addons/dialogue_manager/views/main_view.gd<>uid://civ6shmka5e8u::::res://addons/dialogue_manager/components/code_edit.tscn<>uid://dnufpcdrreva3::::res://addons/dialogue_manager/components/files_list.tscn<>uid://ctns6ouwwd68i::::res://addons/dialogue_manager/components/title_list.tscn<>uid://co8yl23idiwbi::::res://addons/dialogue_manager/components/update_button.tscn<>uid://gr8nakpbrhby::::res://addons/dialogue_manager/components/search_and_replace.tscn<>uid://cs8pwrxr5vxix::::res://addons/dialogue_manager/components/errors_panel.tscn<>res://addons/dialogue_manager/components/code_edit_syntax_highlighter.gd<>uid://cpg4lg1r3ff6m::::res://addons/dialogue_manager/views/settings_view.tscn
+main_view.tscn::PackedScene::4884668666408697448::1699710603::0::1::::<><>::res://addons/dialogue_manager/views/main_view.gd<>uid://civ6shmka5e8u
 settings_view.gd::GDScript::-1::1699710603::0::1::::<>TabContainer<>::
 settings_view.tscn::PackedScene::5839841081119266502::1699710603::0::1::::<><>::res://addons/dialogue_manager/views/settings_view.gd
 ::res://Assets/::1699710607
@@ -262,27 +262,27 @@ Hills.png::CompressedTexture2D::4641167096541443780::1699710603::1699710603::1::
 Tilled Dirt.png::CompressedTexture2D::4262899936635845471::1699710603::1699710603::1::::<><>::
 Water.png::CompressedTexture2D::3071942273864847811::1699710603::1699710603::1::::<><>::
 Wooden House.png::CompressedTexture2D::3498984198714547099::1699710603::1699710603::1::::<><>::
-::res://Buildings/::1699712480
-house_1.tscn::PackedScene::7190619147558413307::1699710607::0::1::::<><>::uid://brvjwpre5d30e::::res://Assets/SERENE_VILLAGE_REVAMPED/Serene_Village_48x48.png
-house_2.tscn::PackedScene::9199703227589942175::1699710607::0::1::::<><>::uid://brvjwpre5d30e::::res://Assets/SERENE_VILLAGE_REVAMPED/Serene_Village_48x48.png
-house_3.tscn::PackedScene::4969337093969860763::1699710607::0::1::::<><>::uid://brvjwpre5d30e::::res://Assets/SERENE_VILLAGE_REVAMPED/Serene_Village_48x48.png
-house_4.tscn::PackedScene::243873696611592793::1699710607::0::1::::<><>::uid://brvjwpre5d30e::::res://Assets/SERENE_VILLAGE_REVAMPED/Serene_Village_48x48.png
-house_5.tscn::PackedScene::4221005730788957078::1699710607::0::1::::<><>::uid://brvjwpre5d30e::::res://Assets/SERENE_VILLAGE_REVAMPED/Serene_Village_48x48.png
-house_6.tscn::PackedScene::2810792642637935243::1699710607::0::1::::<><>::uid://brvjwpre5d30e::::res://Assets/SERENE_VILLAGE_REVAMPED/Serene_Village_48x48.png
-witch_house.tscn::PackedScene::1125801844586221219::1699712480::0::1::::<><>::uid://b4vqx46sis24a::::res://Assets/Forest BETA V3/Sample.png<>uid://dkmq8kop4ol0y::::res://helpers/Actionables.tscn<>uid://dxyridibix5jw::::res://dialogues/Antique.dialogue
-::res://Buildings/Signage/::1699712480
-arrow_left_wooden_sign.tscn::PackedScene::3978498202001812074::1699712480::0::1::::<><>::uid://cg75qid5gpnnv::::res://Assets/SERENE_VILLAGE_REVAMPED/RPG_MAKER_MV/Outside_Stuff_TILESET_B-C-D-E.png<>uid://dkmq8kop4ol0y::::res://helpers/Actionables.tscn<>uid://dxyridibix5jw::::res://dialogues/Antique.dialogue
-::res://Characters/::1699712526
-player.gd::GDScript::-1::1699711436::0::1::::<>CharacterBody2D<>::
-player.tscn::PackedScene::8926966354876256518::1699712526::0::1::::<><>::res://Characters/player.gd<>uid://dc0cjewq7s3ei::::res://Assets/Free Fantasy Dreamland - Sprites/Unity, Godot, GameMaker/Character_007.png
+::res://Buildings/::1699713689
+house_1.tscn::PackedScene::7190619147558413307::1699710607::0::1::::<><>::uid://brvjwpre5d30e
+house_2.tscn::PackedScene::9199703227589942175::1699710607::0::1::::<><>::uid://brvjwpre5d30e
+house_3.tscn::PackedScene::4969337093969860763::1699710607::0::1::::<><>::uid://brvjwpre5d30e
+house_4.tscn::PackedScene::243873696611592793::1699710607::0::1::::<><>::uid://brvjwpre5d30e
+house_5.tscn::PackedScene::4221005730788957078::1699710607::0::1::::<><>::uid://brvjwpre5d30e
+house_6.tscn::PackedScene::2810792642637935243::1699710607::0::1::::<><>::uid://brvjwpre5d30e
+witch_house.tscn::PackedScene::1125801844586221219::1699713689::0::1::::<><>::uid://b4vqx46sis24a::::res://Assets/Forest BETA V3/Sample.png<>uid://dkmq8kop4ol0y::::res://helpers/Actionables.tscn<>uid://dxyridibix5jw::::res://dialogues/Antique.dialogue
+::res://Buildings/Signage/::1699713689
+arrow_left_wooden_sign.tscn::PackedScene::3978498202001812074::1699713689::0::1::::<><>::uid://cg75qid5gpnnv::::res://Assets/SERENE_VILLAGE_REVAMPED/RPG_MAKER_MV/Outside_Stuff_TILESET_B-C-D-E.png<>uid://dkmq8kop4ol0y::::res://helpers/Actionables.tscn<>uid://dxyridibix5jw::::res://dialogues/Antique.dialogue
+::res://Characters/::1699713689
+player.gd::GDScript::-1::1699713520::0::1::::<>CharacterBody2D<>::
+player.tscn::PackedScene::8926966354876256518::1699713689::0::1::::<><>::res://Characters/player.gd<>uid://dc0cjewq7s3ei::::res://Assets/Free Fantasy Dreamland - Sprites/Unity, Godot, GameMaker/Character_007.png
 ::res://Components/::1699150533
 input_name.gd::GDScript::-1::1699185605::0::1::::<>LineEdit<>::
 input_name.tscn::PackedScene::3596640395899177422::1699150533::0::1::::<><>::uid://b6dyqdswr2d6g
-::res://Cutscenes/::1699712526
-Antique.tscn::PackedScene::557143884467634624::1699712480::0::1::::<><>::uid://bugg4ng1m0ka4::::res://Assets/Forest BETA V3/Water Tileset.png<>uid://dqcrjqngssu3y::::res://Assets/RPGW_Caves_v2.1/MainLev2.0.png<>uid://cbevhmabx3upd::::res://Assets/SERENE_VILLAGE_REVAMPED/RPG_MAKER_VX_ACE/B-C-D-E_Serene_Village_01.png<>uid://b4n43107k78s1::::res://Assets/SERENE_VILLAGE_REVAMPED/RPG_MAKER_VX_ACE/B-C-D-E_Serene_Village_02.png<>uid://cymuchsy16yqv::::res://Assets/Forest BETA V3/Forest Cliff.png<>uid://bj1co8e3bkfgd::::res://Assets/Sprout Lands - Sprites - Basic pack/Tilesets/Water.png<>uid://skxfbvruhf1d::::res://Assets/Sprout Lands - Sprites - Basic pack/Tilesets/Fences.png<>uid://ca3tswpoi123c::::res://Assets/SERENE_VILLAGE_REVAMPED/RPG_MAKER_VX_ACE/B-C-D-E_Serene_Village_03.png<>uid://c5ve45e108aet::::res://Assets/Sprout Lands - Sprites - Basic pack/Tilesets/Grass.png<>uid://d0gj3jl7apxhe::::res://Characters/player.tscn<>uid://b7ehlxwpvki6g::::res://Assets/Sprout Lands - Sprites - Basic pack/Tilesets/Hills.png<>uid://g60752ko2djo::::res://Assets/Sprout Lands - Sprites - Basic pack/Objects/Paths.png<>uid://dkmq8kop4ol0y::::res://helpers/Actionables.tscn<>uid://qbl16o1v5exf::::res://Buildings/witch_house.tscn<>uid://dxyridibix5jw::::res://dialogues/Antique.dialogue<>uid://bwxhjwpdjakek::::res://Buildings/Signage/arrow_left_wooden_sign.tscn<>res://Cutscenes/GoToCave.gd
-GoToCave.gd::GDScript::-1::1699712526::0::1::::<>Area2D<>::
-::res://dialogues/::1699710613
-Antique.dialogue::Resource::8824197166065302552::1699710613::1699710613::1::::<><>::
+::res://Cutscenes/::1699713689
+Antique.tscn::PackedScene::557143884467634624::1699713689::0::1::::<><>::uid://bugg4ng1m0ka4::::res://Assets/Forest BETA V3/Water Tileset.png<>uid://dqcrjqngssu3y::::res://Assets/RPGW_Caves_v2.1/MainLev2.0.png<>uid://cbevhmabx3upd::::res://Assets/SERENE_VILLAGE_REVAMPED/RPG_MAKER_VX_ACE/B-C-D-E_Serene_Village_01.png<>uid://b4n43107k78s1::::res://Assets/SERENE_VILLAGE_REVAMPED/RPG_MAKER_VX_ACE/B-C-D-E_Serene_Village_02.png<>uid://cymuchsy16yqv::::res://Assets/Forest BETA V3/Forest Cliff.png<>uid://bj1co8e3bkfgd::::res://Assets/Sprout Lands - Sprites - Basic pack/Tilesets/Water.png<>uid://skxfbvruhf1d::::res://Assets/Sprout Lands - Sprites - Basic pack/Tilesets/Fences.png<>uid://ca3tswpoi123c::::res://Assets/SERENE_VILLAGE_REVAMPED/RPG_MAKER_VX_ACE/B-C-D-E_Serene_Village_03.png<>uid://c5ve45e108aet::::res://Assets/Sprout Lands - Sprites - Basic pack/Tilesets/Grass.png<>uid://d0gj3jl7apxhe::::res://Characters/player.tscn<>uid://b7ehlxwpvki6g::::res://Assets/Sprout Lands - Sprites - Basic pack/Tilesets/Hills.png<>uid://g60752ko2djo::::res://Assets/Sprout Lands - Sprites - Basic pack/Objects/Paths.png<>uid://dkmq8kop4ol0y::::res://helpers/Actionables.tscn<>uid://qbl16o1v5exf::::res://Buildings/witch_house.tscn<>uid://dxyridibix5jw::::res://dialogues/Antique.dialogue<>uid://bwxhjwpdjakek::::res://Buildings/Signage/arrow_left_wooden_sign.tscn<>res://Cutscenes/GoToCave.gd
+GoToCave.gd::GDScript::-1::1699713689::0::1::::<>Area2D<>::
+::res://dialogues/::1699713702
+Antique.dialogue::Resource::8824197166065302552::1699713689::1699713702::1::::<><>::res://addons/dialogue_manager/dialogue_resource.gd
 ::res://Fonts/::1698914788
 SourceCodePro-Regular.ttf::FontFile::575513628999857563::1698914088::1698914102::1::::<><>::
 source_code_pro_theme.tres::Theme::4569953936663050456::1698914788::0::1::::<><>::uid://ig1vi7f4vi4j
@@ -293,5 +293,8 @@ State.gd::GDScript::-1::1699710607::0::1::::<>Node<>::
 ::res://helpers/::1699710603
 Actionables.gd::GDScript::-1::1699710603::0::1::::<>Area2D<>::
 Actionables.tscn::PackedScene::7886953971173081526::1699710603::0::1::::<><>::res://helpers/Actionables.gd
-::res://Levels/::1699710607
+::res://Levels/::1699712922
+broken_bus.tscn::PackedScene::9147727930862462178::1699712922::0::1::::<><>::uid://dha2tc480j5wc::::res://Assets/City/vehicles.png<>uid://bbp3fme7d3mbg::::res://Assets/City/street.png<>uid://5d5gt1i0i4tq::::res://Assets/City/fences.png<>uid://bpm5c4r7w1pb::::res://Assets/City/buildings.png<>uid://d0gj3jl7apxhe::::res://Characters/player.tscn
 car_crash.tscn::PackedScene::7148034728339476478::1699710607::0::1::::<><>::uid://d0gj3jl7apxhe::::res://Characters/player.tscn<>uid://c5ve45e108aet::::res://Assets/Sprout Lands - Sprites - Basic pack/Tilesets/Grass.png<>uid://b7ehlxwpvki6g::::res://Assets/Sprout Lands - Sprites - Basic pack/Tilesets/Hills.png<>uid://b1y8lsbrsqywt::::res://Assets/Sprout Lands - Sprites - Basic pack/Tilesets/Tilled Dirt.png<>uid://bj1co8e3bkfgd::::res://Assets/Sprout Lands - Sprites - Basic pack/Tilesets/Water.png<>uid://bbp3fme7d3mbg::::res://Assets/City/street.png<>uid://dha2tc480j5wc::::res://Assets/City/vehicles.png
+cpu.tscn::PackedScene::2661126296428761583::1699712922::0::1::::<><>::uid://bpm5c4r7w1pb::::res://Assets/City/buildings.png<>uid://5d5gt1i0i4tq::::res://Assets/City/fences.png<>uid://bbp3fme7d3mbg::::res://Assets/City/street.png<>uid://dha2tc480j5wc::::res://Assets/City/vehicles.png<>uid://c5ve45e108aet::::res://Assets/Sprout Lands - Sprites - Basic pack/Tilesets/Grass.png<>uid://d0gj3jl7apxhe::::res://Characters/player.tscn
+downtown.tscn::PackedScene::2774614059029817447::1699712922::0::1::::<><>::uid://dha2tc480j5wc::::res://Assets/City/vehicles.png<>uid://bbp3fme7d3mbg::::res://Assets/City/street.png<>uid://5d5gt1i0i4tq::::res://Assets/City/fences.png<>uid://bpm5c4r7w1pb::::res://Assets/City/buildings.png<>uid://d0gj3jl7apxhe::::res://Characters/player.tscn
