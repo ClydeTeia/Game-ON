@@ -24,8 +24,8 @@ func _unhandled_input(_event: InputEvent) -> void:
 # I added normalized in the direction because if theres none, diagonal movement will be faster than 1d movement
 func _physics_process(_delta):
 	var input_direction = Vector2(
-		Input.get_action_strength("right") - Input.get_action_strength("left"),
-		Input.get_action_strength("down") - Input.get_action_strength("up")
+		Input.get_action_strength("ui_right") - Input.get_action_strength("ui_left"),
+		Input.get_action_strength("ui_down") - Input.get_action_strength("ui_up")
 	).normalized()
 	
 	# print(input_direction)

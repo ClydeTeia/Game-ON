@@ -1,14 +1,21 @@
 <<<<<<< HEAD
+res://Scenes/province.tscn
+=======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 res://Cutscenes/Antique.tscn
 =======
 res://Levels/downtown.tscn
 >>>>>>> origin/main
+>>>>>>> main
 res://Characters/player.gd
 res://main.tscn
 res://world.tscn
+res://Cutscenes/Antique.tscn
 res://Characters/player.tscn
+<<<<<<< HEAD
+=======
 res://Buildings/witch_house.tscn
 res://Buildings/house_1.tscn
 res://Buildings/house_2.tscn
@@ -16,23 +23,13 @@ res://Buildings/house_3.tscn
 res://Buildings/house_4.tscn
 res://Buildings/house_5.tscn
 res://Buildings/house_6.tscn
+>>>>>>> main
 res://credits_page.tscn
 res://Buildings/Signage/arrow_left_wooden_sign.tscn
-res://Global/Game.gd
-res://helpers/Actionables.gd
-=======
-res://Characters/player.gd
->>>>>>> origin/main
-=======
-res://Levels/car_crash.tscn
-res://Characters/player.gd
-res://main.tscn
-res://world.tscn
-res://Cutscenes/Antique.tscn
-res://Characters/player.tscn
-res://Buildings/witch_house.tscn
-res://helpers/Actionables.tscn
+res://addons/dialogue_manager/test_scene.tscn
 res://Levels/downtown.tscn
 res://Levels/cpu.tscn
+res://Levels/car_crash.tscn
 res://Levels/broken_bus.tscn
->>>>>>> dev/cpu-downtown
+res://room.tscn
+res://living_room.tscn
