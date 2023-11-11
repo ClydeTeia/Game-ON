@@ -1,2 +1,26 @@
 TileMap
-Node2D
+Label
+CollisionShape2D
+Area2D
+<<<<<<< HEAD
+TileMap
+Button
+=======
+>>>>>>> origin/main
+Marker2D
+AnimationTree
+AnimationPlayer
+Camera2D
+Sprite2D
+CharacterBody2D
+AnimatedSprite2D
+Node
+ColorRect
+RichTextLabel
+Control
+Container
+TextEdit
+LineEdit
+CenterContainer
+TextureRect
+CanvasLayer
