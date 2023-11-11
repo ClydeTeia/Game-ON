@@ -1,3 +1,6 @@
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 res://Cutscenes/Antique.tscn
 res://Global/Game.gd
 res://Characters/player.gd
@@ -7,5 +10,21 @@ res://Characters/player.tscn
 res://Buildings/witch_house.tscn
 res://credits_page.tscn
 res://Buildings/Signage/arrow_left_wooden_sign.tscn
-res://Cutscenes/Area2D.gd
-res://Cutscenes/GoToCave.gd
+res://Global/Game.gd
+res://helpers/Actionables.gd
+=======
+res://Characters/player.gd
+>>>>>>> origin/main
+=======
+res://Levels/car_crash.tscn
+res://Characters/player.gd
+res://main.tscn
+res://world.tscn
+res://Cutscenes/Antique.tscn
+res://Characters/player.tscn
+res://Buildings/witch_house.tscn
+res://helpers/Actionables.tscn
+res://Levels/downtown.tscn
+res://Levels/cpu.tscn
+res://Levels/broken_bus.tscn
+>>>>>>> dev/cpu-downtown
