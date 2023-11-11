@@ -2,7 +2,7 @@
 
 [ext_resource type="Texture2D" uid="uid://b4vqx46sis24a" path="res://Assets/Forest BETA V3/Sample.png" id="1_6clmt"]
 [ext_resource type="PackedScene" uid="uid://dkmq8kop4ol0y" path="res://helpers/Actionables.tscn" id="2_i2sox"]
-[ext_resource type="Resource" uid="uid://dxyridibix5jw" path="res://dialogues/main.dialogue" id="4_0hcok"]
+[ext_resource type="Resource" uid="uid://dxyridibix5jw" path="res://dialogues/Antique.dialogue" id="3_asyhd"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_knc2a"]
 texture = ExtResource("1_6clmt")
@@ -32,7 +32,7 @@ layer_0/tile_data = PackedInt32Array(65535, 4653056, 69)
 
 [node name="Actionables" parent="TileMap" instance=ExtResource("2_i2sox")]
 position = Vector2(67, 320)
-dialogue_resource = ExtResource("4_0hcok")
+dialogue_resource = ExtResource("3_asyhd")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="TileMap/Actionables"]
 position = Vector2(3, 7)

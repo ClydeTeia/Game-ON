@@ -1,0 +1,15 @@
+[remap]
+
+importer="dialogue_manager_compiler_11"
+type="Resource"
+uid="uid://dxyridibix5jw"
+path="res://.godot/imported/Antique.dialogue-89aed65de9a3776f77c657a93f8ae6e9.tres"
+
+[deps]
+
+source_file="res://dialogues/Antique.dialogue"
+dest_files=["res://.godot/imported/Antique.dialogue-89aed65de9a3776f77c657a93f8ae6e9.tres"]
+
+[params]
+
+defaults=true

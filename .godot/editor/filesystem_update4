@@ -8,3 +8,4 @@ res://Buildings/witch_house.tscn
 res://credits_page.tscn
 res://Buildings/Signage/arrow_left_wooden_sign.tscn
 res://Cutscenes/Area2D.gd
+res://Cutscenes/GoToCave.gd

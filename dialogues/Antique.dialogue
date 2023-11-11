@@ -1,6 +1,6 @@
 ~ start
 
-Fortune Teller: Hello Boy
+Fortune Teller: Maayong adlaw adventurer!
 
 if State.player_response == "":
 	Fortune Teller: Can you help me find my gem? It was missing while I was exploring the cave.
@@ -42,5 +42,16 @@ Sign: Mysterious Mountain this way >
 ~ sign_below_mountain
 
 Sign: Mountain
+
+=> END
+
+~ apple_tree
+
+You: Hmmm an apple tree.
+- I'll get one
+	You: Yay I have an apple. I'll save it for later.
+- Maybe on another day
+	Tree: rattles...
+	Wind: Swoosh...
 
 => END
