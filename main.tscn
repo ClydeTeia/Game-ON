@@ -13,31 +13,31 @@ shadow_offset = Vector2(2, 2)
 script = ExtResource("1_7a4l3")
 
 [node name="Play" type="Button" parent="."]
-offset_left = 548.0
-offset_top = 274.0
-offset_right = 644.0
-offset_bottom = 310.0
+offset_left = 890.0
+offset_top = 439.0
+offset_right = 986.0
+offset_bottom = 475.0
 text = "Start Game"
 
 [node name="Credits" type="Button" parent="."]
-offset_left = 548.0
-offset_top = 334.0
-offset_right = 644.0
-offset_bottom = 370.0
+offset_left = 890.0
+offset_top = 499.0
+offset_right = 986.0
+offset_bottom = 535.0
 text = "Credits"
 
 [node name="Quit" type="Button" parent="."]
-offset_left = 548.0
-offset_top = 394.0
-offset_right = 644.0
-offset_bottom = 430.0
+offset_left = 890.0
+offset_top = 559.0
+offset_right = 986.0
+offset_bottom = 595.0
 text = "Quit Game"
 
 [node name="Label" type="Label" parent="."]
-offset_left = 469.0
-offset_top = 159.0
-offset_right = 726.0
-offset_bottom = 217.0
+offset_left = 811.0
+offset_top = 324.0
+offset_right = 1068.0
+offset_bottom = 382.0
 text = "PANAY TALES"
 label_settings = SubResource("LabelSettings_dwk38")
 

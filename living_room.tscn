@@ -1,8 +1,8 @@
-[gd_scene load_steps=8 format=3 uid="uid://dk1eebh0dv3fu"]
+[gd_scene load_steps=8 format=3 uid="uid://bgyqj7wnvxi21"]
 
-[ext_resource type="Texture2D" path="res://Assets/Super_Retro_World_Interior_pack_week42/rpgmaker/mvmz/tileset_B.png" id="1_ykjf8"]
-[ext_resource type="Texture2D" path="res://Assets/Super_Retro_World_Interior_pack_week42/rpgmaker/mvmz/tileset_C.png" id="2_k4waq"]
-[ext_resource type="Texture2D" path="res://Assets/Super_Retro_World_Interior_pack_week42/rpgmaker/mvmz/tileset_D.png" id="3_grxf1"]
+[ext_resource type="Texture2D" uid="uid://d3r4fodxex50i" path="res://Assets/Super_Retro_World_Interior_pack_week42/rpgmaker/mvmz/tileset_B.png" id="1_ykjf8"]
+[ext_resource type="Texture2D" uid="uid://b51ecispl426r" path="res://Assets/Super_Retro_World_Interior_pack_week42/rpgmaker/mvmz/tileset_C.png" id="2_k4waq"]
+[ext_resource type="Texture2D" uid="uid://b7eowaqpacnel" path="res://Assets/Super_Retro_World_Interior_pack_week42/rpgmaker/mvmz/tileset_D.png" id="3_grxf1"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_d5163"]
 texture = ExtResource("1_ykjf8")
