@@ -11,7 +11,7 @@ texture = ExtResource("1_6clmt")
 71:69/0/y_sort_origin = 300
 71:69/0/physics_layer_0/linear_velocity = Vector2(0, 0)
 71:69/0/physics_layer_0/angular_velocity = 0.0
-71:69/0/physics_layer_0/polygon_0/points = PackedVector2Array(-238.857, 56, 243.429, 53.7143, 243.429, 261.714, -21.7143, 261.714, -21.7143, 328, -220.571, 328, -220.571, 261.714, -238.857, 261.714)
+71:69/0/physics_layer_0/polygon_0/points = PackedVector2Array(-277.248, -11.2246, 281.738, -13.4695, 279.493, 134.695, 238.295, 134.35, 239.709, 263.044, 114, 264, 114, 320, 49.3883, 319.902, 49.3883, 261.534, -20.5061, 261.63, -20.5061, 328.098, -219.91, 326.683, -218.496, 263.044, -277.893, 261.63)
 
 [sub_resource type="TileSet" id="TileSet_nkddr"]
 physics_layer_0/collision_layer = 1

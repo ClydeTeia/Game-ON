@@ -1,24 +1,10 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
 res://Cutscenes/Antique.tscn
-=======
-res://Levels/downtown.tscn
->>>>>>> origin/main
+res://Global/Game.gd
 res://Characters/player.gd
 res://main.tscn
 res://world.tscn
 res://Characters/player.tscn
 res://Buildings/witch_house.tscn
-res://Buildings/house_1.tscn
-res://Buildings/house_2.tscn
-res://Buildings/house_3.tscn
-res://Buildings/house_4.tscn
-res://Buildings/house_5.tscn
-res://Buildings/house_6.tscn
 res://credits_page.tscn
 res://Buildings/Signage/arrow_left_wooden_sign.tscn
-res://Global/Game.gd
-res://helpers/Actionables.gd
-=======
-res://Characters/player.gd
->>>>>>> origin/main
+res://Cutscenes/Area2D.gd

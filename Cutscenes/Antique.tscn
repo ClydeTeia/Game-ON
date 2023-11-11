@@ -1,4 +1,4 @@
-[gd_scene load_steps=31 format=3 uid="uid://h65cwusukb8k"]
+[gd_scene load_steps=33 format=3 uid="uid://h65cwusukb8k"]
 
 [ext_resource type="Texture2D" uid="uid://bugg4ng1m0ka4" path="res://Assets/Forest BETA V3/Water Tileset.png" id="1_ihtrw"]
 [ext_resource type="Texture2D" uid="uid://dqcrjqngssu3y" path="res://Assets/RPGW_Caves_v2.1/MainLev2.0.png" id="1_lp1qx"]
@@ -16,6 +16,7 @@
 [ext_resource type="PackedScene" uid="uid://qbl16o1v5exf" path="res://Buildings/witch_house.tscn" id="12_tjsjo"]
 [ext_resource type="Resource" uid="uid://dxyridibix5jw" path="res://dialogues/main.dialogue" id="13_l42fk"]
 [ext_resource type="PackedScene" uid="uid://bwxhjwpdjakek" path="res://Buildings/Signage/arrow_left_wooden_sign.tscn" id="14_8nmhl"]
+[ext_resource type="Script" path="res://Cutscenes/GoToCave.gd" id="17_jekji"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_hqpd1"]
 texture = ExtResource("1_ihtrw")
@@ -27390,6 +27391,9 @@ radius = 13.0
 [sub_resource type="CircleShape2D" id="CircleShape2D_w5ds2"]
 radius = 14.0
 
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_a0y3r"]
+size = Vector2(48, 23)
+
 [node name="antique_scene" type="Node2D"]
 y_sort_enabled = true
 position = Vector2(65, -860)
@@ -27442,15 +27446,17 @@ layer_5/tile_data = PackedInt32Array(262193, 5, 12, 327730, 5, 12, -327637, 7864
 [node name="Actionables" parent="." instance=ExtResource("12_012rb")]
 position = Vector2(1134, -6)
 dialogue_resource = ExtResource("13_l42fk")
+dialogue_start = "lockedCave"
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Actionables"]
 position = Vector2(30, -42)
 shape = SubResource("CircleShape2D_1sphd")
 
 [node name="Player" parent="." instance=ExtResource("6_bhorf")]
+z_index = 3
 z_as_relative = false
 y_sort_enabled = true
-position = Vector2(525, 258)
+position = Vector2(1328, 108)
 
 [node name="witch_house" parent="." instance=ExtResource("12_tjsjo")]
 z_index = 3
@@ -27470,3 +27476,14 @@ dialogue_start = "sign_below_mountain"
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Actionables2"]
 position = Vector2(3, -4)
 shape = SubResource("CircleShape2D_w5ds2")
+
+[node name="GoToCave" type="Area2D" parent="."]
+position = Vector2(1337, 8)
+script = ExtResource("17_jekji")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="GoToCave"]
+position = Vector2(1, -6.5)
+shape = SubResource("RectangleShape2D_a0y3r")
+
+[connection signal="body_entered" from="GoToCave" to="GoToCave" method="_on_body_entered"]
+[connection signal="body_exited" from="GoToCave" to="GoToCave" method="_on_body_exited"]
