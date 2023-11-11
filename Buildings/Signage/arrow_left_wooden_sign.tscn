@@ -30,7 +30,6 @@ layer_0/tile_data = PackedInt32Array(0, 1376257, 9)
 [node name="Actionables" parent="." instance=ExtResource("2_gyol5")]
 position = Vector2(3, 8)
 dialogue_resource = ExtResource("3_aecmq")
-dialogue_start = "arrow_right_sign"
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Actionables"]
 shape = SubResource("CircleShape2D_mnhty")

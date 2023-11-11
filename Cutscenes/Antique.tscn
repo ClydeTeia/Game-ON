@@ -27448,11 +27448,13 @@ position = Vector2(30, -42)
 shape = SubResource("CircleShape2D_1sphd")
 
 [node name="Player" parent="." instance=ExtResource("6_bhorf")]
-z_index = 3
+z_as_relative = false
 y_sort_enabled = true
-position = Vector2(520, 223)
+position = Vector2(525, 258)
 
 [node name="witch_house" parent="." instance=ExtResource("12_tjsjo")]
+z_index = 3
+y_sort_enabled = false
 position = Vector2(396, 191)
 scale = Vector2(0.197125, 0.158468)
 

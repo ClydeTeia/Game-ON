@@ -8,7 +8,7 @@
 texture = ExtResource("1_6clmt")
 71:69/size_in_atlas = Vector2i(38, 48)
 71:69/0 = 0
-71:69/0/y_sort_origin = 150
+71:69/0/y_sort_origin = 300
 71:69/0/physics_layer_0/linear_velocity = Vector2(0, 0)
 71:69/0/physics_layer_0/angular_velocity = 0.0
 71:69/0/physics_layer_0/polygon_0/points = PackedVector2Array(-238.857, 56, 243.429, 53.7143, 243.429, 261.714, -21.7143, 261.714, -21.7143, 328, -220.571, 328, -220.571, 261.714, -238.857, 261.714)
@@ -30,10 +30,10 @@ format = 2
 layer_0/name = "House"
 layer_0/tile_data = PackedInt32Array(65535, 4653056, 69)
 
-[node name="Actionables" parent="." instance=ExtResource("2_i2sox")]
-position = Vector2(70, 320)
+[node name="Actionables" parent="TileMap" instance=ExtResource("2_i2sox")]
+position = Vector2(67, 320)
 dialogue_resource = ExtResource("4_0hcok")
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Actionables"]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="TileMap/Actionables"]
 position = Vector2(3, 7)
 shape = SubResource("CircleShape2D_bq837")
