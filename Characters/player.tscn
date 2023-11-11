@@ -4,7 +4,7 @@
 [ext_resource type="Texture2D" uid="uid://dc0cjewq7s3ei" path="res://Assets/Free Fantasy Dreamland - Sprites/Unity, Godot, GameMaker/Character_007.png" id="2_54fo4"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_jjgff"]
-size = Vector2(12, 7)
+size = Vector2(12, 8)
 
 [sub_resource type="Animation" id="Animation_11fks"]
 length = 0.001
@@ -345,7 +345,6 @@ transitions = ["Idle", "Walk", SubResource("AnimationNodeStateMachineTransition_
 radius = 7.0
 
 [node name="Player" type="CharacterBody2D"]
-y_sort_enabled = true
 script = ExtResource("1_fb18b")
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
@@ -355,7 +354,7 @@ hframes = 4
 vframes = 4
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-position = Vector2(0, 3.5)
+position = Vector2(0, 3)
 shape = SubResource("RectangleShape2D_jjgff")
 
 [node name="Camera2D" type="Camera2D" parent="."]

@@ -1,6 +1,6 @@
-Button
-TileMap
 CollisionShape2D
+TileMap
+Button
 Area2D
 Marker2D
 AnimationTree

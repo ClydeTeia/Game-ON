@@ -1,0 +1,36 @@
+[gd_scene load_steps=7 format=3 uid="uid://bwxhjwpdjakek"]
+
+[ext_resource type="Texture2D" uid="uid://cg75qid5gpnnv" path="res://Assets/SERENE_VILLAGE_REVAMPED/RPG_MAKER_MV/Outside_Stuff_TILESET_B-C-D-E.png" id="1_fdu3y"]
+[ext_resource type="PackedScene" uid="uid://dkmq8kop4ol0y" path="res://helpers/Actionables.tscn" id="2_gyol5"]
+[ext_resource type="Resource" uid="uid://dxyridibix5jw" path="res://dialogues/main.dialogue" id="3_aecmq"]
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_4c3x1"]
+texture = ExtResource("1_fdu3y")
+21:9/size_in_atlas = Vector2i(3, 3)
+21:9/0 = 0
+21:9/0/physics_layer_0/linear_velocity = Vector2(0, 0)
+21:9/0/physics_layer_0/angular_velocity = 0.0
+21:9/0/physics_layer_0/polygon_0/points = PackedVector2Array(-21.7143, -19.4286, 14.8571, -19.4286, 14.8571, 8, 3.42857, 8, 3.42857, 19.4286, -8, 19.4286, -8, 8, -21.7143, 8)
+
+[sub_resource type="TileSet" id="TileSet_rsec3"]
+physics_layer_0/collision_layer = 1
+sources/1 = SubResource("TileSetAtlasSource_4c3x1")
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_mnhty"]
+radius = 25.4951
+
+[node name="arrow_right_wooden_sign" type="Node2D"]
+
+[node name="TileMap" type="TileMap" parent="."]
+position = Vector2(0, -1)
+tile_set = SubResource("TileSet_rsec3")
+format = 2
+layer_0/tile_data = PackedInt32Array(0, 1376257, 9)
+
+[node name="Actionables" parent="." instance=ExtResource("2_gyol5")]
+position = Vector2(3, 8)
+dialogue_resource = ExtResource("3_aecmq")
+dialogue_start = "arrow_right_sign"
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Actionables"]
+shape = SubResource("CircleShape2D_mnhty")
