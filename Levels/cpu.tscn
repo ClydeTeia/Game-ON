@@ -1,4 +1,4 @@
-[gd_scene load_steps=13 format=3 uid="uid://cewd5o0xbxwdq"]
+[gd_scene load_steps=13 format=3 uid="uid://bd6cmjw2iat7d"]
 
 [ext_resource type="Texture2D" uid="uid://bpm5c4r7w1pb" path="res://Assets/City/buildings.png" id="1_ed50e"]
 [ext_resource type="Texture2D" uid="uid://5d5gt1i0i4tq" path="res://Assets/City/fences.png" id="2_6foe8"]

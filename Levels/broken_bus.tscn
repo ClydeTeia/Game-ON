@@ -1,4 +1,4 @@
-[gd_scene load_steps=11 format=3 uid="uid://y55whiu4vhpi"]
+[gd_scene load_steps=11 format=3 uid="uid://d3lh0imcipbt7"]
 
 [ext_resource type="Texture2D" uid="uid://dha2tc480j5wc" path="res://Assets/City/vehicles.png" id="1_658ma"]
 [ext_resource type="Texture2D" uid="uid://bbp3fme7d3mbg" path="res://Assets/City/street.png" id="2_4bfvr"]
